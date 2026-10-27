@@ -3,8 +3,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Literature Deep Dive · Archive</title>
 <style>
-:root{--bg:#071a2b;--panel:#0c2638;--panel2:#11304a;--line:#1f4a63;--tx:#f6eee8;--mut:#a9c4cf;--dim:#7fa3b3;--red:#ff8fab;--link:#8fe3e0;--mono:Consolas,Menlo,monospace}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45}
+:root{--bg:#eef8f9;--panel:#ffffff;--panel2:#f4fbfb;--line:#cfe6ea;--tx:#15314a;--mut:#4f6676;--dim:#5b7080;--red:#c43a67;--link:#0b6e7f;--mono:'Helvetica Neue',Helvetica,Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.45}
 main{max-width:1000px;margin:0 auto;padding:24px 16px 60px}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
 .wave{font-family:var(--mono);white-space:nowrap;overflow:hidden;letter-spacing:1px;line-height:1.1;font-size:13px}
 h1{font-size:32px;margin:8px 0 2px}.m{font-family:var(--mono);color:var(--mut);font-size:12px}
@@ -13,7 +13,7 @@ h1{font-size:32px;margin:8px 0 2px}.m{font-family:var(--mono);color:var(--mut);f
 .tab,.chip,.view{border-radius:12px;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--mut);font-size:13px;padding:5px 9px;white-space:nowrap;font-family:inherit}
 .tab.on{color:var(--bg);background:var(--c);border-color:var(--c)}.tab .ic{color:var(--c);font-family:var(--mono);margin-right:4px}.tab.on .ic,.tab.on .m{color:var(--bg)}
 .row{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.lab{font-family:var(--mono);font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:1px;width:100%}
-.chip .m{font-size:10px;color:var(--dim);margin-left:3px}.chip.on,.view.on{border-color:var(--red);color:var(--tx);background:#3a2236}
+.chip .m{font-size:10px;color:var(--dim);margin-left:3px}.chip.on,.view.on{border-color:var(--red);color:var(--tx);background:#fde7ef}
 details{background:var(--panel);border:1px solid var(--line);padding:8px 12px;margin:8px 0}summary{cursor:pointer;font-family:var(--mono);font-size:12px;color:var(--mut)}
 select{background:var(--panel2);color:var(--tx);border:1px solid var(--line);padding:5px;font-size:13px;width:100%}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:8px}
@@ -26,33 +26,63 @@ select{background:var(--panel2);color:var(--tx);border:1px solid var(--line);pad
 .rel{font-family:var(--mono);font-size:11px;color:var(--mut);margin-left:6px}
 .tags{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}.tags .chip{font-size:11px;padding:2px 6px}
 .cav{color:var(--mut);font-size:13px;border-left:2px solid var(--dim);padding-left:8px}.cav b{color:var(--red);font-family:var(--mono);font-size:11px}
-.note{background:#0f3340;border-left:2px solid #5fe0d0;padding:6px 8px;font-size:13px;margin-top:8px}
+.note{background:#e5f6f1;border-left:2px solid #2aa6a0;padding:6px 8px;font-size:13px;margin-top:8px}
 .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;align-items:center}.acts button{cursor:pointer;background:var(--panel2);border:1px solid var(--line);color:var(--mut);font-size:12px;padding:4px 8px}
-.acts button.on{color:var(--tx);border-color:#f0c86e}.acts a{font-size:12px;margin-left:auto}.acts a.srch{margin-left:0;background:var(--panel2);border:1px solid var(--line);color:var(--mut);padding:4px 8px}.acts a.srch:hover{color:var(--tx);border-color:var(--red);text-decoration:none}
-.acts button.ni{margin-left:0}.acts button.ni:hover{border-color:var(--red);color:var(--tx)}.acts button.restore{color:var(--tx);border-color:#8fe3a6}
+.acts button.on{color:var(--tx);border-color:#8a5a00}.acts a{font-size:12px;margin-left:auto}.acts a.srch{margin-left:0;background:var(--panel2);border:1px solid var(--line);color:var(--mut);padding:4px 8px}.acts a.srch:hover{color:var(--tx);border-color:var(--red);text-decoration:none}
+.acts button.ni{margin-left:0}.acts button.ni:hover{border-color:var(--red);color:var(--tx)}.acts button.restore{color:var(--tx);border-color:#1f7a4d}
 #prefbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:6px 0}#prefbar button{cursor:pointer;background:var(--panel2);border:1px solid var(--line);color:var(--tx);font-size:12px;padding:5px 9px}
-#sendp{border-color:var(--red)!important}#sendp .n{font-family:var(--mono);background:var(--red);color:#071a2b;border-radius:8px;padding:0 6px;margin-left:4px;font-size:11px}
+#sendp{border-color:var(--red)!important}#sendp .n{font-family:var(--mono);background:var(--red);color:#eef8f9;border-radius:8px;padding:0 6px;margin-left:4px;font-size:11px}
 #ppanel{display:none;background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--red);padding:10px 12px;margin:8px 0;font-size:13px}
 #ppanel textarea{width:100%;height:180px;background:var(--bg);color:var(--tx);border:1px solid var(--line);font-family:var(--mono);font-size:11px;margin:6px 0}
 #ppanel a.b,#ppanel button{display:inline-block;cursor:pointer;background:var(--panel);border:1px solid var(--line);color:var(--tx);font-size:12px;padding:4px 8px;margin-right:6px}
-.qnote{background:#3a2236;border:1px solid var(--red);padding:8px 12px;font-size:13px;margin:8px 0}
+.qnote{background:#fde7ef;border:1px solid var(--red);padding:8px 12px;font-size:13px;margin:8px 0}
 .empty{color:var(--mut);padding:30px;text-align:center;border:1px dashed var(--line)}
-#hdr{position:relative;height:132px;margin:0 0 4px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,#0b3550 0%,#071a2b 100%);overflow:hidden}
+#hdr{position:relative;height:132px;margin:0 0 4px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,#bfeaf3 0%,#dcf4f6 55%,#fde9e6 100%);overflow:hidden}
 #sea{position:absolute;inset:0;width:100%;height:100%;display:block}
-#hdr .ht{position:absolute;left:0;top:0;bottom:0;width:62%;padding:16px 18px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(90deg,rgba(7,26,43,.92) 0%,rgba(7,26,43,.75) 45%,rgba(7,26,43,0) 100%);pointer-events:none}
-#hdr .ht a{pointer-events:auto}#hdr h1{margin:0 0 2px;text-shadow:0 1px 6px #071a2b}
-#hdr .ro{position:absolute;right:6px;top:5px;background:rgba(7,26,43,.8);padding:2px 5px;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.5px;text-align:right;pointer-events:none}
+#hdr .ht{position:absolute;left:0;top:0;bottom:0;width:62%;padding:16px 18px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(90deg,rgba(255,255,255,.88) 0%,rgba(255,255,255,.62) 45%,rgba(255,255,255,0) 100%);pointer-events:none}
+#hdr .ht a{pointer-events:auto}#hdr h1{margin:0 0 2px;text-shadow:none}
+#hdr .ro{position:absolute;right:6px;top:5px;background:rgba(255,255,255,.8);padding:2px 5px;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.5px;text-align:right;pointer-events:none}
 #hdr .ro b{color:var(--red);font-weight:normal}
-@media (max-width:600px){#hdr{height:auto;border:0;background:none}#sea{position:relative;height:84px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,#0b3550,#071a2b)}#hdr .ht{position:static;width:auto;padding:8px 0 0;background:none}#hdr .ro{top:5px;font-size:9px}#hdr .rd{display:none}}
+@media (max-width:600px){#hdr{height:auto;border:0;background:none}#sea{position:relative;height:84px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,#bfeaf3 0%,#dcf4f6 55%,#fde9e6 100%)}#hdr .ht{position:static;width:auto;padding:8px 0 0;background:none}#hdr .ro{top:5px;font-size:9px}#hdr .rd{display:none}}
+
+/* ---- light ocean theme v2 ---- */
+body{background:#e3f4f6 linear-gradient(180deg,#dcf2f7 0%,#e8f7f3 50%,#fdf3ee 100%) fixed;color:var(--tx)}
+.m{font-size:13px;color:var(--mut)}.lab{font-size:12px;font-weight:bold;letter-spacing:.5px;color:var(--mut)}
+#q,select,input,textarea{border-radius:14px!important;border-color:#c6e3e8!important;background:#fff!important;color:var(--tx)!important}
+details,.box,.intro,#simbar,#ppanel,.qnote,.empty{border-radius:18px!important;box-shadow:0 2px 12px rgba(21,49,74,.05)}
+.card{border-radius:20px!important;border:1px solid #d3ebef!important;background:#fff!important;box-shadow:0 3px 14px rgba(21,49,74,.07);padding:16px 18px!important}
+.card h3 a{color:var(--c,#15314a)!important}
+button,.tab,.chip,.view,.acts a.srch,.acts a,.modes button,.views button,#prefbar button,#ppanel a.b,#ppanel button,#go,#reset,#clear{border-radius:999px!important;font-family:inherit}
+.tab,.chip,.view,.acts button,.acts a.srch,.modes button,.views button,#prefbar button,#clear,#reset{background:#fff!important;border:1px solid #cfe6ea!important;color:#33506a!important}
+.tab.on{background:var(--t,#d9f3f2)!important;border-color:var(--c)!important;color:var(--c)!important;font-weight:bold}.tab.on .m,.tab.on .ic{color:var(--c)!important}
+.chip.on,.view.on,.modes button.on,.views button.on{background:#fde7ef!important;border-color:#e58aa9!important;color:#a8325a!important;font-weight:bold}
+.acts button.on{background:#fff3cf!important;border-color:#e6c46a!important;color:#6f5300!important}
+.tab .ic{font-family:inherit!important;margin-right:5px}
+.badge,.bd{border-radius:999px!important;border:0!important;background:var(--t,#e6f0f4);color:var(--c,#33506a)!important;font-weight:bold;padding:2px 10px!important;font-size:11px}
+.bd.in{background:#daf5e9}.bd.sl{background:#fff0c7}.bd.ty{background:#eef3f5}.bd.oa{background:#e0eeff}
+.ty,.rel{font-size:11px;letter-spacing:.5px}
+.tags .chip,.tags span{border-radius:999px!important;background:#f1f8f9!important;border:1px solid #d6ecef!important;color:#33506a!important}
+.cav{border-left:0!important;background:#f6f9fb;border-radius:14px;padding:8px 12px!important;color:#33506a!important}.cav b{color:#a8325a!important;font-size:12px!important}
+.note{border-left:0!important;background:#e9f8f1!important;border-radius:14px;color:var(--tx)}
+#sendp{background:#fde7ef!important;border-color:#e58aa9!important;color:#a8325a!important;font-weight:bold}#sendp .n{background:#c43a67!important;color:#fff!important;border-radius:999px}
+#go{background:#0d7383!important;color:#fff!important;border:0!important;font-weight:bold;padding:9px 20px!important;box-shadow:0 2px 8px rgba(13,115,131,.25)}
+#simbar,#ppanel{border-left:1px solid var(--line)!important}.qnote{background:#fff4f7!important;border-color:#f3c3d3!important}
+.empty{border:1.5px dashed #bfe0e6!important;background:rgba(255,255,255,.6)}
+.tabs{border-bottom:0!important}
+#hdr{border-radius:24px!important;border:1px solid #cdebf0!important;box-shadow:0 4px 18px rgba(21,49,74,.08)}
+#hdr h1{color:#15314a;text-shadow:none!important}
+#hdr .ro{display:none}
+#hdr .ht{border-radius:24px 0 0 24px}
+@media (max-width:600px){#hdr{background:#fff!important;overflow:hidden}#hdr .ht{padding:10px 16px 14px!important}}
 </style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"></head><body><main>
 <header id="hdr" aria-label="The Archive"><canvas id="sea" aria-hidden="true"></canvas>
 <div class="ro" aria-hidden="true"><span class="rd">surface · reef crest · <b>❀</b><br></span><span id="depth">depth 0 m</span></div>
 <div class="ht"><h1>The Archive</h1>
-<p class="m" style="margin:0"><a href="../">Literature Deep Dive</a> · every vetted newsletter item and Amy's picks · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="search.html">⌕ Literature search</a></p></div></header>
+<p class="m" style="margin:0"><a href="../">Literature Deep Dive</a> · every vetted newsletter item and Amy's picks · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="search.html">🔎 Literature search</a></p></div></header>
 <input id="q" type="search" placeholder="Search titles, authors, summaries, caveats, tags, notes…" autocomplete="off">
 <div class="tabs" id="tabs"></div>
 <div class="row" id="views"></div>
-<div id="prefbar"><button id="sendp" title="Email your stars, More-like-this clicks, Not-interested and Read items to Nudibranchi so future issues learn your taste">✉ Send my preferences to Nudibranchi<span class="n" id="pcount">0</span></button><button id="expj">Export preferences (JSON)</button></div>
+<div id="prefbar"><button id="sendp" title="Email your stars, More-like-this clicks, Not-interested and Read items to Nudibranchi so future issues learn your taste">💌 Send my preferences to Nudibranchi<span class="n" id="pcount">0</span></button><button id="expj">Export preferences (JSON)</button></div>
 <div id="ppanel"></div>
 <div id="chiprows"></div>
 <details id="more"><summary>More filters · method, taxon group, date &amp; venue, PhD relevance</summary><div class="grid" id="selects"></div></details>
@@ -62,13 +92,8 @@ select{background:var(--panel2);color:var(--tx);border:1px solid var(--line);pad
 </main>
 <script>
 // ---- Config ----
-const SECTIONS=[ // [name in data, tab label, icon, accent] (mirrors build/section_icons.py)
-["The headline act","Headline","★","#ff9eb8"],["Behaviour classification","Behaviour","↻","#ffb38a"],["Multimodal AI and interaction networks","Multimodal & networks","⋈","#c9a7ff"],
-["Bioacoustics and PAM","Bioacoustics","♪\uFE0E","#5fe0d0"],["Coral reef ecology and conservation","Coral reefs","❀","#ff8573"],["Transferable CV/ML advances","Transferable CV/ML","◉","#8fc8ff"],
-["Emerging ecology and conservation tools","Emerging tools","✧","#f2b8e6"],["Climate, human impacts and ecosystem services","Climate & impacts","☀\uFE0E","#ffb26b"],
-["Restoration and nature-based solutions","Restoration & NbS","✿","#8fe3a6"],["Wider field: big papers","Wider field","◈","#e8dcc8"],["Weekly ML/CV explainer","Explainer","∇","#c8f07a"],
-["Datasets, tools and code","Datasets & code","⚙\uFE0E","#a9b8ff"],["Critiques and nulls","Critiques","∅","#d8b08c"],["Policy and ocean news","Policy & ocean","⚖\uFE0E","#9ad0e6"],
-["Conferences, workshops, events and training","Events & training","◎","#f5e58c"],["Funding radar","Funding","£","#f0c86e"],["Lab corner","Lab corner","⌂","#ffc2d9"],["Amy's picks","Amy's picks","✉\uFE0E","#ff8fab"]];
+const SECTIONS=[ // [name in data, tab label, emoji, accent, tint] (mirrors build/section_icons.py)
+["The headline act", "Headline", "🐠", "#0b6e7f", "#d9f3f2"],["Behaviour classification", "Behaviour", "🦀", "#b0401c", "#ffe8dd"],["Multimodal AI and interaction networks", "Multimodal & networks", "🕸️", "#6544b0", "#eee8ff"],["Bioacoustics and PAM", "Bioacoustics", "🐋", "#1f5ea6", "#ddecff"],["Coral reef ecology and conservation", "Coral reefs", "🪸", "#bf3459", "#ffe4eb"],["Transferable CV/ML advances", "Transferable CV/ML", "🤖", "#2a5f9e", "#e1edfb"],["Emerging ecology and conservation tools", "Emerging tools", "🧰", "#86399a", "#f6e7fa"],["Climate, human impacts and ecosystem services", "Climate & impacts", "🌍", "#a14f0c", "#fff0dc"],["Restoration and nature-based solutions", "Restoration & NbS", "🌱", "#227544", "#ddf4e5"],["Wider field: big papers", "Wider field", "🌊", "#156a8c", "#dcf0f8"],["Weekly ML/CV explainer", "Explainer", "💡", "#7f5c00", "#fff3c9"],["Datasets, tools and code", "Datasets & code", "💾", "#4a52ad", "#e7e8ff"],["Critiques and nulls", "Critiques", "🧐", "#77512b", "#f5ebdd"],["Policy and ocean news", "Policy & ocean", "🏛️", "#2e5f75", "#e2eff4"],["Conferences, workshops, events and training", "Events & training", "🎟️", "#a1366f", "#fbe5f1"],["Funding radar", "Funding", "💰", "#735f00", "#faf2cc"],["Lab corner", "Lab corner", "🐚", "#ad3d66", "#fde6ee"],["Amy's picks", "Amy's picks", "💌", "#bd2f68", "#ffe2ed"]];
 const CHIPS=[ // [state key, row label, field in items.json, fixed order (else by count)]
 ["realm","Ecosystem / realm","realms",["Coral reef","Marine","Freshwater","Terrestrial"]],["mod","Data modality","modality_groups",["Video / imagery","Acoustics","eDNA","Remote sensing","Tracking / biologging","Multimodal"]],
 ["task","Task","tasks",["Interaction classification","Behaviour classification","Species detection","Monitoring"]],["sty","Study type","study_type",["Empirical / field","Methods / tool","Review","Dataset"]]];
@@ -77,7 +102,7 @@ const SELECTS=[ // [key, label, getter returning array of values]
 ["method","Method / analysis",i=>i.methods||[]],["pop","Taxon group",i=>i.taxa||[]],
 ["date","Publication month",i=>i.pub_date?[i.pub_date.slice(0,7)]:[]],["venue","Venue",i=>i.venue?[i.venue]:[]],
 ["issue","Issue",i=>i.issue?["#"+i.issue]:[]],["rel","Relevance to my PhD",i=>[{3:"High",2:"Medium",1:"Low"}[i.relevance]||"Unscored"]]];
-const VIEWS=[["all","All items"],["star","★ Starred"],["toread","To read"],["read","Read"],["quar","⊘ Quarantined"]];
+const VIEWS=[["all","All items"],["star","⭐ Starred"],["toread","To read"],["read","Read"],["quar","🙈 Quarantined"]];
 const TEXT=i=>[i.title,(i.authors||[]).join(" "),i.summary,i.caveats,i.notes,i.venue,(i.realms||[]).join(" "),(i.tasks||[]).join(" "),(i.taxa||[]).join(" "),(i.modality_groups||[]).join(" "),i.study_type||"",(i.methods||[]).join(" "),(i.populations||[]).join(" "),(i.topics||[]).join(" "),i.modality,i.item_type].join(" ").toLowerCase();
 // ---- Personal state (this browser only) ----
 const store={get(){try{return JSON.parse(localStorage.getItem("ldd-archive")||"{}")}catch(e){return{}}},set(s){try{localStorage.setItem("ldd-archive",JSON.stringify(s))}catch(e){}}};
@@ -85,7 +110,7 @@ let P=store.get();P.star=P.star||{};P.status=P.status||{};P.ni=P.ni||{};P.more=P
 const mark=(k,id)=>{P.ts[k+"|"+id]=Date.now()};
 const MAIL="pk-neuro-digest+deepdive@mail.grokbot.com",SUBJ="Digest preferences update",MAXB=1800;
 const S={tab:"All",view:"all",q:"",ch:Object.fromEntries(CHIPS.map(c=>[c[0],new Set()])),sel:{},sim:null};
-const secOf=n=>SECTIONS.find(s=>s[0]===n)||[n,n,"◆","#c9d6df"];
+const secOf=n=>SECTIONS.find(s=>s[0]===n)||[n,n,"🐟","#3d5a70","#e6f0f4"];
 const esc=t=>String(t??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const $=id=>document.getElementById(id);
 let ITEMS=[],BYID={};
@@ -94,8 +119,8 @@ fetch("items.json").then(r=>r.json()).then(d=>{ITEMS=d.map(i=>({...i,_s:TEXT(i)}
  .catch(()=>{$("list").innerHTML='<div class="empty">Could not load the archive data.</div>'});
 function init(){
  const present=new Set(ITEMS.map(i=>i.section));
- const tabs=[["All","All","◇","#f6eee8"],...SECTIONS.filter(s=>present.has(s[0]))];
- $("tabs").innerHTML=tabs.map(t=>`<button class="tab" style="--c:${t[3]}" data-t="${esc(t[0])}"><span class="ic">${t[2]}</span>${esc(t[1])} <span class="m">${t[0]==="All"?ITEMS.length:ITEMS.filter(i=>i.section===t[0]).length}</span></button>`).join("");
+ const tabs=[["All","All","🌊","#0b6e7f","#d9f3f2"],...SECTIONS.filter(s=>present.has(s[0]))];
+ $("tabs").innerHTML=tabs.map(t=>`<button class="tab" style="--c:${t[3]};--t:${t[4]}" data-t="${esc(t[0])}"><span class="ic">${t[2]}</span>${esc(t[1])} <span class="m">${t[0]==="All"?ITEMS.length:ITEMS.filter(i=>i.section===t[0]).length}</span></button>`).join("");
  $("views").innerHTML=VIEWS.map(v=>`<button class="view" data-v="${v[0]}">${v[1]}</button>`).join("");
  $("chiprows").innerHTML=CHIPS.map(([k,l,f,ord])=>{const n={};ITEMS.forEach(i=>cv(i,f).forEach(v=>n[v]=(n[v]||0)+1));
   let v=Object.keys(n);v=ord?ord.filter(x=>n[x]):v.sort((a,b)=>n[b]-n[a]||a.localeCompare(b));
@@ -142,16 +167,16 @@ function card(i){const s=secOf(i.section);
  const ck=(k,a)=>(a||[]).map(v=>`<button class="chip" data-c="${k}|${esc(v)}">${esc(v)}</button>`);
  const tags=[...ck("realm",i.realms),...ck("mod",i.modality_groups),...ck("task",i.tasks),...ck("sty",i.study_type?[i.study_type]:[]),...(i.taxa||[]).map(v=>tag("pop",v)),...(i.methods||[]).map(v=>tag("method",v)),...(i.topics||[]).map(v=>`<button class="chip" data-q="${esc(v)}">#${esc(v)}</button>`)].join("");
  const au=i.authors||[];const auT=au.length>6?au.slice(0,6).join(", ")+` +${au.length-6} more`:au.join(", ");const r=i.relevance||0;
- return `<article class="card" style="--c:${s[3]}">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">${s[2]} ${esc(s[1])}</span><span class="ty">${esc(i.item_type||"")}${(i.modality_groups||[]).length?" · "+esc(i.modality_groups.join(", ")):i.modality&&i.modality!=="none"?" · "+esc(i.modality):""}</span><span class="rel" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
+ return `<article class="card" style="--c:${s[3]};--t:${s[4]}">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">${s[2]} ${esc(s[1])}</span><span class="ty">${esc(i.item_type||"")}${(i.modality_groups||[]).length?" · "+esc(i.modality_groups.join(", ")):i.modality&&i.modality!=="none"?" · "+esc(i.modality):""}</span><span class="rel" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
  <h3>${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>`:esc(i.title)}</h3>
  ${auT?`<div class="au">${esc(auT)}</div>`:""}<div class="m">${esc(i.venue||"")}${i.pub_date?" · "+esc(i.pub_date):""}${i.verified===false?' · <span style="color:var(--red)">UNVERIFIED</span>':""}</div>
  <div class="tags">${tags}</div>${i.summary?`<p>${esc(i.summary)}</p>`:""}${i.caveats?`<div class="cav"><b>CAVEATS</b> ${esc(i.caveats)}</div>`:""}
  ${i.notes?`<div class="note"><b>My notes:</b> ${esc(i.notes)}</div>`:""}
- <div class="acts">${P.ni[i.id]?`<button class="restore" data-restore="${i.id}">↺ Undo / restore</button>`:""}<button data-star="${i.id}" class="${P.star[i.id]?"on":""}">${P.star[i.id]?"★ Starred":"☆ Star"}</button>
+ <div class="acts">${P.ni[i.id]?`<button class="restore" data-restore="${i.id}">↺ Undo / restore</button>`:""}<button data-star="${i.id}" class="${P.star[i.id]?"on":""}">${P.star[i.id]?"⭐ Starred":"☆ Star"}</button>
  <button data-st="${i.id}|toread" class="${P.status[i.id]==="toread"?"on":""}">To read</button><button data-st="${i.id}|read" class="${P.status[i.id]==="read"?"on":""}">Read</button>
  ${(i.similar||[]).length?`<button data-sim="${i.id}" title="Show related items, and tell Nudibranchi you want more like this">More like this${P.more[i.id]?" ·"+P.more[i.id]:""}</button>`:""}
- ${P.ni[i.id]?"":`<button class="ni" data-ni="${i.id}" title="Hide this item (moves to Quarantined) and tell Nudibranchi you want less like it">⊘ Not interested</button>`}
- ${i.zotero?`<a class="srch" href="search.html?seed=${encodeURIComponent(i.doi||i.id)}" target="_blank" rel="noopener" title="Find similar papers in the wider literature (free search, opens in a new tab)">⌕ Search for more like this</a>`:""}${i.detail_url?`<a class="det" href="${esc(i.detail_url)}">details</a>`:""}${i.issue_url?`<a href="${esc(i.issue_url)}">In issue #${esc(i.issue)} →</a>`:""}</div></article>`}
+ ${P.ni[i.id]?"":`<button class="ni" data-ni="${i.id}" title="Hide this item (moves to Quarantined) and tell Nudibranchi you want less like it">🙈 Not interested</button>`}
+ ${i.zotero?`<a class="srch" href="search.html?seed=${encodeURIComponent(i.doi||i.id)}" target="_blank" rel="noopener" title="Find similar papers in the wider literature (free search, opens in a new tab)">🔎 Search for more like this</a>`:""}${i.detail_url?`<a class="det" href="${esc(i.detail_url)}">details</a>`:""}${i.issue_url?`<a href="${esc(i.issue_url)}">In issue #${esc(i.issue)} →</a>`:""}</div></article>`}
 function render(){
  document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("on",b.dataset.t===S.tab));
  document.querySelectorAll(".view").forEach(b=>b.classList.toggle("on",b.dataset.v===S.view));
@@ -161,7 +186,7 @@ function render(){
  else{$("simbar").style.display="none";r=ITEMS.filter(match).sort((a,b)=>(b.issue_date||"").localeCompare(a.issue_date||"")||(b.relevance||0)-(a.relevance||0))}
  const nq=Object.keys(P.ni).filter(k=>BYID[k]).length;
  $("count").textContent=S.sim?`${r.length-1} similar items`:S.view==="quar"?`${r.length} quarantined items`:`${r.length} of ${ITEMS.length-nq} items`+(nq?` · ${nq} quarantined`:"");
- document.querySelector('.view[data-v="quar"]').textContent=`⊘ Quarantined (${nq})`;document.querySelectorAll(".view").forEach(b=>b.classList.toggle("on",b.dataset.v===S.view));
+ document.querySelector('.view[data-v="quar"]').textContent=`🙈 Quarantined (${nq})`;document.querySelectorAll(".view").forEach(b=>b.classList.toggle("on",b.dataset.v===S.view));
  $("pcount").textContent=Object.entries(P.ts).filter(([k,t])=>t>P.sentAt&&live(k)).length;
  $("list").innerHTML=(S.view==="quar"&&!S.sim?'<div class="qnote">Items you marked <b>Not interested</b>. They are hidden everywhere else. Use <b>Undo / restore</b> to bring one back.</div>':"")+(r.length?r.map(card).join(""):'<div class="empty">Nothing matches. Try clearing a filter.</div>');
  document.querySelectorAll(".chip[data-c]").forEach(b=>{const k=b.dataset.c.split("|")[0];b.classList.toggle("on",S.ch[k].has(b.dataset.c.slice(k.length+1)))});zotRefresh();}
@@ -176,7 +201,7 @@ function openPrefs(){const t=prefText(),pp=$("ppanel");pp.style.display="block";
  const long=t.length>MAXB,mb=long?"My full preferences list is too long for a mail link, so it's pasted below:\n\n[PASTE HERE]\n":t;
  const href=`mailto:${MAIL}?subject=${encodeURIComponent(SUBJ)}&body=${encodeURIComponent(mb)}`;
  pp.innerHTML=(long?`<b>Your list is long (${t.length} characters), too long for an email link.</b> Click <b>Copy to clipboard</b>, then <b>Open email to Nudibranchi</b> and paste it into the body (or paste it into chat with Nudibranchi).`:`Send this from e.a.duluart@qmul.ac.uk. Nudibranchi logs it and uses it to tune future issues.`)+
- `<textarea id="ptext" readonly>${esc(t)}</textarea><a class="b" id="mailp" href="${href}">✉ Open email to Nudibranchi</a><button id="copyp">Copy to clipboard</button><button id="sentp" title="Resets the unsent counter">Mark as sent</button><button id="closep">Close</button> <span class="m" id="pmsg"></span>`;
+ `<textarea id="ptext" readonly>${esc(t)}</textarea><a class="b" id="mailp" href="${href}">💌 Open email to Nudibranchi</a><button id="copyp">Copy to clipboard</button><button id="sentp" title="Resets the unsent counter">Mark as sent</button><button id="closep">Close</button> <span class="m" id="pmsg"></span>`;
  if(!long)location.href=href}
 function copyPrefs(){const ta=$("ptext");const ok=()=>{$("pmsg").textContent="Copied. Paste it into an email to "+MAIL+" (subject: "+SUBJ+") or into chat."};
  if(navigator.clipboard)navigator.clipboard.writeText(ta.value).then(ok,()=>{ta.select();document.execCommand("copy");ok()});else{ta.select();document.execCommand("copy");ok()}}
@@ -190,19 +215,19 @@ function exportJSON(){const pick=id=>BYID[id]?{id,title:BYID[id].title,section:B
 const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;let W=0,H=0,dpr=1,t=0,raf=0,last=0;
 const dep=document.getElementById("depth");
 const BUB=Array.from({length:34},()=>({x:Math.random(),y:Math.random(),r:.6+Math.random()*2.2,v:.012+Math.random()*.03,w:Math.random()*6.28,b:Math.random()<.35}));
-const COR=[[.58,"#ff8fab",1],[.66,"#ff8573",.8],[.74,"#c9a7ff",1.1],[.82,"#ff9eb8",.9],[.9,"#ffb38a",1.2],[.97,"#ff8573",.7]];
+const COR=[[.58,"#f59ab8",1],[.66,"#ffa594",.8],[.74,"#b9a3f2",1.1],[.82,"#f7a8c8",.9],[.9,"#ffbf94",1.2],[.97,"#ff9c8f",.7]];
 function size(){dpr=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);cx.setTransform(dpr,0,0,dpr,0,0)}
 function wave(y,a,k,sp,col){cx.beginPath();cx.moveTo(0,0);for(let x=0;x<=W;x+=6)cx.lineTo(x,y+a*Math.sin(x*k+t*sp)+a*.5*Math.sin(x*k*2.3-t*sp*.7));cx.lineTo(W,0);cx.closePath();cx.fillStyle=col;cx.fill()}
 function branch(x,y,len,ang,d,col,sw){if(d<0||len<3)return;const s=Math.sin(t*.8+x*.02)*.05*(4-d);const a=ang+s,x2=x+len*Math.cos(a),y2=y+len*Math.sin(a);
  cx.strokeStyle=col;cx.lineWidth=Math.max(1,d*1.3);cx.lineCap="round";cx.beginPath();cx.moveTo(x,y);cx.lineTo(x2,y2);cx.stroke();
  branch(x2,y2,len*.72,a-.42*sw,d-1,col,sw);branch(x2,y2,len*.68,a+.38*sw,d-1,col,sw)}
 function draw(){if(!W)return;cx.clearRect(0,0,W,H);
- for(let i=0;i<5;i++){const x=W*(.15+i*.19)+Math.sin(t*.3+i)*20;cx.fillStyle="rgba(143,227,224,.04)";cx.beginPath();cx.moveTo(x-12,0);cx.lineTo(x+12,0);cx.lineTo(x+60,H);cx.lineTo(x-20,H);cx.fill()}
- wave(H*.14,4,.018,.9,"rgba(95,224,208,.16)");wave(H*.10,3,.025,-.6,"rgba(143,227,224,.12)");
- for(const c of COR)branch(W*c[0],H+2,H*.2*c[2],-Math.PI/2,4,c[1]+"b0",c[2]);
- cx.fillStyle="rgba(95,224,208,.18)";cx.beginPath();cx.moveTo(0,H);for(let x=0;x<=W;x+=10)cx.lineTo(x,H-6-3*Math.sin(x*.05));cx.lineTo(W,H);cx.fill();
+ for(let i=0;i<5;i++){const x=W*(.15+i*.19)+Math.sin(t*.3+i)*20;cx.fillStyle="rgba(255,255,255,.28)";cx.beginPath();cx.moveTo(x-12,0);cx.lineTo(x+12,0);cx.lineTo(x+60,H);cx.lineTo(x-20,H);cx.fill()}
+ wave(H*.14,4,.018,.9,"rgba(255,255,255,.55)");wave(H*.10,3,.025,-.6,"rgba(176,228,238,.55)");
+ for(const c of COR)branch(W*c[0],H+2,H*.2*c[2],-Math.PI/2,4,c[1]+"e6",c[2]);
+ cx.fillStyle="rgba(255,232,206,.95)";cx.beginPath();cx.moveTo(0,H);for(let x=0;x<=W;x+=10)cx.lineTo(x,H-6-3*Math.sin(x*.05));cx.lineTo(W,H);cx.fill();
  for(const p of BUB){const x=(p.x*W+Math.sin(t*.7+p.w)*6),y=p.y*H;cx.beginPath();cx.arc(x,y,p.r,0,6.283);
-  if(p.b){cx.strokeStyle="rgba(246,238,232,.45)";cx.lineWidth=.8;cx.stroke()}else{cx.fillStyle="rgba(200,240,122,.45)";cx.fill()}}
+  if(p.b){cx.strokeStyle="rgba(255,255,255,.95)";cx.lineWidth=.8;cx.stroke()}else{cx.fillStyle="rgba(170,140,240,.45)";cx.fill()}}
  if(dep)dep.textContent="depth "+(8+4*Math.sin(t*.15)).toFixed(1)+" m"}
 function stepB(dt){for(const p of BUB){p.y-=(p.b?p.v*1.6:p.v*.35)*dt;if(p.y<-.05){p.y=1.05;p.x=Math.random()}}}
 function loop(ts){raf=requestAnimationFrame(loop);if(!last){last=ts;return}const dt=Math.min(.1,(ts-last)/1000);last=ts;t+=dt;stepB(dt);draw()}
