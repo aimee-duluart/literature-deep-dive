@@ -53,7 +53,11 @@
   "id": "001-0000",
   "modality_groups": [],
   "similar": [
-   "001-0003"
+   "002-0041",
+   "001-0003",
+   "002-0035",
+   "001-0010",
+   "002-0036"
   ],
   "zotero": true,
   "venue_clean": "Nature",
@@ -127,7 +131,7 @@
   "similar": [
    "001-0012",
    "001-0011",
-   "001-0021"
+   "002-0034"
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -197,10 +201,9 @@
    "Video / imagery"
   ],
   "similar": [
+   "002-0053",
    "001-0019",
-   "001-0011",
-   "001-0012",
-   "001-0021"
+   "002-0046"
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -254,8 +257,10 @@
   "modality_groups": [],
   "taxa": [],
   "similar": [
+   "002-0035",
+   "002-0036",
    "001-0000",
-   "001-0024"
+   "002-0032"
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -318,6 +323,8 @@
    "Multimodal"
   ],
   "similar": [
+   "002-0052",
+   "002-0045",
    "001-0018"
   ],
   "zotero": false,
@@ -376,7 +383,9 @@
   "modality_groups": [
    "Acoustics"
   ],
-  "similar": [],
+  "similar": [
+   "002-0039"
+  ],
   "zotero": true,
   "venue_clean": "openRxiv",
   "detail_url": "item/001-0005.html"
@@ -433,10 +442,12 @@
    "Acoustics"
   ],
   "similar": [
+   "002-0039",
    "001-0017",
+   "002-0046",
+   "002-0037",
    "001-0011",
-   "001-0020",
-   "001-0019"
+   "002-0054"
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -549,10 +560,12 @@
   "id": "001-0008",
   "modality_groups": [],
   "similar": [
+   "002-0041",
    "001-0009",
+   "002-0057",
    "001-0010",
-   "001-0015",
-   "001-0014"
+   "002-0044",
+   "001-0015"
   ],
   "zotero": true,
   "venue_clean": "California Digital Library (CDL)",
@@ -614,11 +627,12 @@
    "Corals"
   ],
   "similar": [
+   "002-0041",
    "001-0008",
+   "002-0043",
+   "002-0042",
    "001-0015",
-   "001-0010",
-   "001-0014",
-   "001-0024"
+   "002-0044"
   ],
   "zotero": true,
   "venue_clean": "Nature Communications",
@@ -680,8 +694,10 @@
   "modality_groups": [],
   "similar": [
    "001-0015",
-   "001-0014",
+   "002-0041",
    "001-0008",
+   "001-0014",
+   "002-0044",
    "001-0009"
   ],
   "zotero": true,
@@ -745,11 +761,11 @@
   ],
   "similar": [
    "001-0013",
+   "002-0037",
    "001-0001",
+   "002-0035",
    "001-0021",
-   "001-0020",
-   "001-0006",
-   "001-0002"
+   "001-0006"
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -807,9 +823,7 @@
    "Video / imagery"
   ],
   "similar": [
-   "001-0001",
-   "001-0021",
-   "001-0002"
+   "001-0001"
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -866,8 +880,8 @@
   "taxa": [],
   "similar": [
    "001-0011",
-   "001-0021",
-   "001-0018"
+   "002-0031",
+   "001-0021"
   ],
   "zotero": true,
   "venue_clean": "Sensors",
@@ -932,7 +946,9 @@
    "001-0010",
    "001-0015",
    "001-0009",
-   "001-0008"
+   "002-0044",
+   "002-0042",
+   "002-0041"
   ],
   "zotero": true,
   "venue_clean": "Scientific Reports",
@@ -990,9 +1006,11 @@
   "modality_groups": [],
   "similar": [
    "001-0010",
+   "002-0044",
+   "002-0058",
    "001-0009",
-   "001-0014",
-   "001-0008"
+   "002-0041",
+   "001-0014"
   ],
   "zotero": true,
   "venue_clean": "Restoration Ecology",
@@ -1054,7 +1072,8 @@
   ],
   "similar": [
    "001-0023",
-   "001-0020"
+   "002-0036",
+   "002-0031"
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -1113,7 +1132,8 @@
    "Monitoring"
   ],
   "similar": [
-   "001-0006"
+   "001-0006",
+   "002-0039"
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the National Academy of Sciences",
@@ -1177,7 +1197,7 @@
   "taxa": [],
   "similar": [
    "001-0004",
-   "001-0013"
+   "002-0034"
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1235,8 +1255,9 @@
   "tasks": [],
   "similar": [
    "001-0002",
+   "002-0052",
    "001-0021",
-   "001-0006"
+   "002-0039"
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1299,9 +1320,8 @@
    "Acoustics"
   ],
   "similar": [
-   "001-0011",
-   "001-0016",
-   "001-0006"
+   "002-0037",
+   "001-0011"
   ],
   "zotero": true,
   "venue_clean": "Remote Sensing in Ecology and Conservation",
@@ -1361,12 +1381,11 @@
    "Acoustics"
   ],
   "similar": [
+   "002-0031",
    "001-0019",
+   "002-0046",
    "001-0011",
-   "001-0013",
-   "001-0012",
-   "001-0001",
-   "001-0002"
+   "001-0013"
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -1430,7 +1449,11 @@
   "modality_groups": [],
   "tasks": [],
   "taxa": [],
-  "similar": [],
+  "similar": [
+   "002-0049",
+   "002-0050",
+   "002-0055"
+  ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
   "detail_url": "item/001-0022.html"
@@ -1483,6 +1506,7 @@
   "tasks": [],
   "taxa": [],
   "similar": [
+   "002-0036",
    "001-0016"
   ],
   "zotero": true,
@@ -1543,7 +1567,6 @@
    "Interaction classification"
   ],
   "similar": [
-   "001-0003",
    "001-0009"
   ],
   "zotero": true,
@@ -1584,9 +1607,10 @@
   "taxa": [],
   "study_type": "",
   "similar": [
+   "002-0061",
    "001-0027",
    "001-0030",
-   "001-0026"
+   "002-0060"
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1632,7 +1656,7 @@
   "study_type": "",
   "similar": [
    "001-0030",
-   "001-0025"
+   "002-0060"
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1675,7 +1699,10 @@
   "similar": [
    "001-0028",
    "001-0030",
-   "001-0025"
+   "002-0063",
+   "001-0025",
+   "002-0064",
+   "002-0065"
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1719,8 +1746,11 @@
   "study_type": "",
   "similar": [
    "001-0027",
+   "002-0065",
    "001-0029",
-   "001-0030"
+   "002-0063",
+   "001-0030",
+   "002-0064"
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1762,7 +1792,10 @@
   "taxa": [],
   "study_type": "Empirical / field",
   "similar": [
-   "001-0028"
+   "002-0065",
+   "001-0028",
+   "002-0063",
+   "002-0064"
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1802,12 +1835,2050 @@
   "study_type": "",
   "similar": [
    "001-0027",
-   "001-0026",
-   "001-0028",
-   "001-0025"
+   "002-0063",
+   "002-0065",
+   "002-0064",
+   "001-0025",
+   "001-0026"
   ],
   "zotero": false,
   "venue_clean": "",
   "detail_url": "item/001-0030.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "The headline act",
+  "title": "Who Called? V33DA: A Physically Verified Multimodal Benchmark for Vocal Attribution in Zebra Finch Groups",
+  "digest_headline": "Who called? V33DA: a physically verified multimodal benchmark for working out which bird in a group vocalised",
+  "authors": [
+   "Maris Basha",
+   "Yuhang Wang",
+   "Xiaoran Chen",
+   "Longbiao Cheng",
+   "Luca Yapura",
+   "Anja T. Zai"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-28",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.38109",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "sound source localisation",
+   "3D pose",
+   "accelerometers",
+   "benchmarking"
+  ],
+  "topics": [
+   "vocal attribution",
+   "social communication",
+   "generalisation",
+   "ground truth"
+  ],
+  "summary": "Attributing a call to an individual in a group is the core of social-communication research, but it is rarely tested against physical ground truth. V33DA has 33,625 verified events from social zebra finches (10 birds, three experiments).",
+  "caveats": "Preprint. Captive zebra finches in an instrumented arena, not a reef. The abstract reports the gap qualitatively, so check the paper for accuracies.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics",
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Behaviour classification"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Birds"
+  ],
+  "relevance": 3,
+  "issue_url": "../issues/002.html#s01",
+  "id": "002-0031",
+  "modality_groups": [
+   "Acoustics",
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "similar": [
+   "001-0021",
+   "002-0038",
+   "002-0034",
+   "001-0013",
+   "001-0011",
+   "001-0016"
+  ],
+  "zotero": false,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0031.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "The headline act",
+  "title": "Recruitment pulses cause a market dilemma in cleaning interactions from a tropical Atlantic rocky reef",
+  "digest_headline": "Recruitment pulses create a “market dilemma” in a cleaning network (Behavioral Ecology, 31 Oct)",
+  "authors": [
+   "Gabriel S Garcia",
+   "Ana C Suhett",
+   "Aléxia A Lessa",
+   "Juliana G Mello-Fonseca",
+   "Juan P Quimbayo",
+   "Murilo S Dias"
+  ],
+  "venue": "Behavioral Ecology",
+  "pub_date": "2026-10-31",
+  "doi": "10.1093/beheco/arag131",
+  "url": "https://doi.org/10.1093/beheco/arag131",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "network analysis",
+   "underwater surveys"
+  ],
+  "topics": [
+   "cleaning mutualism",
+   "biological markets",
+   "recruitment",
+   "rocky reef"
+  ],
+  "summary": "Garcia, Suhett, Lessa, Mello-Fonseca, Quimbayo & Dias followed cleaning interactions on a rocky reef at Arraial do Cabo (SW Atlantic) for three years. The dedicated cleaner goby Elacatinus figaro was the most important cleaner in the network despite low abundance.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Fish"
+  ],
+  "issue_url": "../issues/002.html#s01",
+  "relevance": 3,
+  "id": "002-0032",
+  "modality_groups": [],
+  "similar": [
+   "002-0036",
+   "001-0003",
+   "002-0035",
+   "002-0055",
+   "001-0014"
+  ],
+  "zotero": true,
+  "venue_clean": "Behavioral Ecology",
+  "detail_url": "item/002-0032.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "The headline act",
+  "title": "Beggars can't be choosers: Competitive dominance and size‐dependent resource investment jointly constrain partner associations in a multispecies mutualism",
+  "digest_headline": "Beggars can't be choosers: who gets the best aphids (Journal of Animal Ecology, 28 Oct)",
+  "authors": [
+   "Annika S. Nelson",
+   "Nhan T. T. Nguyen",
+   "Spencer Levings",
+   "Parker N. Hawk",
+   "Kailen A. Mooney"
+  ],
+  "venue": "Journal of Animal Ecology",
+  "pub_date": "2026-10-28",
+  "doi": "10.1111/1365-2656.70388",
+  "url": "https://doi.org/10.1111/1365-2656.70388",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "field experiment",
+   "bait trials",
+   "repeated censuses"
+  ],
+  "topics": [
+   "mutualism",
+   "competitive dominance",
+   "partner choice",
+   "ant-aphid"
+  ],
+  "summary": "Nelson, Nguyen, Levings, Hawk & Mooney combined sugar baits with censuses of wild aphid colonies. The dominant ant recruited to bigger baits and monopolised the largest colonies.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Invertebrates"
+  ],
+  "issue_url": "../issues/002.html#s01",
+  "relevance": 3,
+  "id": "002-0033",
+  "modality_groups": [],
+  "similar": [
+   "001-0014"
+  ],
+  "zotero": true,
+  "venue_clean": "Journal of Animal Ecology",
+  "detail_url": "item/002-0033.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Behaviour classification",
+  "title": "From pose to behavior: SABER integrates identity-resolved multi-animal pose tracking with large-language-model-based behavioral factor discovery",
+  "digest_headline": "SABER: identity-resolved multi-animal pose plus LLM-mined behavioural features (bioRxiv, 26 Oct)",
+  "authors": [
+   "Jiaqi Zheng",
+   "Chen Peng",
+   "Shi-Yuan Zhang",
+   "Jie Wang",
+   "Wen-Ning Zhou",
+   "Hong-Mei Xue",
+   "Tian-Qi Cai",
+   "Yi-Wen Li",
+   "Xiao-Ya Su",
+   "Zhiwei Jiang",
+   "Yangyi Tan",
+   "Xiang-Dong Sun"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-09-08",
+  "doi": "10.64898/2026.09.02.749007",
+  "url": "https://doi.org/10.64898/2026.09.02.749007",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "multi-animal pose estimation",
+   "identity tracking",
+   "LLM feature discovery"
+  ],
+  "topics": [
+   "social behaviour",
+   "identity switches",
+   "mice"
+  ],
+  "summary": "Zheng, Peng, Zhang et al. couple multi-animal pose estimation with identity-preserving tracking, then mine interpretable kinematic, postural and social descriptors and classify behaviour over multiple timescales from one overhead camera. It beat comparator pipelines on pose accuracy and tracking continuity across social, mating and aggression recordings in mice.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Behaviour classification",
+   "Interaction classification"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "issue_url": "../issues/002.html#s02",
+  "relevance": 2,
+  "id": "002-0034",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "similar": [
+   "002-0031",
+   "001-0001",
+   "002-0061",
+   "001-0018"
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/002-0034.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Multimodal AI and interaction networks",
+  "title": "A Scalable Workflow for Extracting Species Interactions From Ecological Literature Using Large Language Models",
+  "digest_headline": "An LLM workflow pulls 144,402 species interactions from 83,910 papers, at 89.5% precision",
+  "authors": [
+   "François Keck",
+   "Henry Broadbent",
+   "Florian Altermatt"
+  ],
+  "venue": "Ecology and Evolution",
+  "pub_date": "2026-10-27",
+  "doi": "10.1002/ece3.74626",
+  "url": "https://doi.org/10.1002/ece3.74626",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "large language models",
+   "GPT-4o",
+   "information extraction"
+  ],
+  "topics": [
+   "interaction networks",
+   "literature mining",
+   "data synthesis"
+  ],
+  "summary": "A replicable workflow uses GPT-4o to extract a broad range of biological interactions (not just feeding) directly from the literature. Run on 83,910 articles, it produced a network of 144,402 interactions among 36,471 taxa.",
+  "caveats": "Recall of 70% means roughly 3 in 10 reported interactions are missed. Literature bias (well-studied taxa and regions) carries straight into the network. It relies on a proprietary model.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Marine",
+   "Freshwater"
+  ],
+  "modalities": [
+   "Text"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Methods / tool",
+  "relevance": 3,
+  "issue_url": "../issues/002.html#s03",
+  "id": "002-0035",
+  "modality_groups": [
+   "Text"
+  ],
+  "taxa": [],
+  "similar": [
+   "001-0003",
+   "002-0055",
+   "001-0000",
+   "001-0011",
+   "002-0032",
+   "002-0036"
+  ],
+  "zotero": true,
+  "venue_clean": "Ecology and Evolution",
+  "detail_url": "item/002-0035.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Multimodal AI and interaction networks",
+  "title": "Overexploitation risks disproportionate vertebrate downsizing and declines in potential dispersal distances in frugivory networks",
+  "digest_headline": "Overexploitation strips the big frugivores out of seed-dispersal networks (Proc B, 28 Oct)",
+  "authors": [
+   "Oscar Morton",
+   "Miguel Lurgi",
+   "David P. Edwards"
+  ],
+  "venue": "Proceedings of the Royal Society B: Biological Sciences",
+  "pub_date": "2026-10-28",
+  "doi": "10.1098/rspb.2026.0578",
+  "url": "https://doi.org/10.1098/rspb.2026.0578",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "extinction simulation",
+   "network analysis"
+  ],
+  "topics": [
+   "frugivory networks",
+   "overexploitation",
+   "seed dispersal",
+   "defaunation"
+  ],
+  "summary": "Morton, Lurgi & Edwards simulated losing overexploited species from 160 frugivory networks (>16,000 interactions). Body-mass downsizing was six-fold greater than under random loss.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Birds",
+   "Mammals"
+  ],
+  "issue_url": "../issues/002.html#s03",
+  "relevance": 3,
+  "id": "002-0036",
+  "modality_groups": [],
+  "similar": [
+   "001-0023",
+   "001-0003",
+   "002-0032",
+   "001-0016",
+   "002-0040",
+   "001-0000"
+  ],
+  "zotero": true,
+  "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
+  "detail_url": "item/002-0036.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Bioacoustics and PAM",
+  "title": "A richness-sensitive Acoustic Biodiversity Index from species-level detections: classifier benchmarking, false-positive control and validation against standard soundscape indices in an African savanna and an urban zoo",
+  "digest_headline": "A species-level Acoustic Biodiversity Index tracks richness (ρ = 0.93) where standard soundscape indices don't",
+  "authors": [
+   "Muhammad Saeed",
+   "Dmitry Mikhaylov",
+   "Mohamed H. Alhosani",
+   "Yasser F. Al Wahedi",
+   "Rory Pilossof",
+   "Ahmed Arabi"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-30",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.42042",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "BirdNET",
+   "embeddings",
+   "logistic regression",
+   "grouped cross-validation"
+  ],
+  "topics": [
+   "acoustic indices",
+   "data leakage",
+   "false positives",
+   "biodiversity indicators"
+  ],
+  "summary": "Classic acoustic indices summarise sound energy, not species. This ABI is Shannon diversity of species-level detections, normalised by the regional species pool expected for the site and season.",
+  "caveats": "Preprint, birds only, two sites. The index inherits classifier errors, so it depends on a good regional species list and false-positive control.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Birds"
+  ],
+  "relevance": 2,
+  "issue_url": "../issues/002.html#s04",
+  "id": "002-0037",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "similar": [
+   "001-0020",
+   "001-0011",
+   "001-0006",
+   "002-0031"
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0037.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Bioacoustics and PAM",
+  "title": "4-Dimensional Chess: Acoustic Localisation Reveals Nested Spatio-temporal Strategies in an Arboreal Communication Network",
+  "digest_headline": "4-dimensional chess: 3D acoustic localisation of a reed-frog chorus (bioRxiv, 28 Oct)",
+  "authors": [
+   "Edmund W. Basham",
+   "Luke C. Larter",
+   "Patrick S. Champagne",
+   "Douglas L. Jones",
+   "Timothy H. Keitt"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-09-25",
+  "doi": "10.64898/2026.09.21.752596",
+  "url": "https://doi.org/10.64898/2026.09.21.752596",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "3D acoustic localisation",
+   "source separation"
+  ],
+  "topics": [
+   "chorus",
+   "call timing",
+   "site fidelity"
+  ],
+  "summary": "Basham, Larter, Champagne, Jones & Keitt tracked individual male Hyperolius sp. A in a wild rainforest chorus using 3D acoustic localisation and source separation.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Behaviour classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Amphibians"
+  ],
+  "issue_url": "../issues/002.html#s04",
+  "relevance": 3,
+  "id": "002-0038",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "similar": [
+   "002-0031"
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/002-0038.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Bioacoustics and PAM",
+  "title": "Pygmy blue whale feeding drives greater nocturnal than diurnal song production",
+  "digest_headline": "Pygmy blue whales sing more at night because they're busy eating by day (R Soc Open Sci, 28 Oct)",
+  "authors": [
+   "Andrew M. Davenport",
+   "Michele Thums",
+   "K. Curt S. Jenner",
+   "Micheline-Nicole M. Jenner",
+   "Luciana C. Ferreira",
+   "Christine Erbe",
+   "Ryan Leadbetter",
+   "Robert D. McCauley"
+  ],
+  "venue": "Royal Society Open Science",
+  "pub_date": "2026-10-07",
+  "doi": "10.1098/rsos.260954",
+  "url": "https://doi.org/10.1098/rsos.260954",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "PAM",
+   "biologging",
+   "GLMMs"
+  ],
+  "topics": [
+   "pygmy blue whales",
+   "foraging",
+   "song"
+  ],
+  "summary": "Davenport, Thums, Jenner et al. combined PAM with 130.1 days of dive data. Diurnal feeding left less time for singing, so a night-heavy song ratio could act as an acoustic indicator of population-level feeding.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics",
+   "Biologging"
+  ],
+  "tasks": [
+   "Behaviour classification",
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "issue_url": "../issues/002.html#s04",
+  "relevance": 3,
+  "id": "002-0039",
+  "modality_groups": [
+   "Acoustics",
+   "Biologging"
+  ],
+  "similar": [
+   "001-0006",
+   "001-0005",
+   "001-0017",
+   "001-0019"
+  ],
+  "zotero": true,
+  "venue_clean": "Royal Society Open Science",
+  "detail_url": "item/002-0039.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Bioacoustics and PAM",
+  "title": "Deep learning reveals persistent individual signatures in bat echolocation calls of the greater leaf-nosed bat",
+  "digest_headline": "CNNs find individual signatures in bat echolocation calls (Zoological Research, 1 Nov)",
+  "authors": [
+   "Li AQ",
+   "Huang WT",
+   "Xie XY",
+   "Wen WM",
+   "Ji L",
+   "Zhang HJ",
+   "Zhang CY",
+   "Luo JH"
+  ],
+  "venue": "Zoological Research",
+  "pub_date": "2026-11-01",
+  "doi": "10.24272/j.issn.2095-8137.2025.642",
+  "url": "https://doi.org/10.24272/j.issn.2095-8137.2025.642",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "CNN",
+   "discriminant function analysis"
+  ],
+  "topics": [
+   "individual identification",
+   "echolocation",
+   "bats"
+  ],
+  "summary": "Li, Huang, Xie et al. recorded 17,584 calls from 34 greater leaf-nosed bats. A CNN identified individuals at 84% (single calls) and 91% (sequences), against 39% and 47% for discriminant function analysis.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Empirical / lab",
+  "taxa": [
+   "Mammals"
+  ],
+  "issue_url": "../issues/002.html#s04",
+  "relevance": 3,
+  "id": "002-0040",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "similar": [
+   "002-0054",
+   "002-0048",
+   "002-0036"
+  ],
+  "zotero": true,
+  "venue_clean": "Zoological Research",
+  "detail_url": "item/002-0040.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Coral reef ecology and conservation",
+  "title": "Delayed bleaching-induced coral mortality limits reef recovery after a marine heatwave",
+  "digest_headline": "Delayed bleaching mortality: on Mo’orea, coral cover kept falling for four years after the 2019 heatwave",
+  "authors": [
+   "Andreas Eich",
+   "Yannick Chancerelle",
+   "Valeriano Parravicini",
+   "Nicolas Derome",
+   "Laetitia Hédouin",
+   "Caroline E Dubé"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-10-09",
+  "doi": "10.64898/2026.10.07.757404",
+  "url": "https://doi.org/10.64898/2026.10.07.757404",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "long-term monitoring",
+   "colony tracking"
+  ],
+  "topics": [
+   "coral bleaching",
+   "delayed mortality",
+   "marine heatwaves",
+   "recovery",
+   "French Polynesia"
+  ],
+  "summary": "Two long-term datasets cover 13 sites after Mo’orea's most severe recorded heatwave, where peak accumulated heat stress ranged 5.76–6.26 °C-weeks. Pocillopora mortality rose with heat stress and mean cover collapsed from 35% to 17% within a year.",
+  "caveats": "Preprint, one island. Delayed mortality could partly reflect other stressors in later years. Check the paper for how these were handled.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Corals"
+  ],
+  "relevance": 3,
+  "issue_url": "../issues/002.html#s05",
+  "id": "002-0041",
+  "modality_groups": [],
+  "similar": [
+   "001-0009",
+   "002-0043",
+   "001-0008",
+   "001-0000",
+   "002-0044",
+   "001-0010"
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/002-0041.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Coral reef ecology and conservation",
+  "title": "Corallivore impacts on corals under ocean warming depend on both consumer and prey responses to rising temperatures",
+  "digest_headline": "Warming makes corallivores more damaging, in two different ways (MEPS, 29 Oct)",
+  "authors": [
+   "Noam T Altman-Kurosaki",
+   "Mark E Hay"
+  ],
+  "venue": "Marine Ecology Progress Series",
+  "pub_date": "2026-10-29",
+  "doi": "10.3354/meps15272",
+  "url": "https://doi.org/10.3354/meps15272",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "warming experiment"
+  ],
+  "topics": [
+   "corallivory",
+   "predation",
+   "ocean warming"
+  ],
+  "summary": "Altman-Kurosaki & Hay paired two corallivorous snails with two corals. Warming raised Drupella cornus respiration about 1.5× and shifted it onto its less-preferred coral.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / lab",
+  "taxa": [
+   "Corals",
+   "Invertebrates"
+  ],
+  "issue_url": "../issues/002.html#s05",
+  "relevance": 3,
+  "id": "002-0042",
+  "modality_groups": [],
+  "similar": [
+   "001-0009",
+   "001-0015",
+   "002-0044",
+   "002-0041",
+   "001-0014",
+   "001-0008"
+  ],
+  "zotero": true,
+  "venue_clean": "Marine Ecology Progress Series",
+  "detail_url": "item/002-0042.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Coral reef ecology and conservation",
+  "title": "Cumulative thermal stress predicts functional change in coral reef fish communities",
+  "digest_headline": "Heat stress reshapes reef fish functional composition across northern Australia (Proc B, 28 Oct)",
+  "authors": [
+   "Anthony C. Markey",
+   "Damien A. Fordham",
+   "Rick D. Stuart-Smith",
+   "Graham J. Edgar",
+   "Christopher J. Brown",
+   "Camille Mellin"
+  ],
+  "venue": "Proceedings of the Royal Society B: Biological Sciences",
+  "pub_date": "2026-10-28",
+  "doi": "10.1098/rspb.2026.1955",
+  "url": "https://doi.org/10.1098/rspb.2026.1955",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "joint species distribution model",
+   "Bayesian"
+  ],
+  "topics": [
+   "functional traits",
+   "marine heatwaves",
+   "reef fish"
+  ],
+  "summary": "Markey, Fordham, Stuart-Smith, Edgar, Brown & Mellin fitted a Bayesian joint species distribution model to 500 species at 286 sites. Along the heatwave gradient they predict losses of habitat specialists, large-bodied fish, corallivores and pelagic feeders. doi:10.1098/rspb.2026.1955",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Fish"
+  ],
+  "issue_url": "../issues/002.html#s05",
+  "relevance": 3,
+  "id": "002-0043",
+  "modality_groups": [],
+  "tasks": [],
+  "similar": [
+   "002-0041",
+   "001-0009",
+   "002-0044",
+   "002-0054",
+   "001-0008"
+  ],
+  "zotero": true,
+  "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
+  "detail_url": "item/002-0043.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Coral reef ecology and conservation",
+  "title": "Global Change Is Reshaping Coral Communities and Threatening Reef Physical Functionality",
+  "digest_headline": "Coral cover isn't reef function (Global Change Biology, 29 Oct)",
+  "authors": [
+   "Lorenzo Álvarez‐Filip"
+  ],
+  "venue": "Global Change Biology",
+  "pub_date": "2026-10-29",
+  "doi": "10.1111/gcb.71161",
+  "url": "https://doi.org/10.1111/gcb.71161",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "review"
+  ],
+  "topics": [
+   "structural complexity",
+   "carbonate budgets",
+   "homogenisation"
+  ],
+  "summary": "Álvarez-Filip reviews how global change removes dominant, architecturally complex corals first. Cover can rebound with fast-growing opportunists while reef framework and complexity lag by decades.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "study_type": "Review",
+  "taxa": [
+   "Corals"
+  ],
+  "issue_url": "../issues/002.html#s05",
+  "relevance": 3,
+  "id": "002-0044",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [],
+  "similar": [
+   "002-0043",
+   "001-0015",
+   "002-0041",
+   "001-0008",
+   "001-0009",
+   "002-0042"
+  ],
+  "zotero": true,
+  "venue_clean": "Global Change Biology",
+  "detail_url": "item/002-0044.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Transferable CV/ML advances",
+  "title": "Dreams Are Cheaper Than Flights: Curated World-Model Data Improves Aerial Detection",
+  "digest_headline": "Dreams are cheaper than flights: world-model video improves wildlife drone detectors",
+  "authors": [
+   "Rugved Katole",
+   "Vedant Patil",
+   "Jenna Kline",
+   "Christopher Stewart"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-29",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.41030",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "video world models",
+   "synthetic data",
+   "object detection"
+  ],
+  "topics": [
+   "drones",
+   "data scarcity",
+   "cost"
+  ],
+  "summary": "A 7B-parameter video world model was seeded with real wildlife drone frames and asked to extend each scene into new footage with the same sensor, altitude and environment. Curated frames more than doubled the training set.",
+  "caveats": "Preprint. Tested on the same drones and sites (not new ones). Expert curation is still the hidden cost. Whether this works for underwater video and fine-grained behaviour is untested.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Remote sensing"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "relevance": 2,
+  "issue_url": "../issues/002.html#s06",
+  "id": "002-0045",
+  "modality_groups": [
+   "Video / imagery",
+   "Remote sensing"
+  ],
+  "similar": [
+   "001-0004",
+   "002-0048"
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0045.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Transferable CV/ML advances",
+  "title": "AquaProbe: Efficient Adaptation of Frozen Vision Models for Underwater Images",
+  "digest_headline": "AquaProbe: put your LoRA budget where the underwater domain gap is (arXiv, 29 Oct)",
+  "authors": [
+   "Md Shihabul Islam Shovo",
+   "Nishi Kanta Paul",
+   "Trung Dong",
+   "Xiaomin Lin"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-29",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.40900",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "LoRA",
+   "parameter-efficient fine-tuning",
+   "domain adaptation"
+  ],
+  "topics": [
+   "underwater segmentation",
+   "domain shift",
+   "SUIM"
+  ],
+  "summary": "Shovo, Paul, Dong & Lin measure where in a frozen encoder the underwater gap appears (it shifts with water type and range), then allocate LoRA ranks to match. With the same 0.59M adapter parameters, proportional allocation reached 70.1 mIoU, 1.9 points above uniform.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "study_type": "Methods / tool",
+  "issue_url": "../issues/002.html#s06",
+  "relevance": 2,
+  "id": "002-0046",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "taxa": [],
+  "similar": [
+   "001-0002",
+   "001-0021",
+   "001-0006",
+   "002-0052",
+   "001-0011"
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0046.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Transferable CV/ML advances",
+  "title": "FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models",
+  "digest_headline": "FieldGuideRAG: a VLM checks your photo against a photo on every species node (arXiv, 29 Oct)",
+  "authors": [
+   "Jiacheng Ding",
+   "Yanliang Qi",
+   "Cong Guo",
+   "Peihua Mai"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-29",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.40971",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "vision-language models",
+   "GraphRAG",
+   "retrieval"
+  ],
+  "topics": [
+   "fine-grained recognition",
+   "knowledge graphs",
+   "iNaturalist"
+  ],
+  "summary": "Training-free. A knowledge graph stores one real photo per species plus range and ecological facts.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "issue_url": "../issues/002.html#s06",
+  "relevance": 2,
+  "id": "002-0047",
+  "modality_groups": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "taxa": [],
+  "similar": [
+   "002-0052",
+   "002-0053"
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0047.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Emerging ecology and conservation tools",
+  "title": "Detection of trade in products derived from threatened species using machine learning and a smartphone application",
+  "digest_headline": "Spotting pangolin, tiger and elephant products in online images (Conservation Biology, 26 Oct)",
+  "authors": [
+   "Ritwik Kulkarni",
+   "Hanqin Wu",
+   "Enrico Di Minin"
+  ],
+  "venue": "Conservation Biology",
+  "pub_date": "2026-10-26",
+  "doi": "10.1111/cobi.70407",
+  "url": "https://doi.org/10.1111/cobi.70407",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "Faster R-CNN",
+   "focal loss",
+   "smartphone app"
+  ],
+  "topics": [
+   "wildlife trade",
+   "online markets",
+   "enforcement"
+  ],
+  "summary": "Kulkarni, Wu & Di Minin trained Faster R-CNN on 39,941 images that include look-alike non-wildlife items. Overall accuracy was 84.2% (pangolin 93.6%, tiger 90.3%, elephant 71.1%).",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "issue_url": "../issues/002.html#s07",
+  "relevance": 2,
+  "id": "002-0048",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "similar": [
+   "002-0040",
+   "002-0045"
+  ],
+  "zotero": true,
+  "venue_clean": "Conservation Biology",
+  "detail_url": "item/002-0048.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Restoration and nature-based solutions",
+  "title": "From deployment to functioning ecosystems: assessing taxonomic richness and community composition on modular shellfish reefs using environmental DNA metabarcoding",
+  "digest_headline": "Modular shellfish reefs: richness comes fast, the community keeps changing (bioRxiv, 29 Oct)",
+  "authors": [
+   "Valerio Tettamanti",
+   "Timothy Staples",
+   "Benjamin Mos",
+   "Robbie Porter",
+   "Ben L. Gilby",
+   "Karen L. Cheney"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-10-29",
+  "doi": "10.64898/2026.10.26.762076",
+  "url": "https://doi.org/10.64898/2026.10.26.762076",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "eDNA metabarcoding",
+   "community analysis"
+  ],
+  "topics": [
+   "shellfish reefs",
+   "restoration",
+   "succession"
+  ],
+  "summary": "Tettamanti, Staples, Mos, Porter, Gilby & Cheney used eDNA on reefs aged 9, 21 and 42 months. Genus richness rose quickly, but composition kept shifting and converged with age, a change invisible to richness alone.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "eDNA"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "issue_url": "../issues/002.html#s08",
+  "relevance": 3,
+  "id": "002-0049",
+  "modality_groups": [
+   "eDNA"
+  ],
+  "taxa": [],
+  "similar": [
+   "001-0022",
+   "001-0008"
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/002-0049.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Wider field: big papers",
+  "title": "The global geography of threats to freshwater biodiversity",
+  "digest_headline": "A global map of 45 threats to 21,490 freshwater species (Science, 29 Oct)",
+  "authors": [
+   "Christophe Brabant",
+   "Laura Pollock",
+   "Jonas Geldmann",
+   "Mette Bendixen",
+   "Lise Comte",
+   "Harith Farooq",
+   "Katherine Hébert",
+   "Bernhard Lehner",
+   "Catherine A. Sayer",
+   "Lars Lønsmann Iversen"
+  ],
+  "venue": "Science",
+  "pub_date": "2026-10-29",
+  "doi": "10.1126/science.aeb7910",
+  "url": "https://doi.org/10.1126/science.aeb7910",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "spatial threat mapping"
+  ],
+  "topics": [
+   "freshwater biodiversity",
+   "threats",
+   "extinction risk"
+  ],
+  "summary": "Brabant, Pollock, Geldmann, Bendixen, Comte & Farooq. Species in highly developed, water-managed regions face multiple overlapping threats, and freshwater species face greater threat intensity than terrestrial ones.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Freshwater"
+  ],
+  "study_type": "Empirical / field",
+  "issue_url": "../issues/002.html#s09",
+  "relevance": 1,
+  "id": "002-0050",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "similar": [
+   "001-0022",
+   "002-0060",
+   "002-0055",
+   "002-0035"
+  ],
+  "zotero": true,
+  "venue_clean": "Science",
+  "detail_url": "item/002-0050.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Wider field: big papers",
+  "title": "Resource-driven release from lag phase triggers the world’s fastest and largest coastal plant invasion",
+  "digest_headline": "Why invasions wait, then explode: sediment ends Spartina's lag phase (PNAS, 26 Oct)",
+  "authors": [
+   "Zhenpeng Ge",
+   "David M. Richardson",
+   "Petr Pyšek",
+   "Tinglu Cai",
+   "Yining Chen"
+  ],
+  "venue": "Proceedings of the National Academy of Sciences",
+  "pub_date": "2026-10-26",
+  "doi": "10.1073/pnas.2622290123",
+  "url": "https://doi.org/10.1073/pnas.2622290123",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "field experiments",
+   "demographic modelling"
+  ],
+  "topics": [
+   "invasion lag phase",
+   "Allee effects",
+   "Spartina",
+   "coastal wetlands"
+  ],
+  "summary": "Ge, Richardson, Pyšek, Cai & Chen. Experiments, models and historical records suggest sediment supply weakens Allee effects in Spartina alterniflora, so the lag phase depends on resources, not fixed species traits. doi:10.1073/pnas.2622290123",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Terrestrial"
+  ],
+  "study_type": "Empirical / field",
+  "issue_url": "../issues/002.html#s09",
+  "relevance": 1,
+  "id": "002-0051",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [
+   "Plants"
+  ],
+  "similar": [],
+  "zotero": true,
+  "venue_clean": "Proceedings of the National Academy of Sciences",
+  "detail_url": "item/002-0051.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Datasets, tools and code",
+  "title": "Nereus: A Large-Scale Underwater Dataset for Fine-Grained Attribute Understanding and Grounded Counting Perception",
+  "digest_headline": "Nereus: 88K underwater images, 2.68M question-answer pairs, 2,690 species (arXiv, 30 Oct)",
+  "authors": [
+   "Jingtao Deng",
+   "Zihao Jin",
+   "Yuehe Chen",
+   "Feixiang He",
+   "Shuiwang Li",
+   "Dan Zeng"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-30",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.41705",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "multimodal LLMs",
+   "visual question answering"
+  ],
+  "topics": [
+   "fine-grained attributes",
+   "counting",
+   "underwater imagery"
+  ],
+  "summary": "136K annotated organisms across 1,515 genera, plus 65K point annotations and 67K grounded counting questions. Training on it improved multimodal models' downstream adaptation over existing underwater data.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Coral reef"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Fish",
+   "Invertebrates"
+  ],
+  "issue_url": "../issues/002.html#s11",
+  "relevance": 3,
+  "id": "002-0052",
+  "modality_groups": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "similar": [
+   "001-0004",
+   "001-0019",
+   "002-0047",
+   "002-0046",
+   "002-0053",
+   "002-0054"
+  ],
+  "zotero": false,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0052.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Datasets, tools and code",
+  "title": "Open-set multi-view seahorse re-identification from underwater photograph sequences",
+  "digest_headline": "Open-set seahorse re-ID from photo sequences (arXiv, 29 Oct)",
+  "authors": [
+   "Tristan Fauvel",
+   "Sylvie Louisy",
+   "Patrick Louisy",
+   "Thomas Fauvel"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-10-29",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2610.39857",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "re-identification",
+   "open-set recognition",
+   "multi-view fusion"
+  ],
+  "topics": [
+   "individual ID",
+   "capture-mark-recapture",
+   "seahorses"
+  ],
+  "summary": "Fauvel, Louisy, Louisy & Fauvel: 35,914 wild photos of 474 individual seahorses. Combining several photos per encounter gives state-of-the-art re-ID, plus taxon and sex classification.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish"
+  ],
+  "issue_url": "../issues/002.html#s11",
+  "relevance": 2,
+  "id": "002-0053",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "similar": [
+   "001-0002",
+   "002-0052",
+   "002-0047"
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/002-0053.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Datasets, tools and code",
+  "title": "Taxonomy‐informed hierarchical deep learning for otolith image identification in coral reef fishes",
+  "digest_headline": "Taxonomy-aware deep learning for coral reef fish otoliths (Journal of Fish Biology, 29 Oct)",
+  "authors": [
+   "Zhipeng Kang",
+   "Teng Wang",
+   "Yu Liu",
+   "Jianzhong Shen",
+   "Hongyu Xie",
+   "Xuefu Ao",
+   "Xianghong Dong",
+   "Yong Liu"
+  ],
+  "venue": "Journal of Fish Biology",
+  "pub_date": "2026-10-29",
+  "doi": "10.1111/jfb.70717",
+  "url": "https://doi.org/10.1111/jfb.70717",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "hierarchical classification",
+   "deep learning",
+   "few-shot"
+  ],
+  "topics": [
+   "otoliths",
+   "taxonomy",
+   "coral reef fish"
+  ],
+  "summary": "Kang, Wang, Liu et al. built taxonomic constraints into the model. Species accuracy rose from 94.80% to 98.00%, with far fewer cross-family mistakes, and it handled 33 unseen species from a few examples.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish"
+  ],
+  "issue_url": "../issues/002.html#s11",
+  "relevance": 3,
+  "id": "002-0054",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "similar": [
+   "002-0040",
+   "002-0043",
+   "001-0006",
+   "002-0052"
+  ],
+  "zotero": true,
+  "venue_clean": "Journal of Fish Biology",
+  "detail_url": "item/002-0054.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Critiques and nulls",
+  "title": "A common marking method influences fish-parasite interactions",
+  "digest_headline": "Marking isn't neutral: elastomer-tagged guppies carried about 3.7× more parasites",
+  "authors": [
+   "Jessica Stephenson"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-10-29",
+  "doi": "10.64898/2026.10.27.762165",
+  "url": "https://doi.org/10.64898/2026.10.27.762165",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "VIE marking",
+   "experimental infection"
+  ],
+  "topics": [
+   "host-parasite interactions",
+   "marking effects",
+   "methodological bias"
+  ],
+  "summary": "Visible Implant Elastomer (VIE) tags are a standard way to tell fish apart, and earlier studies found no effect on survival, growth or behaviour. This study compared 26 VIE-marked with 46 control guppies.",
+  "caveats": "Single-author preprint, one host-parasite system, modest sample sizes.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Freshwater"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / lab",
+  "taxa": [
+   "Fish"
+  ],
+  "relevance": 2,
+  "issue_url": "../issues/002.html#s12",
+  "id": "002-0055",
+  "modality_groups": [],
+  "similar": [
+   "002-0035",
+   "001-0022",
+   "002-0032",
+   "002-0050"
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/002-0055.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Critiques and nulls",
+  "title": "Every scientist a modeller? The promise and peril of AI ‐assisted mechanistic models",
+  "digest_headline": "Every scientist a modeller? The promise and peril of AI-assisted mechanistic models (MEE, 26 Oct)",
+  "authors": [
+   "Alex Sen Gupta"
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "pub_date": "2026-10-26",
+  "doi": "10.1111/2041-210x.70436",
+  "url": "https://doi.org/10.1111/2041-210x.70436",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "generative AI",
+   "mechanistic models"
+  ],
+  "topics": [
+   "AI-assisted coding",
+   "model assumptions",
+   "research practice"
+  ],
+  "summary": "Sen Gupta works through a predator–prey model built with AI and shows where decisions get quietly delegated: hidden assumptions, and plausible but wrong code. The fixes are practical.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "study_type": "Perspective",
+  "issue_url": "../issues/002.html#s12",
+  "relevance": 2,
+  "id": "002-0056",
+  "realms": [],
+  "modality_groups": [],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "taxa": [],
+  "similar": [],
+  "zotero": true,
+  "venue_clean": "Methods in Ecology and Evolution",
+  "detail_url": "item/002-0056.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Policy and ocean news",
+  "title": "CBD COP17 closes in Yerevan with the “Yerevan Pathway” (31 Oct)",
+  "digest_headline": "CBD COP17 closes in Yerevan with the “Yerevan Pathway” (31 Oct)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.cbd.int/article/cop-17-closes",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "CBD COP17",
+   "Kunming-Montreal GBF",
+   "policy",
+   "biodiversity finance"
+  ],
+  "summary": "The first global review found the world off track on the Kunming-Montreal framework's 23 targets for 2030. Nearly 50 decisions were adopted, including on marine and coastal biodiversity, with nearly US$2bn in new funding announcements and rules (the “Sevan Guidelines”) for the new Article 8(j) body on Indigenous peoples and local communities.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Terrestrial"
+  ],
+  "issue_url": "../issues/002.html#s13",
+  "relevance": 1,
+  "id": "002-0057",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "Review",
+  "similar": [
+   "001-0008",
+   "002-0059",
+   "002-0044"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0057.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Policy and ocean news",
+  "title": "Fiji gets US$35.2m from the Green Climate Fund for the Great Sea Reef (29 Oct)",
+  "digest_headline": "Fiji gets US$35.2m from the Green Climate Fund for the Great Sea Reef (29 Oct)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://pina.com.fj/2026/10/29/fiji-secures-us35-2m-gcf-grant-to-protect-great-sea-reef/",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "Fiji",
+   "Green Climate Fund",
+   "reef resilience",
+   "mangroves"
+  ],
+  "summary": "Part of a US$42.6m ridge-to-reef project: more than 3,000 ha of mangrove and riparian restoration, climate-resilient management over 2.58 million ha of reef, and a locally led adaptation fund. PINA",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "issue_url": "../issues/002.html#s13",
+  "relevance": 2,
+  "id": "002-0058",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [
+   "Plants"
+  ],
+  "study_type": "",
+  "similar": [
+   "002-0059",
+   "001-0015",
+   "001-0009",
+   "002-0062"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0058.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Policy and ocean news",
+  "title": "Pemba's community co-managed MPAs, 1,300 km² of reef, mangrove and seagrass (Mongabay, 29 Oct)",
+  "digest_headline": "Pemba's community co-managed MPAs, 1,300 km² of reef, mangrove and seagrass (Mongabay, 29 Oct)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://news.mongabay.com/2026/10/pembas-new-marine-protected-areas-show-the-power-of-collaboration-to-meet-30x30-goal/",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "MPAs",
+   "co-management",
+   "30x30",
+   "Tanzania"
+  ],
+  "summary": "Two new conservation areas off Pemba (Zanzibar, Tanzania) were gazetted in June 2026 after work with more than 20 communities. Blue Alliance reports patrols up more than 50% and illegal activity down about 45%.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "issue_url": "../issues/002.html#s13",
+  "relevance": 2,
+  "id": "002-0059",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [
+   "Plants"
+  ],
+  "study_type": "",
+  "similar": [
+   "002-0058",
+   "002-0057",
+   "002-0041"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0059.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Conferences, workshops, events and training",
+  "title": "African Bioacoustics Community conference (21–27 Nov) and Mpala workshop (29 Nov–4 Dec), Kenya",
+  "digest_headline": "African Bioacoustics Community conference (21–27 Nov) and Mpala workshop (29 Nov–4 Dec), Kenya",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.africanbioacoustics.org/",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "bioacoustics",
+   "workshop",
+   "machine learning",
+   "Kenya"
+  ],
+  "summary": "The organisers list the conference at Lake Naivasha as hybrid, with online presentation possible (abstracts have closed). The residential Little Bioacoustics Jamii workshop at Mpala covers data collection, big datasets and ML for automated detection. africanbioacoustics.org · Mpala workshop",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Acoustics"
+  ],
+  "issue_url": "../issues/002.html#s14",
+  "relevance": 2,
+  "id": "002-0060",
+  "realms": [
+   "Freshwater"
+  ],
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "taxa": [],
+  "study_type": "",
+  "similar": [
+   "001-0025",
+   "002-0061",
+   "001-0027",
+   "001-0026",
+   "002-0050"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0060.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Conferences, workshops, events and training",
+  "title": "ASAB/PSGB Winter Meeting: social learning and culture, Edinburgh, 8–10 Dec",
+  "digest_headline": "ASAB/PSGB Winter Meeting: social learning and culture, Edinburgh, 8–10 Dec",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://asabpsgbwinter.github.io/2026/registration/",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "ASAB",
+   "animal behaviour",
+   "social learning",
+   "conference"
+  ],
+  "summary": "The ASAB days (8–9 Dec) can be attended online. The PSGB day (10 Dec) costs £35–£100.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "issue_url": "../issues/002.html#s14",
+  "relevance": 1,
+  "id": "002-0061",
+  "realms": [],
+  "modality_groups": [],
+  "tasks": [
+   "Behaviour classification"
+  ],
+  "taxa": [],
+  "study_type": "",
+  "similar": [
+   "002-0065",
+   "001-0025",
+   "002-0060",
+   "002-0034",
+   "001-0027",
+   "002-0031"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0061.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Conferences, workshops, events and training",
+  "title": "Coming up: UN climate summit COP31, Antalya, 9–20 Nov",
+  "digest_headline": "Coming up: UN climate summit COP31, Antalya, 9–20 Nov",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.un.org/en/climatechange/cop31",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "UNFCCC",
+   "COP31",
+   "climate policy",
+   "ocean"
+  ],
+  "summary": "It follows straight on from the biodiversity COP. Worth watching for ocean and coastal-resilience outcomes.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "issue_url": "../issues/002.html#s14",
+  "relevance": 1,
+  "id": "002-0062",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "",
+  "similar": [
+   "002-0058"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0062.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Funding radar",
+  "title": "Challenger Society Travel Awards: next deadline 15 Jan 2027",
+  "digest_headline": "Challenger Society Travel Awards: next deadline 15 Jan 2027",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://challenger-society.org.uk/awards-and-grants/travel-awards/",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "travel award",
+   "Challenger Society"
+  ],
+  "summary": "For student members at UK institutions: £250 (UK) or £500 (international) for conferences, cruises or fieldwork. PhD students can receive two awards.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "issue_url": "../issues/002.html#s15",
+  "relevance": 1,
+  "id": "002-0063",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "Empirical / field",
+  "similar": [
+   "002-0064",
+   "001-0027",
+   "001-0030",
+   "002-0065",
+   "001-0028",
+   "001-0029"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0063.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Funding radar",
+  "title": "MBA Student Travel Bursary: round 2 runs 5 Jan–16 Feb 2027",
+  "digest_headline": "MBA Student Travel Bursary: round 2 runs 5 Jan–16 Feb 2027",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://mymba.mba.ac.uk/student-bursary-application.html",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "travel bursary",
+   "Marine Biological Association"
+  ],
+  "summary": "Student/Postgraduate MBA members only, with a supervisor letter. Each round gives one award of up to £500 and two of up to £250.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "issue_url": "../issues/002.html#s15",
+  "relevance": 1,
+  "id": "002-0064",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "",
+  "similar": [
+   "002-0063",
+   "001-0027",
+   "001-0030",
+   "002-0065",
+   "001-0028",
+   "001-0029"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0064.html"
+ },
+ {
+  "issue": "002",
+  "issue_date": "2026-11-02",
+  "section": "Funding radar",
+  "title": "One for later: ASAB Research Grants (next deadline 1 Feb 2027)",
+  "digest_headline": "One for later: ASAB Research Grants (next deadline 1 Feb 2027)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.asab.org/research-grants",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "ASAB",
+   "research grant",
+   "postdoc planning"
+  ],
+  "summary": "Up to £10,000 (£15,000 with justification) for pilot behaviour projects. You need a PhD and 12 months' membership, and it won't fund thesis work, so this is postdoc planning.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "issue_url": "../issues/002.html#s15",
+  "relevance": 1,
+  "id": "002-0065",
+  "realms": [],
+  "modality_groups": [],
+  "tasks": [
+   "Behaviour classification"
+  ],
+  "taxa": [],
+  "study_type": "",
+  "similar": [
+   "001-0028",
+   "001-0029",
+   "002-0061",
+   "001-0030",
+   "002-0063",
+   "001-0027"
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/002-0065.html"
  }
 ]
