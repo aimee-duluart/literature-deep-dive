@@ -49,9 +49,10 @@ button,.tab,.chip,.view,.acts a.srch,.acts a,.modes button,.views button,#prefba
 #hdr{border-radius:24px!important;border:1px solid #cdebf0!important;box-shadow:0 4px 18px rgba(21,49,74,.08)}
 #hdr h1{color:#15314a;text-shadow:none!important}
 #hdr{border-left:1px solid #cdebf0!important;background:linear-gradient(135deg,#ccedf4 0%,#e5f6f3 55%,#fde9ee 100%)!important}
-</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"></head><body><main>
+.pst{font-size:10px;letter-spacing:.5px;text-transform:uppercase;border:1px solid var(--line);color:var(--mut);padding:1px 6px;margin-left:6px;border-radius:9px;background:var(--panel)}.pst.pre{border-color:#e7a33e;color:#9a5a00}.pst.rev{border-color:#0b6e7f;color:#0b6e7f}
+</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><script src="sync.js"></script></head><body><main>
 <header id="hdr"><div><h1>☆ Shortlist</h1><p class="m" style="margin:2px 0 0">Papers you sent to Nudibranchi, waiting for your vetting. Kept separate from the archive.</p></div>
-<p class="m" style="margin:0"><a href="./">← Archive</a> · <a href="search.html">🔎 Literature search</a> · <a href="../">Digest home</a></p></header>
+<p class="m" style="margin:0"><a href="./">← Archive</a> · <a href="search.html">🔎 Literature search</a> · <a href="graph.html">◌ Graph view</a> · <a href="../">Digest home</a></p></header>
 <div class="intro">Nothing here appears in the archive, its tabs, filters, "More like this" or search badges. When a paper earns its place, press <b>Add to archive</b> (an email to Nudibranchi with your reason). <b>Remove from shortlist</b> drops it. Stars and "Not interested" are saved in this browser only.</div>
 <input id="q" type="search" placeholder="Search the shortlist: titles, authors, summaries, notes, tags…" autocomplete="off">
 <div class="views" id="views"></div><div id="count"></div><div id="list"></div>
@@ -61,6 +62,8 @@ const MAIL="pk-neuro-digest+deepdive@mail.grokbot.com";
 const $=id=>document.getElementById(id),esc=t=>String(t??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const st=(()=>{try{return JSON.parse(localStorage.getItem("ldd-shortlist")||"{}")}catch(e){return{}}})();st.star=st.star||{};st.ni=st.ni||{};
 const save=()=>{try{localStorage.setItem("ldd-shortlist",JSON.stringify(st))}catch(e){}};
+window.NDDSync&&NDDSync.on("ldd-shortlist",x=>{Object.keys(st).forEach(k=>delete st[k]);Object.assign(st,x);st.star=st.star||{};st.ni=st.ni||{};if(typeof ITEMS!=="undefined"&&ITEMS.length)render()});
+const PSB=i=>i.pub_status?`<span class="pst${/reviewed preprint/i.test(i.pub_status)?" rev":/preprint/i.test(i.pub_status)?" pre":""}" title="Publication status">${esc(i.pub_status)}</span>`:"";
 const VIEWS=[["all","All"],["star","⭐ Starred"],["ni","🙈 Not interested"]];let V="all",Q="",ITEMS=[];
 const auT=a=>(a||[]).length>6?a.slice(0,6).join(", ")+` +${a.length-6} more`:(a||[]).join(", ");
 const ref=i=>i.doi?"https://doi.org/"+i.doi:(i.url||"");
@@ -70,7 +73,7 @@ function coins(i){const k=(a,b)=>a+"="+encodeURIComponent(b),q=["ctx_ver=Z39.88-
  if(i.venue_clean)q.push(k("rft.jtitle",i.venue_clean));(i.authors||[]).forEach(a=>q.push(k("rft.au",a)));if(i.pub_date)q.push(k("rft.date",i.pub_date));if(i.doi)q.push(k("rft_id","info:doi/"+i.doi));if(i.url)q.push(k("rft_id",i.url));return q.join("&")}
 const TEXT=i=>[i.title,(i.authors||[]).join(" "),i.summary,i.caveats,i.notes,i.venue,i.seed,(i.realms||[]).join(" "),(i.modality_groups||[]).join(" "),(i.tasks||[]).join(" "),(i.taxa||[]).join(" "),(i.methods||[]).join(" "),(i.populations||[]).join(" "),(i.topics||[]).join(" ")].join(" ").toLowerCase();
 function card(i){const tags=[...(i.realms||[]),...(i.modality_groups||[]),...(i.tasks||[]),...(i.study_type?[i.study_type]:[]),...(i.taxa||[]),...(i.methods||[]),...(i.populations||[]),...(i.topics||[]).map(t=>"#"+t)];const r=i.relevance||0;
- return `<article class="card">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">☆ Shortlist${i.added_date?" · added "+esc(i.added_date):""}</span><span class="ty">${esc(i.item_type||"")}${i.status&&i.status!=="shortlisted"?" · "+esc(i.status):""}</span><span class="ty" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
+ return `<article class="card">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">☆ Shortlist${i.added_date?" · added "+esc(i.added_date):""}</span><span class="ty">${esc(i.item_type||"")}${i.status&&i.status!=="shortlisted"?" · "+esc(i.status):""}</span>${PSB(i)}<span class="ty" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
  <h3>${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>`:esc(i.title)}</h3>
  ${(i.authors||[]).length?`<div class="au">${esc(auT(i.authors))}</div>`:""}<div class="m">${esc(i.venue||"")}${i.pub_date?" · "+esc(i.pub_date):""}${i.doi?" · doi:"+esc(i.doi):""}${i.verified===false?' · <span style="color:var(--red)">UNVERIFIED</span>':""}</div>
  ${i.seed?`<div class="m" style="margin-top:3px">found via: ${esc(i.seed)}</div>`:""}

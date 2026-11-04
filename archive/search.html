@@ -59,10 +59,11 @@ button,.tab,.chip,.view,.acts a.srch,.acts a,.modes button,.views button,#prefba
 #hdr{border-radius:24px!important;border:1px solid #cdebf0!important;box-shadow:0 4px 18px rgba(21,49,74,.08)}
 #hdr h1{color:#15314a;text-shadow:none!important}
 #hdr{background:linear-gradient(135deg,#ccedf4 0%,#e5f6f3 55%,#fde9ee 100%)!important}
-</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"></head><body><main>
+.pst{font-size:10px;letter-spacing:.5px;text-transform:uppercase;border:1px solid var(--line);color:var(--mut);padding:1px 6px;margin-left:6px;border-radius:9px;background:var(--panel)}.pst.pre{border-color:#e7a33e;color:#9a5a00}.pst.rev{border-color:#0b6e7f;color:#0b6e7f}
+</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><script src="sync.js"></script></head><body><main>
 <header id="hdr"><div><svg width="260" height="20" viewBox="0 0 260 20" aria-hidden="true"><path fill="none" stroke="#2aa6a0" stroke-width="1.4" d="M0 10 Q10 4 20 10 T40 10 T60 10 T80 10 T100 10 T120 10 T140 10 T160 10 T180 10 T200 10 T220 10 T240 10 T260 10"/><path fill="none" stroke="#c43a67" stroke-width="1.4" d="M120 19 V12 M120 14 L114 8 M120 13 L126 6 M126 6 L124 2 M126 6 L130 4"/><circle cx="60" cy="5" r="1.6" fill="none" stroke="#15314a"/><circle cx="200" cy="4" r="1.2" fill="none" stroke="#15314a"/></svg>
 <h1>Literature search</h1><p class="m" style="margin:2px 0 0">Free: runs in your browser against Semantic Scholar, OpenAlex and Europe PMC. No Nudibranchi credit used.</p></div>
-<p class="m" style="margin:0"><a href="./">← Archive</a> · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="../">Digest home</a></p></header>
+<p class="m" style="margin:0"><a href="./">← Archive</a> · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="graph.html">◌ Graph view</a> · <a href="../">Digest home</a></p></header>
 <div id="seedbox"></div>
 <div class="box">
 <div class="modes"><button data-mode="similar" id="msim">Similar to this paper</button><button data-mode="keyword" id="mkey">Keyword search</button></div>
@@ -94,6 +95,7 @@ const FIELDS=["q","y1","y2","type","venue","minc","inc","exc","sort","n"];
 const STOP=new Set("a an the and or of in on for to with by from at as is are was were be this that these those its it into vs via than not no after during using under among between single new study trial effects effect shapes context signatures toward towards evidence role".split(" "));
 let ARC=[],SL=[],inA={},inS={},SEED=null,MODE="keyword";
 const sent=(()=>{try{return JSON.parse(localStorage.getItem("ldd-search-sent")||"{}")}catch(e){return{}}})();
+window.NDDSync&&NDDSync.on("ldd-search-sent",x=>{Object.keys(sent).forEach(k=>delete sent[k]);Object.assign(sent,x)});
 function keyOf(p){return p.doi?ndoi(p.doi):nt(p.title)}
 // ---------- normalisers -> {title,authors,year,date,venue,doi,url,abstract,tldr,cites,oa,pdf,type,src}
 const PRE=/arxiv|biorxiv|medrxiv|psyarxiv|research square|ssrn|preprint|osf/i;

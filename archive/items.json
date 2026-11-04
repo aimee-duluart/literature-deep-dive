@@ -52,12 +52,23 @@
   "issue_url": "../issues/001.html#s01",
   "id": "001-0000",
   "modality_groups": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0041",
    "001-0003",
    "002-0035",
    "001-0010",
    "002-0036"
+  ],
+  "similar_w": [
+   0.087,
+   0.066,
+   0.065,
+   0.062,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "Nature",
@@ -128,10 +139,22 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Tracking / pose",
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0012",
    "001-0011",
    "002-0034"
+  ],
+  "similar_w": [
+   0.103,
+   0.073,
+   0.07
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -200,10 +223,21 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Tracking / pose",
+   "Classification / recognition",
+   "Network analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0053",
    "001-0019",
    "002-0046"
+  ],
+  "similar_w": [
+   0.19,
+   0.098,
+   0.074
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -256,11 +290,23 @@
   "id": "001-0003",
   "modality_groups": [],
   "taxa": [],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0035",
    "002-0036",
    "001-0000",
    "002-0032"
+  ],
+  "similar_w": [
+   0.145,
+   0.092,
+   0.066,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -322,10 +368,20 @@
    "Video / imagery",
    "Multimodal"
   ],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0052",
    "002-0045",
    "001-0018"
+  ],
+  "similar_w": [
+   0.107,
+   0.069,
+   0.068
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -383,8 +439,17 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Tracking / pose",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0039"
+  ],
+  "similar_w": [
+   0.065
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -441,6 +506,13 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Foundation / multimodal models",
+   "Acoustic analysis",
+   "Network analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0039",
    "001-0017",
@@ -448,6 +520,14 @@
    "002-0037",
    "001-0011",
    "002-0054"
+  ],
+  "similar_w": [
+   0.08,
+   0.077,
+   0.066,
+   0.06,
+   0.054,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -503,7 +583,15 @@
    "Acoustics"
   ],
   "taxa": [],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Acoustic analysis",
+   "Statistical / ecological modelling",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [],
+  "similar_w": [],
   "zotero": true,
   "venue_clean": "PLOS One",
   "detail_url": "item/001-0007.html"
@@ -559,6 +647,10 @@
   "issue_url": "../issues/001.html#s05",
   "id": "001-0008",
   "modality_groups": [],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0041",
    "001-0009",
@@ -566,6 +658,14 @@
    "001-0010",
    "002-0044",
    "001-0015"
+  ],
+  "similar_w": [
+   0.111,
+   0.106,
+   0.092,
+   0.081,
+   0.075,
+   0.072
   ],
   "zotero": true,
   "venue_clean": "California Digital Library (CDL)",
@@ -626,6 +726,8 @@
   "taxa": [
    "Corals"
   ],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0041",
    "001-0008",
@@ -633,6 +735,14 @@
    "002-0042",
    "001-0015",
    "002-0044"
+  ],
+  "similar_w": [
+   0.149,
+   0.106,
+   0.103,
+   0.084,
+   0.077,
+   0.072
   ],
   "zotero": true,
   "venue_clean": "Nature Communications",
@@ -692,6 +802,10 @@
   "relevance": 3,
   "id": "001-0010",
   "modality_groups": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0015",
    "002-0041",
@@ -699,6 +813,14 @@
    "001-0014",
    "002-0044",
    "001-0009"
+  ],
+  "similar_w": [
+   0.135,
+   0.087,
+   0.081,
+   0.078,
+   0.07,
+   0.068
   ],
   "zotero": true,
   "venue_clean": "Frontiers in Marine Science",
@@ -759,6 +881,12 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0013",
    "002-0037",
@@ -766,6 +894,14 @@
    "002-0035",
    "001-0021",
    "001-0006"
+  ],
+  "similar_w": [
+   0.095,
+   0.089,
+   0.073,
+   0.064,
+   0.063,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -822,8 +958,16 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Tracking / pose"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0001"
+  ],
+  "similar_w": [
+   0.103
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -878,10 +1022,19 @@
    "Video / imagery"
   ],
   "taxa": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0011",
    "002-0031",
    "001-0021"
+  ],
+  "similar_w": [
+   0.095,
+   0.065,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Sensors",
@@ -942,6 +1095,8 @@
   "relevance": 3,
   "id": "001-0014",
   "modality_groups": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0010",
    "001-0015",
@@ -949,6 +1104,14 @@
    "002-0044",
    "002-0042",
    "002-0041"
+  ],
+  "similar_w": [
+   0.078,
+   0.072,
+   0.072,
+   0.067,
+   0.064,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "Scientific Reports",
@@ -1004,6 +1167,8 @@
   "relevance": 3,
   "id": "001-0015",
   "modality_groups": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0010",
    "002-0044",
@@ -1011,6 +1176,14 @@
    "001-0009",
    "002-0041",
    "001-0014"
+  ],
+  "similar_w": [
+   0.135,
+   0.092,
+   0.082,
+   0.077,
+   0.074,
+   0.072
   ],
   "zotero": true,
   "venue_clean": "Restoration Ecology",
@@ -1070,10 +1243,17 @@
   "tasks": [
    "Behaviour classification"
   ],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0023",
    "002-0036",
    "002-0031"
+  ],
+  "similar_w": [
+   0.096,
+   0.068,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -1131,9 +1311,18 @@
   "tasks": [
    "Monitoring"
   ],
+  "method_groups": [
+   "Field monitoring / survey",
+   "Remote sensing / drones"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0006",
    "002-0039"
+  ],
+  "similar_w": [
+   0.077,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the National Academy of Sciences",
@@ -1195,9 +1384,19 @@
    "Multimodal"
   ],
   "taxa": [],
+  "method_groups": [
+   "Tracking / pose",
+   "Remote sensing / drones",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0004",
    "002-0034"
+  ],
+  "similar_w": [
+   0.068,
+   0.051
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1253,11 +1452,22 @@
    "Acoustics"
   ],
   "tasks": [],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0002",
    "002-0052",
    "001-0021",
    "002-0039"
+  ],
+  "similar_w": [
+   0.098,
+   0.077,
+   0.077,
+   0.055
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1319,9 +1529,18 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Classification / recognition",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0037",
    "001-0011"
+  ],
+  "similar_w": [
+   0.236,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Remote Sensing in Ecology and Conservation",
@@ -1380,12 +1599,26 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Foundation / multimodal models",
+   "Acoustic analysis",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0031",
    "001-0019",
    "002-0046",
    "001-0011",
    "001-0013"
+  ],
+  "similar_w": [
+   0.093,
+   0.077,
+   0.068,
+   0.063,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -1449,10 +1682,17 @@
   "modality_groups": [],
   "tasks": [],
   "taxa": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0049",
    "002-0050",
    "002-0055"
+  ],
+  "similar_w": [
+   0.096,
+   0.063,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -1505,9 +1745,18 @@
   "modality_groups": [],
   "tasks": [],
   "taxa": [],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0036",
    "001-0016"
+  ],
+  "similar_w": [
+   0.119,
+   0.096
   ],
   "zotero": true,
   "venue_clean": "Nature Ecology &amp; Evolution",
@@ -1566,8 +1815,15 @@
   "tasks": [
    "Interaction classification"
   ],
+  "method_groups": [
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0009"
+  ],
+  "similar_w": [
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Nature Food",
@@ -1606,11 +1862,19 @@
   "tasks": [],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0061",
    "001-0027",
    "001-0030",
    "002-0060"
+  ],
+  "similar_w": [
+   0.164,
+   0.135,
+   0.095,
+   0.08
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1654,9 +1918,15 @@
   "tasks": [],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0030",
    "002-0060"
+  ],
+  "similar_w": [
+   0.093,
+   0.058
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1696,6 +1966,8 @@
   "modality_groups": [],
   "tasks": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0028",
    "001-0030",
@@ -1703,6 +1975,14 @@
    "001-0025",
    "002-0064",
    "002-0065"
+  ],
+  "similar_w": [
+   0.534,
+   0.222,
+   0.145,
+   0.135,
+   0.117,
+   0.084
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1744,6 +2024,8 @@
   "modality_groups": [],
   "tasks": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0027",
    "002-0065",
@@ -1751,6 +2033,14 @@
    "002-0063",
    "001-0030",
    "002-0064"
+  ],
+  "similar_w": [
+   0.534,
+   0.263,
+   0.104,
+   0.101,
+   0.083,
+   0.065
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1791,11 +2081,19 @@
   ],
   "taxa": [],
   "study_type": "Empirical / field",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0065",
    "001-0028",
    "002-0063",
    "002-0064"
+  ],
+  "similar_w": [
+   0.201,
+   0.104,
+   0.089,
+   0.057
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1833,6 +2131,8 @@
   "tasks": [],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0027",
    "002-0063",
@@ -1840,6 +2140,14 @@
    "002-0064",
    "001-0025",
    "001-0026"
+  ],
+  "similar_w": [
+   0.222,
+   0.143,
+   0.116,
+   0.104,
+   0.095,
+   0.093
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1907,6 +2215,13 @@
    "Video / imagery",
    "Multimodal"
   ],
+  "method_groups": [
+   "Tracking / pose",
+   "Foundation / multimodal models",
+   "Acoustic analysis",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0021",
    "002-0038",
@@ -1914,6 +2229,14 @@
    "001-0013",
    "001-0011",
    "001-0016"
+  ],
+  "similar_w": [
+   0.093,
+   0.089,
+   0.073,
+   0.065,
+   0.054,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1969,12 +2292,24 @@
   "relevance": 3,
   "id": "002-0032",
   "modality_groups": [],
+  "method_groups": [
+   "Network analysis",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0036",
    "001-0003",
    "002-0035",
    "002-0055",
    "001-0014"
+  ],
+  "similar_w": [
+   0.068,
+   0.064,
+   0.056,
+   0.054,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "Behavioral Ecology",
@@ -2030,8 +2365,15 @@
   "relevance": 3,
   "id": "002-0033",
   "modality_groups": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0014"
+  ],
+  "similar_w": [
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -2099,11 +2441,22 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Tracking / pose",
+   "Foundation / multimodal models"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0031",
    "001-0001",
    "002-0061",
    "001-0018"
+  ],
+  "similar_w": [
+   0.073,
+   0.07,
+   0.064,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2161,6 +2514,11 @@
    "Text"
   ],
   "taxa": [],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Network analysis"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0003",
    "002-0055",
@@ -2168,6 +2526,14 @@
    "001-0011",
    "002-0032",
    "002-0036"
+  ],
+  "similar_w": [
+   0.145,
+   0.077,
+   0.065,
+   0.064,
+   0.056,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Ecology and Evolution",
@@ -2221,6 +2587,11 @@
   "relevance": 3,
   "id": "002-0036",
   "modality_groups": [],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0023",
    "001-0003",
@@ -2228,6 +2599,14 @@
    "001-0016",
    "002-0040",
    "001-0000"
+  ],
+  "similar_w": [
+   0.119,
+   0.092,
+   0.068,
+   0.068,
+   0.057,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -2291,11 +2670,25 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Acoustic analysis",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0020",
    "001-0011",
    "001-0006",
    "002-0031"
+  ],
+  "similar_w": [
+   0.236,
+   0.089,
+   0.06,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2355,8 +2748,16 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Acoustic analysis",
+   "Network analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0031"
+  ],
+  "similar_w": [
+   0.089
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2422,11 +2823,19 @@
    "Acoustics",
    "Biologging"
   ],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0006",
    "001-0005",
    "001-0017",
    "001-0019"
+  ],
+  "similar_w": [
+   0.08,
+   0.065,
+   0.062,
+   0.055
   ],
   "zotero": true,
   "venue_clean": "Royal Society Open Science",
@@ -2488,10 +2897,20 @@
   "modality_groups": [
    "Acoustics"
   ],
+  "method_groups": [
+   "Classification / recognition",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0054",
    "002-0048",
    "002-0036"
+  ],
+  "similar_w": [
+   0.08,
+   0.06,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Zoological Research",
@@ -2549,6 +2968,11 @@
   "issue_url": "../issues/002.html#s05",
   "id": "002-0041",
   "modality_groups": [],
+  "method_groups": [
+   "Tracking / pose",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0009",
    "002-0043",
@@ -2556,6 +2980,14 @@
    "001-0000",
    "002-0044",
    "001-0010"
+  ],
+  "similar_w": [
+   0.149,
+   0.123,
+   0.111,
+   0.087,
+   0.087,
+   0.087
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2607,6 +3039,8 @@
   "relevance": 3,
   "id": "002-0042",
   "modality_groups": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0009",
    "001-0015",
@@ -2614,6 +3048,14 @@
    "002-0041",
    "001-0014",
    "001-0008"
+  ],
+  "similar_w": [
+   0.084,
+   0.072,
+   0.072,
+   0.065,
+   0.064,
+   0.06
   ],
   "zotero": true,
   "venue_clean": "Marine Ecology Progress Series",
@@ -2667,12 +3109,23 @@
   "id": "002-0043",
   "modality_groups": [],
   "tasks": [],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0041",
    "001-0009",
    "002-0044",
    "002-0054",
    "001-0008"
+  ],
+  "similar_w": [
+   0.123,
+   0.103,
+   0.098,
+   0.078,
+   0.063
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -2722,6 +3175,8 @@
    "Video / imagery"
   ],
   "tasks": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0043",
    "001-0015",
@@ -2729,6 +3184,14 @@
    "001-0008",
    "001-0009",
    "002-0042"
+  ],
+  "similar_w": [
+   0.098,
+   0.092,
+   0.087,
+   0.075,
+   0.072,
+   0.072
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -2789,9 +3252,18 @@
    "Video / imagery",
    "Remote sensing"
   ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Remote sensing / drones"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0004",
    "002-0048"
+  ],
+  "similar_w": [
+   0.069,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2848,12 +3320,23 @@
    "Species detection"
   ],
   "taxa": [],
+  "method_groups": [
+   "Object detection / segmentation"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0002",
    "001-0021",
    "001-0006",
    "002-0052",
    "001-0011"
+  ],
+  "similar_w": [
+   0.074,
+   0.068,
+   0.066,
+   0.062,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2912,9 +3395,19 @@
    "Multimodal"
   ],
   "taxa": [],
+  "method_groups": [
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Network analysis"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "002-0052",
    "002-0053"
+  ],
+  "similar_w": [
+   0.074,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2973,9 +3466,17 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Object detection / segmentation"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0040",
    "002-0045"
+  ],
+  "similar_w": [
+   0.06,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "Conservation Biology",
@@ -3033,9 +3534,17 @@
    "eDNA"
   ],
   "taxa": [],
+  "method_groups": [
+   "Molecular / eDNA"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0022",
    "001-0008"
+  ],
+  "similar_w": [
+   0.096,
+   0.068
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3089,11 +3598,21 @@
   "modality_groups": [],
   "tasks": [],
   "taxa": [],
+  "method_groups": [
+   "Network analysis"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "001-0022",
    "002-0060",
    "002-0055",
    "002-0035"
+  ],
+  "similar_w": [
+   0.063,
+   0.053,
+   0.052,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -3147,7 +3666,13 @@
   "taxa": [
    "Plants"
   ],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [],
+  "similar_w": [],
   "zotero": true,
   "venue_clean": "Proceedings of the National Academy of Sciences",
   "detail_url": "item/002-0051.html"
@@ -3210,6 +3735,11 @@
    "Video / imagery",
    "Multimodal"
   ],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0004",
    "001-0019",
@@ -3217,6 +3747,14 @@
    "002-0046",
    "002-0053",
    "002-0054"
+  ],
+  "similar_w": [
+   0.107,
+   0.077,
+   0.074,
+   0.062,
+   0.055,
+   0.052
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -3276,10 +3814,22 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Tracking / pose",
+   "Classification / recognition",
+   "Network analysis",
+   "Molecular / eDNA"
+  ],
+  "pub_status": "Preprint",
   "similar": [
    "001-0002",
    "002-0052",
    "002-0047"
+  ],
+  "similar_w": [
+   0.19,
+   0.055,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3343,11 +3893,21 @@
   "modality_groups": [
    "Video / imagery"
   ],
+  "method_groups": [
+   "Classification / recognition"
+  ],
+  "pub_status": "Peer reviewed",
   "similar": [
    "002-0040",
    "002-0043",
    "001-0006",
    "002-0052"
+  ],
+  "similar_w": [
+   0.08,
+   0.078,
+   0.054,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Journal of Fish Biology",
@@ -3397,11 +3957,19 @@
   "issue_url": "../issues/002.html#s12",
   "id": "002-0055",
   "modality_groups": [],
+  "method_groups": [],
+  "pub_status": "Preprint",
   "similar": [
    "002-0035",
    "001-0022",
    "002-0032",
    "002-0050"
+  ],
+  "similar_w": [
+   0.077,
+   0.057,
+   0.054,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3447,7 +4015,10 @@
    "Interaction classification"
   ],
   "taxa": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
   "similar": [],
+  "similar_w": [],
   "zotero": true,
   "venue_clean": "Methods in Ecology and Evolution",
   "detail_url": "item/002-0056.html"
@@ -3491,10 +4062,17 @@
   "tasks": [],
   "taxa": [],
   "study_type": "Review",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0008",
    "002-0059",
    "002-0044"
+  ],
+  "similar_w": [
+   0.092,
+   0.062,
+   0.055
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3539,11 +4117,19 @@
    "Plants"
   ],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0059",
    "001-0015",
    "001-0009",
    "002-0062"
+  ],
+  "similar_w": [
+   0.146,
+   0.082,
+   0.057,
+   0.055
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3588,10 +4174,17 @@
    "Plants"
   ],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0058",
    "002-0057",
    "002-0041"
+  ],
+  "similar_w": [
+   0.146,
+   0.062,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3640,12 +4233,23 @@
   ],
   "taxa": [],
   "study_type": "",
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "",
   "similar": [
    "001-0025",
    "002-0061",
    "001-0027",
    "001-0026",
    "002-0050"
+  ],
+  "similar_w": [
+   0.08,
+   0.077,
+   0.064,
+   0.058,
+   0.053
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3687,6 +4291,8 @@
   ],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0065",
    "001-0025",
@@ -3694,6 +4300,14 @@
    "002-0034",
    "001-0027",
    "002-0031"
+  ],
+  "similar_w": [
+   0.182,
+   0.164,
+   0.077,
+   0.064,
+   0.063,
+   0.052
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3735,8 +4349,13 @@
   "tasks": [],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0058"
+  ],
+  "similar_w": [
+   0.055
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3776,6 +4395,8 @@
   "tasks": [],
   "taxa": [],
   "study_type": "Empirical / field",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0064",
    "001-0027",
@@ -3783,6 +4404,14 @@
    "002-0065",
    "001-0028",
    "001-0029"
+  ],
+  "similar_w": [
+   0.222,
+   0.145,
+   0.143,
+   0.106,
+   0.101,
+   0.089
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3822,6 +4451,8 @@
   "tasks": [],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "002-0063",
    "001-0027",
@@ -3829,6 +4460,14 @@
    "002-0065",
    "001-0028",
    "001-0029"
+  ],
+  "similar_w": [
+   0.222,
+   0.117,
+   0.104,
+   0.079,
+   0.065,
+   0.057
   ],
   "zotero": false,
   "venue_clean": "",
@@ -3869,6 +4508,8 @@
   ],
   "taxa": [],
   "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
   "similar": [
    "001-0028",
    "001-0029",
@@ -3876,6 +4517,14 @@
    "001-0030",
    "002-0063",
    "001-0027"
+  ],
+  "similar_w": [
+   0.263,
+   0.201,
+   0.182,
+   0.116,
+   0.106,
+   0.084
   ],
   "zotero": false,
   "venue_clean": "",

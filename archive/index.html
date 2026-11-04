@@ -74,11 +74,12 @@ button,.tab,.chip,.view,.acts a.srch,.acts a,.modes button,.views button,#prefba
 #hdr .ro{display:none}
 #hdr .ht{border-radius:24px 0 0 24px}
 @media (max-width:600px){#hdr{background:#fff!important;overflow:hidden}#hdr .ht{padding:10px 16px 14px!important}}
-</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"></head><body><main>
+.pst{font-size:10px;letter-spacing:.5px;text-transform:uppercase;border:1px solid var(--line);color:var(--mut);padding:1px 6px;margin-left:6px;border-radius:9px;background:var(--panel)}.pst.pre{border-color:#e7a33e;color:#9a5a00}.pst.rev{border-color:#0b6e7f;color:#0b6e7f}
+</style><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><script src="sync.js"></script></head><body><main>
 <header id="hdr" aria-label="The Archive"><canvas id="sea" aria-hidden="true"></canvas>
 <div class="ro" aria-hidden="true"><span class="rd">surface · reef crest · <b>❀</b><br></span><span id="depth">depth 0 m</span></div>
 <div class="ht"><h1>The Archive</h1>
-<p class="m" style="margin:0"><a href="../">Literature Deep Dive</a> · every vetted newsletter item and Amy's picks · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="search.html">🔎 Literature search</a></p></div></header>
+<p class="m" style="margin:0"><a href="../">Literature Deep Dive</a> · every vetted newsletter item and Amy's picks · <a href="shortlist.html" id="sllink">Shortlist</a> · <a href="search.html">🔎 Literature search</a> · <a href="graph.html">◌ Graph view</a></p></div></header>
 <input id="q" type="search" placeholder="Search titles, authors, summaries, caveats, tags, notes…" autocomplete="off">
 <div class="tabs" id="tabs"></div>
 <div class="row" id="views"></div>
@@ -88,7 +89,7 @@ button,.tab,.chip,.view,.acts a.srch,.acts a,.modes button,.views button,#prefba
 <details id="more"><summary>More filters · method, taxon group, date &amp; venue, PhD relevance</summary><div class="grid" id="selects"></div></details>
 <div id="simbar"></div>
 <div id="bar"><span id="count"></span><button id="clear">Clear all</button></div><div id="list"></div>
-<p class="m">Stars, read status, "Not interested" and "More like this" signals are saved in this browser only. Use "Send my preferences to Nudibranchi" to feed them into future issues.</p>
+<p class="m">Stars, read status, "Not interested" and "More like this" signals are saved in this browser (and synced across your devices if you connect sync with the ⇅ button, bottom right). Use "Send my preferences to Nudibranchi" to feed them into future issues.</p>
 </main>
 <script>
 // ---- Config ----
@@ -96,7 +97,7 @@ const SECTIONS=[ // [name in data, tab label, emoji, accent, tint] (mirrors buil
 ["The headline act", "Headline", "🐠", "#0b6e7f", "#d9f3f2"],["Behaviour classification", "Behaviour", "🦀", "#b0401c", "#ffe8dd"],["Multimodal AI and interaction networks", "Multimodal & networks", "🕸️", "#6544b0", "#eee8ff"],["Bioacoustics and PAM", "Bioacoustics", "🐋", "#1f5ea6", "#ddecff"],["Coral reef ecology and conservation", "Coral reefs", "🪸", "#bf3459", "#ffe4eb"],["Transferable CV/ML advances", "Transferable CV/ML", "🤖", "#2a5f9e", "#e1edfb"],["Emerging ecology and conservation tools", "Emerging tools", "🧰", "#86399a", "#f6e7fa"],["Climate, human impacts and ecosystem services", "Climate & impacts", "🌍", "#a14f0c", "#fff0dc"],["Restoration and nature-based solutions", "Restoration & NbS", "🌱", "#227544", "#ddf4e5"],["Wider field: big papers", "Wider field", "🌊", "#156a8c", "#dcf0f8"],["Weekly ML/CV explainer", "Explainer", "💡", "#7f5c00", "#fff3c9"],["Datasets, tools and code", "Datasets & code", "💾", "#4a52ad", "#e7e8ff"],["Critiques and nulls", "Critiques", "🧐", "#77512b", "#f5ebdd"],["Policy and ocean news", "Policy & ocean", "🏛️", "#2e5f75", "#e2eff4"],["Conferences, workshops, events and training", "Events & training", "🎟️", "#a1366f", "#fbe5f1"],["Funding radar", "Funding", "💰", "#735f00", "#faf2cc"],["Lab corner", "Lab corner", "🐚", "#ad3d66", "#fde6ee"],["Amy's picks", "Amy's picks", "💌", "#bd2f68", "#ffe2ed"]];
 const CHIPS=[ // [state key, row label, field in items.json, fixed order (else by count)]
 ["realm","Ecosystem / realm","realms",["Coral reef","Marine","Freshwater","Terrestrial"]],["mod","Data modality","modality_groups",["Video / imagery","Acoustics","eDNA","Remote sensing","Tracking / biologging","Multimodal"]],
-["task","Task","tasks",["Interaction classification","Behaviour classification","Species detection","Monitoring"]],["sty","Study type","study_type",["Empirical / field","Methods / tool","Review","Dataset"]]];
+["task","Task","tasks",["Interaction classification","Behaviour classification","Species detection","Monitoring"]],["sty","Study type","study_type",["Empirical / field","Methods / tool","Review","Dataset"]],["pub","Publication status","pub_status",["Peer reviewed","Preprint","Reviewed preprint"]]];
 const cv=(i,f)=>{const v=i[f];return Array.isArray(v)?v:v?[v]:[]};
 const SELECTS=[ // [key, label, getter returning array of values]
 ["method","Method / analysis",i=>i.methods||[]],["pop","Taxon group",i=>i.taxa||[]],
@@ -108,6 +109,9 @@ const TEXT=i=>[i.title,(i.authors||[]).join(" "),i.summary,i.caveats,i.notes,i.v
 const store={get(){try{return JSON.parse(localStorage.getItem("ldd-archive")||"{}")}catch(e){return{}}},set(s){try{localStorage.setItem("ldd-archive",JSON.stringify(s))}catch(e){}}};
 let P=store.get();P.star=P.star||{};P.status=P.status||{};P.ni=P.ni||{};P.more=P.more||{};P.ts=P.ts||{};P.sentAt=P.sentAt||0;
 const mark=(k,id)=>{P.ts[k+"|"+id]=Date.now()};
+// Cross-device sync (sync.js): when marks from another device are merged in, reload them here.
+window.NDDSync&&NDDSync.on("ldd-archive",x=>{P=x;P.star=P.star||{};P.status=P.status||{};P.ni=P.ni||{};P.more=P.more||{};P.ts=P.ts||{};P.sentAt=P.sentAt||0;if(ITEMS.length)render()});
+const PSB=i=>i.pub_status?`<span class="pst${/reviewed preprint/i.test(i.pub_status)?" rev":/preprint/i.test(i.pub_status)?" pre":""}" title="Publication status">${esc(i.pub_status)}</span>`:"";
 const MAIL="pk-neuro-digest+deepdive@mail.grokbot.com",SUBJ="Digest preferences update",MAXB=1800;
 const S={tab:"All",view:"all",q:"",ch:Object.fromEntries(CHIPS.map(c=>[c[0],new Set()])),sel:{},sim:null};
 const secOf=n=>SECTIONS.find(s=>s[0]===n)||[n,n,"🐟","#3d5a70","#e6f0f4"];
@@ -165,9 +169,9 @@ let zotPing=0;function zotRefresh(){clearTimeout(zotPing);zotPing=setTimeout(()=
 function card(i){const s=secOf(i.section);
  const tag=(k,v)=>`<button class="chip" data-f="${k}|${esc(v)}">${esc(v)}</button>`;
  const ck=(k,a)=>(a||[]).map(v=>`<button class="chip" data-c="${k}|${esc(v)}">${esc(v)}</button>`);
- const tags=[...ck("realm",i.realms),...ck("mod",i.modality_groups),...ck("task",i.tasks),...ck("sty",i.study_type?[i.study_type]:[]),...(i.taxa||[]).map(v=>tag("pop",v)),...(i.methods||[]).map(v=>tag("method",v)),...(i.topics||[]).map(v=>`<button class="chip" data-q="${esc(v)}">#${esc(v)}</button>`)].join("");
+ const tags=[...ck("realm",i.realms),...ck("mod",i.modality_groups),...ck("task",i.tasks),...ck("sty",i.study_type?[i.study_type]:[]),...ck("pub",i.pub_status?[i.pub_status]:[]),...(i.taxa||[]).map(v=>tag("pop",v)),...(i.methods||[]).map(v=>tag("method",v)),...(i.topics||[]).map(v=>`<button class="chip" data-q="${esc(v)}">#${esc(v)}</button>`)].join("");
  const au=i.authors||[];const auT=au.length>6?au.slice(0,6).join(", ")+` +${au.length-6} more`:au.join(", ");const r=i.relevance||0;
- return `<article class="card" style="--c:${s[3]};--t:${s[4]}">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">${s[2]} ${esc(s[1])}</span><span class="ty">${esc(i.item_type||"")}${(i.modality_groups||[]).length?" · "+esc(i.modality_groups.join(", ")):i.modality&&i.modality!=="none"?" · "+esc(i.modality):""}</span><span class="rel" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
+ return `<article class="card" style="--c:${s[3]};--t:${s[4]}">${i.zotero&&(i.doi||i.url)?`<span class="Z3988" title="${esc(coins(i))}"></span>`:""}<span class="badge">${s[2]} ${esc(s[1])}</span><span class="ty">${esc(i.item_type||"")}${(i.modality_groups||[]).length?" · "+esc(i.modality_groups.join(", ")):i.modality&&i.modality!=="none"?" · "+esc(i.modality):""}</span>${PSB(i)}<span class="rel" title="Relevance to my PhD">PhD ${"●".repeat(r)}${"○".repeat(3-r)}</span>
  <h3>${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>`:esc(i.title)}</h3>
  ${auT?`<div class="au">${esc(auT)}</div>`:""}<div class="m">${esc(i.venue||"")}${i.pub_date?" · "+esc(i.pub_date):""}${i.verified===false?' · <span style="color:var(--red)">UNVERIFIED</span>':""}</div>
  <div class="tags">${tags}</div>${i.summary?`<p>${esc(i.summary)}</p>`:""}${i.caveats?`<div class="cav"><b>CAVEATS</b> ${esc(i.caveats)}</div>`:""}

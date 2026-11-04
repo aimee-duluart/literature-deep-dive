@@ -1,0 +1,617 @@
+{
+ "_about": "Search + scoring config for Amy's Literature Deep Dive pipeline (fetch_candidates.py). Derived from brief.md on 4 Nov 2026, mirroring the structure of Patrick's Neurodynamics Digest pipeline (Pattricksk/neurodynamics-digest, docs/PROCESS.md, 1 Nov 2026). 'query' is a boolean string sent to PubMed, Europe PMC and (if openalex=true) OpenAlex title+abstract search; 'pubmed'/'europepmc'/'openalex_query' override it per source. Any top-level '*_terms' string can be used as {name} in a query. 'keywords' are lowercase regexes used to score EVERY record (incl. bulk bioRxiv/EcoEvoRxiv/arXiv/Crossref-journal pulls). 'weight' follows the brief's priority order. Edit freely; no code changes needed.",
+ "ml_terms": "(\"machine learning\" OR \"deep learning\" OR \"computer vision\" OR \"neural network\" OR \"artificial intelligence\" OR convolutional OR transformer OR \"foundation model\" OR \"object detection\" OR YOLO OR \"automated detection\" OR \"automated classification\" OR \"self-supervised\" OR \"vision-language\" OR \"large language model\")",
+ "eco_terms": "(ecology OR ecological OR species OR wildlife OR animal OR animals OR biodiversity OR conservation OR reef OR marine OR fish OR bird OR birds OR insect OR insects OR mammal OR ocean)",
+ "interaction_terms": "(\"species interaction\" OR \"species interactions\" OR \"ecological interaction\" OR \"ecological interactions\" OR \"interspecific interaction\" OR \"interspecific interactions\" OR \"biotic interaction\" OR \"biotic interactions\" OR \"predator-prey\" OR predation OR mutualism OR symbiosis OR \"cleaner fish\" OR \"cleaning station\" OR \"cleaning interaction\" OR herbivory OR \"plant-pollinator\" OR pollination OR \"trophic interaction\" OR \"interaction network\" OR \"interaction networks\" OR \"food web\")",
+ "acoustic_terms": "(\"passive acoustic\" OR bioacoustic OR bioacoustics OR soundscape OR soundscapes OR ecoacoustic OR ecoacoustics OR hydrophone OR \"acoustic monitoring\" OR \"acoustic indices\" OR \"animal vocalization\" OR \"animal vocalisation\")",
+ "reef_terms": "(\"coral reef\" OR \"coral reefs\" OR coral OR corals)",
+ "named_researchers": {
+  "_note": "Lab corner + supervisors from brief.md (QMUL: Ian McFadden, Iran Roman; Amy's own work as Aimee du Luart). Matched against every record's author list; PubMed [fau] / Europe PMC AUTH queries too. 'strict' = require the full first name. 'weight_override' lets wider-field names count less. Add wider-field names Amy wants tracked here.",
+  "weight": 5.0,
+  "lab_corner_names": [
+   "Ian McFadden",
+   "Iran Roman",
+   "Aimee du Luart"
+  ],
+  "people": [
+   {
+    "name": "Ian McFadden",
+    "surname": "McFadden",
+    "first": "Ian",
+    "strict": true
+   },
+   {
+    "name": "Iran Roman",
+    "surname": "Roman",
+    "first": "Iran",
+    "strict": true
+   },
+   {
+    "name": "Aimee du Luart",
+    "surname": "du Luart",
+    "first": "Aimee",
+    "alt_surnames": [
+     "Du Luart",
+     "Luart"
+    ],
+    "strict": true
+   }
+  ]
+ },
+ "data_modality_bonus": {
+  "_note": "Replaces Patrick's EEG>fMRI>other modality bonus. Amy's core data types: video/imagery first (CV for interactions), acoustics second. 'multimodal' = both video/imagery and acoustics (or explicit multimodal) present. Title hit = full; abstract-only needs >=2 mentions and gets modality_abstract_factor.",
+  "video": 3.5,
+  "acoustic": 3.0,
+  "multimodal": 4.0,
+  "other": 1.0,
+  "video_re": "\\bvideo|camera[- ]trap|underwater (camera|imag|video)|\\bbruvs?\\b|\\bimagery\\b|\\bimages?\\b|photograph|\\bdrone|\\buav\\b|computer vision|object detection|\\byolo|segmentation|pose estimation|tracking",
+  "acoustic_re": "acoustic|soundscape|hydrophone|vocali[sz]ation|\\bcalls?\\b|\\bsongs?\\b|audio|spectrogram|\\bpam\\b",
+  "multimodal_re": "multi-?modal|vision[- ]language|audio-?visual|sensor fusion|\\bclip\\b|bioclip",
+  "other_re": "\\bedna\\b|environmental dna|metabarcoding|remote sensing|satellite|biologg|accelerometer|telemetry|gps track|lidar"
+ },
+ "venues": {
+  "_note": "Tie-break only. Ecology + ecological-methods + CV/ML venues.",
+  "tier1": [
+   "nature",
+   "science",
+   "nature ecology & evolution",
+   "nature ecology and evolution",
+   "nature machine intelligence",
+   "nature climate change",
+   "nature sustainability",
+   "trends in ecology & evolution",
+   "trends in ecology and evolution",
+   "methods in ecology and evolution",
+   "ecology letters",
+   "current biology",
+   "pnas",
+   "proceedings of the national academy of sciences"
+  ],
+  "tier2": [
+   "nature communications",
+   "science advances",
+   "global change biology",
+   "ecological informatics",
+   "remote sensing in ecology and conservation",
+   "coral reefs",
+   "journal of animal ecology",
+   "journal of applied ecology",
+   "conservation biology",
+   "biological conservation",
+   "ecology",
+   "ecography",
+   "ecological applications",
+   "ecological indicators",
+   "plos computational biology",
+   "proceedings of the royal society b: biological sciences",
+   "proceedings b",
+   "movement ecology",
+   "ices journal of marine science",
+   "frontiers in marine science",
+   "marine ecology progress series",
+   "limnology and oceanography: methods",
+   "the journal of the acoustical society of america",
+   "bioacoustics",
+   "people and nature",
+   "communications biology",
+   "international journal of computer vision",
+   "ieee transactions on pattern analysis and machine intelligence",
+   "conservation letters",
+   "one earth",
+   "npj biodiversity",
+   "npj ocean sustainability"
+  ],
+  "tier1_bonus": 1.5,
+  "tier2_bonus": 0.75
+ },
+ "bulk_sources": {
+  "_note": "Bulk sources return EVERYTHING posted in the window (arXiv CS categories are pre-filtered with an abs: query so the pull stays small); records below min_keyword_score (group keyword + data-modality score) are dropped before ranking. Crossref journals = new DOIs registered in the window for ecology/methods journals PubMed indexes late or not at all.",
+  "biorxiv_categories": [
+   "ecology",
+   "animal_behavior_and_cognition",
+   "zoology",
+   "evolutionary_biology",
+   "bioinformatics"
+  ],
+  "medrxiv_categories": [],
+  "arxiv_categories": [
+   "q-bio.PE",
+   "q-bio.QM",
+   "cs.CV+cs.LG+cs.AI|abs:ecology OR abs:ecological OR abs:wildlife OR abs:species OR abs:biodiversity OR abs:underwater OR abs:coral OR abs:reef OR abs:marine OR abs:\"camera trap\" OR abs:animal OR abs:animals OR abs:fish OR abs:bird OR abs:insect OR abs:conservation",
+   "eess.AS+cs.SD|abs:bioacoustic OR abs:bioacoustics OR abs:animal OR abs:bird OR abs:birdsong OR abs:whale OR abs:marine OR abs:species OR abs:underwater OR abs:ecological OR abs:soundscape OR abs:hydrophone",
+   "cs.CV|ti:\"human-object interaction\" OR ti:\"scene graph\" OR ti:\"visual relationship\" OR ti:\"video foundation\" OR ti:\"multi-object tracking\" OR ti:\"temporal action\" OR ti:\"open-vocabulary\" OR ti:\"interaction detection\""
+  ],
+  "crossref_journals": {
+   "Methods Ecol Evol": "2041-210X",
+   "Ecol Inform": "1574-9541",
+   "Remote Sens Ecol Conserv": "2056-3485",
+   "Coral Reefs": "0722-4028",
+   "Nat Ecol Evol": "2397-334X",
+   "Global Change Biol": "1354-1013",
+   "Ecol Evol": "2045-7758",
+   "Ecol Lett": "1461-023X",
+   "J Anim Ecol": "0021-8790",
+   "Conserv Biol": "0888-8892",
+   "Biol Conserv": "0006-3207",
+   "Mar Ecol Prog Ser": "0171-8630",
+   "Front Mar Sci": "2296-7745",
+   "Ecol Indic": "1470-160X",
+   "J Acoust Soc Am": "0001-4966",
+   "Bioacoustics": "0952-4622",
+   "Ecol Appl": "1051-0761",
+   "People Nature": "2575-8314",
+   "Mov Ecol": "2051-3933",
+   "Anim Behav": "0003-3472",
+   "Restor Ecol": "1061-2971",
+   "ICES J Mar Sci": "1054-3139",
+   "Limnol Oceanogr Methods": "1541-5856",
+   "Ecography": "0906-7590",
+   "J Appl Ecol": "0021-8901",
+   "Conserv Lett": "1755-263X",
+   "Ecosphere": "2150-8925",
+   "Ecol Solut Evid": "2688-8319",
+   "Oikos": "0030-1299",
+   "Aquat Conserv": "1052-7613",
+   "npj Biodivers": "2731-4243",
+   "Diversity Distrib": "1366-9516",
+   "Ecol Monogr": "0012-9615",
+   "Trends Ecol Evol": "0169-5347",
+   "Mar Pollut Bull": "0025-326X",
+   "Ecol Model": "0304-3800",
+   "Mar Environ Res": "0141-1136",
+   "Behav Ecol": "1045-2249",
+   "Funct Ecol": "0269-8463"
+  },
+  "min_keyword_score": 3.0
+ },
+ "zenodo_queries": [
+  "(coral OR reef OR \"camera trap\" OR bioacoustic* OR \"passive acoustic\" OR \"underwater video\" OR \"species interaction*\" OR biodiversity) AND (dataset OR annotations OR \"deep learning\" OR \"machine learning\" OR model)"
+ ],
+ "scoring": {
+  "tfidf_archive_weight": 8.0,
+  "liked_weight": 10.0,
+  "disliked_weight": -6.0,
+  "no_abstract_penalty": -1.5,
+  "top_n": 60,
+  "reviews_top_n": 15,
+  "group_decay": [
+   1.0,
+   0.5,
+   0.3,
+   0.2
+  ],
+  "repository_penalty": -8,
+  "repository_venues": [
+   "zenodo",
+   "figshare",
+   "osf preprints",
+   "open science framework",
+   "preprints.org",
+   "qeios",
+   "authorea",
+   "mendeley data",
+   "digital repository",
+   "dryad",
+   "dataverse",
+   "research data",
+   "data repository",
+   "research square",
+   "global biodiversity information facility",
+   "gbif",
+   "monash university",
+   "pangaea",
+   "protocols.io",
+   "dryad digital repository"
+  ],
+  "stale_pubdate_days": 60,
+  "stale_penalty": -1.5,
+  "modality_abstract_factor": 0.6,
+  "off_domain_penalty": -4.0,
+  "off_domain_re": "\\bpatients?\\b|clinical|tumou?r|cancer|radiolog|\\bmri\\b|\\bct scan|histopatholog|autonomous driving|self-driving|pedestrian|face recognition|facial expression|person re-identification|remote photoplethysmography|industrial defect|crowd counting|\\burban traffic\\b|license plate|web agents?|electronic health record|\\behrs?\\b|corruption|procurement|student performance|smart glasses|visually impaired|vision impairment|e-?waste|electronic waste|\\bpain\\b|teleoperat|foodborne|food safety|semiotic|instagram|large language model agents?|\\bllm agents?|cultural heritage|heritage tourism|english learning|text-to-sql|edge tpu|copd|telemonitoring",
+  "off_domain_exempt_re": "ecolog(?!ically valid)|wildlife|biodivers|conservation (biolog|ecolog|planning|priorit|status|management|genetic|of (species|wildlife|biodiversity|habitat|corals?))|(wildlife|marine|biodiversity|species|reef|ocean) conservation|protected areas?|(?-i:\\b[Rr]eefs?\\b)|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|marine (ecosystem|species|life|mammal|habitat|biodiversity|protected)|\\bocean|habitat|(?<!random )(?<!isolation )forests?\\b|pollinat|mammal|amphibian|reptile|plankton|seabird|cetacean|whale|dolphin|\\bfish(es)?\\b|(?-i:\\b[Bb]irds?\\b)(?!'s[- ]eye)|\\binsects?\\b|camera[- ]?trap|species (interaction|distribution|richness|identification|detection|occurrence|recognition|classification|abundance|composition)|animal (behaviou?r|ecology|movement|tracking|detection|monitoring)|wild animals?|predator|\\bprey\\b|herbivor|invertebrate|seagrass|kelp|mangrove|ecosystem (service|function|engineer|health|restor|dynamic|process|recover)|(marine|aquatic|terrestrial|coastal|forest|freshwater|reef|benthic|pelagic|natural) ecosystems?",
+  "_off_domain_note": "Replaces Patrick's 'engineering' penalty (applied-EEG/ML engineering). Amy WANTS ML, so the penalty only hits ML aimed at non-ecological targets (medical, driving, faces...) unless the text also names an ecological target.",
+  "no_eco_context_penalty": -5.0,
+  "_no_eco_note": "Applied when title+abstract name no ecological target at all (special_res.eco), unless transferable_cv_ml matched. Stops generic ML / microbiology / media-studies papers that say 'species' or 'animal' once.",
+  "repository_types": [
+   "dataset",
+   "other",
+   "paratext",
+   "peer-review",
+   "libguides",
+   "grant",
+   "standard",
+   "component",
+   "database",
+   "report-component",
+   "posted-content-review"
+  ],
+  "_repository_note": "Repository venues/types (datasets, GBIF downloads, self-deposits) are pushed out of the paper ranking; datasets come through the separate Zenodo block and the datasets_benchmarks group instead.",
+  "hard_exclude_re": "neuroscien|neuron(s|al)?\\b|\\bcortex\\b|cortical|\\bfmri\\b|\\beeg\\b|hippocamp|psychedel|psilocybin|\\blsd\\b|ketamine|\\bdmt\\b|brain (network|activity|region|imaging)|speech processing|audiovisual speech|cognitive neuro|telencephal|neurotransmit|neurogen|\\bbrains?\\b",
+  "hard_exclude_ok_re": "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|\\breefs?\\b|wildlife|biodivers|\\bfish(es)?\\b|\\bbirds?\\b|insect|whale|dolphin|cetacean|camera[- ]?trap|bioacoustic|soundscape|habitat",
+  "hard_exclude_penalty": -25.0,
+  "_hard_exclude_note": "Brief rule: no neuroscience or psychedelic content may leak into Amy's digest. Human/lab neuroscience is pushed to the bottom; animal-ecology papers that mention neurons in passing are spared by hard_exclude_ok_re.",
+  "hard_exclude_always_re": "psychedel|psilocybin|\\blsd\\b|\\bdmt\\b|ayahuasca|mescaline|neuroscien|telencephal|neurotransmit"
+ },
+ "_group_rules": "Group scoring: a group counts if one of its 'keywords' matches title/abstract (title = full weight, abstract-only = 0.6x), or if the record was returned by that group's API query and has no abstract to re-check. 'all_of' = all listed groups must match ('@ml' an ML/CV word, '@eco' an ecological target, '@interaction' an interaction word, '@self' this group's own keywords); 'also_requires_re' = an extra regex that must match. reviews_only groups only feed the separate reviews list.",
+ "special_res": {
+  "ml": "machine learning|deep learning|computer vision|neural net|artificial intelligence|\\bai\\b|convolutional|\\bcnn|transformer|foundation model|object detection|\\byolo|automated (detection|classification|identification|annotation)|self-supervised|vision[- ]language|\\bvlm|large language model|\\bllm|classifier|segmentation model|embedding",
+  "eco": "ecolog(?!ically valid)|wildlife|biodivers|conservation (biolog|ecolog|planning|priorit|status|management|genetic|of (species|wildlife|biodiversity|habitat|corals?))|(wildlife|marine|biodiversity|species|reef|ocean) conservation|protected areas?|(?-i:\\b[Rr]eefs?\\b)|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|marine (ecosystem|species|life|mammal|habitat|biodiversity|protected)|\\bocean|habitat|(?<!random )(?<!isolation )forests?\\b|pollinat|mammal|amphibian|reptile|plankton|seabird|cetacean|whale|dolphin|\\bfish(es)?\\b|(?-i:\\b[Bb]irds?\\b)(?!'s[- ]eye)|\\binsects?\\b|camera[- ]?trap|species (interaction|distribution|richness|identification|detection|occurrence|recognition|classification|abundance|composition)|animal (behaviou?r|ecology|movement|tracking|detection|monitoring)|wild animals?|predator|\\bprey\\b|herbivor|invertebrate|seagrass|kelp|mangrove|ecosystem (service|function|engineer|health|restor|dynamic|process|recover)|(marine|aquatic|terrestrial|coastal|forest|freshwater|reef|benthic|pelagic|natural) ecosystems?",
+  "interaction": "species interaction|ecological interaction|interspecific|biotic interaction|predat(ion|or|ory behaviou?r)|\\bprey\\b|mutualis|symbio|cleaner (fish|wrasse|shrimp)|cleaning (station|interaction|behaviou?r)|parasitoid|parasitism|host[- ]parasite|herbivor|pollinat|interspecific competition|trophic|food web|interaction network|facilitation|commensal|grazing|feeding interaction|plant[- ]animal|seed dispers|frugivor"
+ },
+ "keyword_negations": {
+  "_comment": "ignore a keyword hit when only a non-ecological sense explains it",
+  "\\bpam\\b": "pulse[- ]amplitude|partitioning around medoids|\\bpam50\\b|peptidylglycine",
+  "prey": "prey(ing)? on (users|victims)",
+  "coral": "coral(-| )?draw",
+  "reef": "reef(-| )?knot"
+ },
+ "core_priorities": {
+  "_comment": "Separate labelled boost (replaces Patrick's current_analyses): Amy's #1 priority, CV/ML for species interactions, plus the multimodal/network thread. Title hit = full, abstract hit = 0.6x.",
+  "bonus": 3.0,
+  "groups": [
+   "interaction_cv",
+   "interaction_video",
+   "interaction_networks_ml",
+   "multimodal_eco"
+  ]
+ },
+ "groups": [
+  {
+   "name": "interaction_cv",
+   "weight": 10,
+   "openalex": true,
+   "_why": "Priority 1: CV/ML applied to species interactions",
+   "query": "{interaction_terms} AND {ml_terms}",
+   "keywords": [],
+   "all_of": [
+    "@interaction",
+    "@ml",
+    "@eco"
+   ]
+  },
+  {
+   "name": "interaction_video",
+   "weight": 9,
+   "openalex": true,
+   "_why": "Priority 1: interactions observed in video / camera traps / underwater imagery (even without ML wording)",
+   "query": "{interaction_terms} AND (video OR \"camera trap\" OR \"camera traps\" OR \"underwater camera\" OR BRUV OR BRUVS OR \"time-lapse\" OR imagery)",
+   "keywords": [
+    "\\bvideo",
+    "camera[- ]trap",
+    "underwater (camera|video|imag)",
+    "\\bbruvs?\\b",
+    "time-lapse",
+    "\\bimagery\\b"
+   ],
+   "all_of": [
+    "@self",
+    "@interaction"
+   ]
+  },
+  {
+   "name": "interaction_networks_ml",
+   "weight": 9,
+   "openalex": true,
+   "_why": "Priority 2: interaction networks built or predicted with ML/AI (link prediction, text mining, metawebs)",
+   "query": "(\"interaction network\" OR \"interaction networks\" OR \"ecological network\" OR \"ecological networks\" OR \"food web\" OR \"food webs\" OR metaweb OR \"network ecology\" OR \"pollination network\" OR \"trophic network\") AND ({ml_terms} OR \"link prediction\" OR \"text mining\" OR \"graph neural\")",
+   "keywords": [
+    "interaction networks?",
+    "ecological networks?",
+    "food[- ]webs?",
+    "metaweb",
+    "network ecology",
+    "pollination networks?",
+    "trophic networks?",
+    "link prediction"
+   ],
+   "all_of": [
+    "@self",
+    "@ml"
+   ],
+   "also_requires_re": "ecolog|wildlife|biodivers|conservation|(?-i:\\b[Rr]eefs?\\b)|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|marine (ecosystem|species|life|mammal|habitat|biodiversity|protected)|\\bocean|habitat|forest|pollinat|mammal|amphibian|reptile|plankton|seabird|cetacean|whale|dolphin|\\bfish(es)?\\b|\\bbirds?\\b|\\binsects?\\b|camera[- ]?trap|species (interaction|distribution|richness|identification|detection|occurrence|recognition|classification|abundance|composition)|animal (behaviou?r|ecology|movement|tracking|detection|monitoring)|wild animals?|predator|\\bprey\\b|herbivor|invertebrate|seagrass|kelp|mangrove|ecosystem"
+  },
+  {
+   "name": "interaction_networks",
+   "weight": 7,
+   "openalex": true,
+   "_why": "Priority 2: interaction networks without ML",
+   "query": "(\"interaction network\" OR \"interaction networks\" OR \"ecological network\" OR \"ecological networks\" OR \"food web\" OR metaweb OR \"network ecology\" OR \"pollination network\" OR \"species interaction network\")",
+   "keywords": [
+    "interaction networks?",
+    "ecological networks?",
+    "food[- ]webs?",
+    "metaweb",
+    "network ecology",
+    "pollination networks?",
+    "plant[- ]pollinator network",
+    "host[- ]parasite network"
+   ],
+   "also_requires_re": "ecolog|wildlife|biodivers|conservation|(?-i:\\b[Rr]eefs?\\b)|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|marine (ecosystem|species|life|mammal|habitat|biodiversity|protected)|\\bocean|habitat|forest|pollinat|mammal|amphibian|reptile|plankton|seabird|cetacean|whale|dolphin|\\bfish(es)?\\b|\\bbirds?\\b|\\binsects?\\b|camera[- ]?trap|species (interaction|distribution|richness|identification|detection|occurrence|recognition|classification|abundance|composition)|animal (behaviou?r|ecology|movement|tracking|detection|monitoring)|wild animals?|predator|\\bprey\\b|herbivor|invertebrate|seagrass|kelp|mangrove|ecosystem"
+  },
+  {
+   "name": "multimodal_eco",
+   "weight": 9,
+   "openalex": true,
+   "_why": "Priority 2: multimodal AI for ecology (vision-language, audio-visual, sensor fusion, biodiversity foundation models)",
+   "query": "(multimodal OR \"multi-modal\" OR \"vision-language\" OR \"audio-visual\" OR audiovisual OR \"sensor fusion\" OR BioCLIP OR \"foundation model\" OR \"foundation models\") AND {eco_terms}",
+   "keywords": [
+    "multi-?modal",
+    "vision[- ]language",
+    "audio-?visual",
+    "sensor fusion",
+    "bioclip",
+    "foundation models?",
+    "\\bvlms?\\b",
+    "large language model"
+   ],
+   "all_of": [
+    "@self",
+    "@eco"
+   ]
+  },
+  {
+   "name": "bioacoustics_ml",
+   "weight": 8.5,
+   "openalex": true,
+   "_why": "Priority 3: bioacoustics/PAM with ML",
+   "query": "{acoustic_terms} AND {ml_terms}",
+   "keywords": [
+    "passive acoustic",
+    "bioacoust",
+    "soundscape",
+    "ecoacoust",
+    "hydrophone",
+    "acoustic monitoring",
+    "acoustic indices",
+    "vocali[sz]ation"
+   ],
+   "all_of": [
+    "@self",
+    "@ml"
+   ]
+  },
+  {
+   "name": "bioacoustics_pam",
+   "weight": 7,
+   "openalex": true,
+   "_why": "Priority 3: bioacoustics and PAM generally (reef soundscapes, marine mammals, birds, bats)",
+   "query": "{acoustic_terms}",
+   "keywords": [
+    "passive acoustic",
+    "bioacoust",
+    "soundscape",
+    "ecoacoust",
+    "hydrophone",
+    "acoustic monitoring",
+    "acoustic indices",
+    "vocali[sz]ation",
+    "\\bpam\\b"
+   ],
+   "also_requires_re": "ecolog|species|animal|wildlife|biodivers|marine|reef|bird|bat|whale|dolphin|fish|insect|frog|ocean|forest"
+  },
+  {
+   "name": "coral_reef_ml",
+   "weight": 9,
+   "openalex": true,
+   "_why": "Priority 4 x 1: coral reef + CV/ML/acoustics",
+   "query": "{reef_terms} AND ({ml_terms} OR {acoustic_terms} OR video OR imagery OR photogrammetry)",
+   "keywords": [
+    "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))",
+    "(?-i:\\b[Rr]eefs?\\b)"
+   ],
+   "all_of": [
+    "@self",
+    "@ml"
+   ]
+  },
+  {
+   "name": "coral_reef",
+   "weight": 7,
+   "openalex": true,
+   "_why": "Priority 4: coral reef ecology, bleaching, conservation",
+   "query": "(\"coral reef\" OR \"coral reefs\" OR \"coral bleaching\" OR \"reef fish\" OR \"reef fishes\" OR scleractinian)",
+   "keywords": [
+    "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator)) reef",
+    "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator)) bleach",
+    "reef fish",
+    "scleractinian",
+    "(?<!google )(?-i:\\b[Cc]orals?\\b)(?! (edge|tpu|dev))",
+    "(?-i:\\b[Rr]eefs?\\b)"
+   ],
+   "also_requires_re": "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|reef"
+  },
+  {
+   "name": "behaviour_classification",
+   "weight": 5.5,
+   "openalex": true,
+   "_why": "Priority 5 (lower weight, per brief): automated behaviour classification / pose / tracking in animals",
+   "query": "(\"behavior classification\" OR \"behaviour classification\" OR \"behavior recognition\" OR \"behaviour recognition\" OR \"action recognition\" OR \"pose estimation\" OR DeepLabCut OR SLEAP OR \"multi-animal tracking\" OR ethogram OR \"behavioural annotation\" OR \"behavioral annotation\") AND (animal OR animals OR wildlife OR fish OR bird OR insect OR mammal OR primate)",
+   "keywords": [
+    "behaviou?r(al)? (classification|recognition|annotation|segmentation)",
+    "action recognition",
+    "pose estimation",
+    "deeplabcut",
+    "\\bsleap\\b",
+    "multi-animal tracking",
+    "ethogram",
+    "animal tracking",
+    "re-identification",
+    "individual identification"
+   ],
+   "also_requires_re": "animal|wildlife|fish|bird|insect|mammal|primate|species|ecolog"
+  },
+  {
+   "name": "transferable_cv_ml",
+   "weight": 4.5,
+   "openalex": false,
+   "_why": "Priority 6: transferable CV/ML (interaction detection, scene graphs, video foundation models, tracking, few-shot/open-vocab). Mostly from the filtered arXiv cs.CV pull; no ecology word required. Exempt from the no-ecology-context penalty.",
+   "keywords": [
+    "human-object interaction",
+    "scene graph",
+    "visual relationship",
+    "video foundation model",
+    "multi-object tracking",
+    "temporal action (detection|localization|localisation|segmentation)",
+    "open-vocabulary (detection|segmentation)",
+    "interaction detection",
+    "few-shot (detection|classification)",
+    "long-tail(ed)? recognition",
+    "domain (shift|adaptation|generali[sz]ation)"
+   ]
+  },
+  {
+   "name": "eco_tools",
+   "weight": 5,
+   "openalex": true,
+   "_why": "Priority 8: emerging ecology and conservation tools",
+   "query": "(\"environmental DNA\" OR eDNA OR metabarcoding OR biologging OR \"bio-logging\" OR \"camera trap\" OR \"camera traps\" OR \"remote sensing\" OR drone OR UAV OR \"citizen science\" OR \"digital twin\" OR \"acoustic telemetry\") AND (biodiversity OR ecology OR conservation OR monitoring)",
+   "keywords": [
+    "\\bedna\\b",
+    "environmental dna",
+    "metabarcoding",
+    "bio-?logging",
+    "camera[- ]traps?",
+    "remote sensing",
+    "\\bdrones?\\b",
+    "\\buavs?\\b",
+    "citizen science",
+    "digital twin",
+    "acoustic telemetry",
+    "biodiversity monitoring"
+   ],
+   "also_requires_re": "ecolog|biodivers|conservation|species|wildlife|monitor|habitat"
+  },
+  {
+   "name": "datasets_benchmarks",
+   "weight": 4,
+   "openalex": true,
+   "_why": "Feeds 'Datasets, tools and code': new annotated ecological datasets, benchmarks, software",
+   "query": "(dataset OR benchmark OR \"open-source\" OR software OR pipeline OR toolkit) AND ({interaction_terms} OR {acoustic_terms} OR \"camera trap\" OR \"underwater video\" OR \"coral reef\")",
+   "keywords": [
+    "\\bdataset\\b",
+    "\\bbenchmark",
+    "open[- ]source",
+    "\\btoolkit\\b",
+    "\\bsoftware\\b",
+    "annotated (images|videos|recordings)"
+   ],
+   "all_of": [
+    "@self",
+    "@eco"
+   ]
+  },
+  {
+   "name": "critiques_nulls",
+   "weight": 3,
+   "openalex": false,
+   "_why": "Feeds 'Critiques and nulls': failures, biases and limits of automated ecology",
+   "keywords": [
+    "null result",
+    "no evidence (for|of)",
+    "failed to replicate",
+    "replication",
+    "shortcut learning",
+    "domain shift",
+    "overestimat",
+    "pitfalls?",
+    "caution",
+    "biases? in",
+    "limitations of",
+    "reproducibility",
+    "data leakage"
+   ],
+   "all_of": [
+    "@self",
+    "@ml",
+    "@eco"
+   ]
+  },
+  {
+   "name": "climate_human_impacts",
+   "weight": 3.5,
+   "openalex": true,
+   "_why": "Priority 9: climate and human impacts on interactions / reefs, ecosystem services",
+   "query": "(\"climate change\" OR \"marine heatwave\" OR warming OR \"ocean acidification\" OR overfishing OR \"human impact\" OR \"human impacts\" OR \"ecosystem services\" OR \"ecosystem service\") AND ({interaction_terms} OR \"coral reef\" OR \"coral reefs\")",
+   "keywords": [
+    "climate change",
+    "marine heatwave",
+    "ocean acidification",
+    "overfishing",
+    "human impacts?",
+    "ecosystem services?",
+    "\\bwarming\\b"
+   ],
+   "also_requires_re": "interact|predat|mutualis|symbio|reef|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|food web|trophic|ecosystem service"
+  },
+  {
+   "name": "restoration_nbs",
+   "weight": 4,
+   "openalex": true,
+   "_why": "Priority 10: restoration and nature-based solutions",
+   "query": "(\"ecological restoration\" OR \"reef restoration\" OR \"coral restoration\" OR \"habitat restoration\" OR \"nature-based solution\" OR \"nature-based solutions\" OR rewilding OR \"coral gardening\" OR \"larval enhancement\")",
+   "keywords": [
+    "\\brestor(ation|ed|ing)\\b",
+    "nature-based solutions?",
+    "rewilding",
+    "(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator)) gardening",
+    "larval (enhancement|seeding)",
+    "outplant"
+   ],
+   "also_requires_re": "ecolog|reef|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|habitat|ecosystem|biodivers|species|forest|seagrass|mangrove|kelp"
+  },
+  {
+   "name": "marine_conservation",
+   "weight": 3,
+   "openalex": true,
+   "_why": "Policy and ocean news / marine conservation science",
+   "query": "(\"marine protected area\" OR \"marine protected areas\" OR \"high seas\" OR \"30x30\" OR \"ocean conservation\" OR \"fisheries management\")",
+   "keywords": [
+    "marine protected areas?",
+    "\\bmpas?\\b",
+    "high seas",
+    "30x30",
+    "ocean conservation",
+    "fisheries management",
+    "bbnj"
+   ]
+  },
+  {
+   "name": "own_lab",
+   "weight": 6,
+   "openalex": false,
+   "_why": "Lab corner retrieval: QMUL ecology/AI papers (lab corner still only for McFadden / Roman / du Luart, and only when key)",
+   "pubmed": "\"Queen Mary University of London\"[ad] AND (ecology OR ecological OR coral OR reef OR bioacoustic* OR \"machine learning\" OR \"deep learning\" OR \"species interaction*\" OR wildlife)",
+   "europepmc": "AFF:\"Queen Mary University of London\" AND (ecology OR ecological OR coral OR reef OR bioacoustic OR \"machine learning\" OR \"deep learning\" OR \"species interaction\" OR wildlife)",
+   "keywords": [
+    "queen mary university of london"
+   ],
+   "also_requires_re": "ecolog|(?<!google )(?-i:[Cc]oral)(?! (edge|tpu|dev|usb|accelerator))|reef|acoust|species|wildlife|animal|biodivers"
+  },
+  {
+   "name": "wildcard_top_journals",
+   "weight": 0,
+   "openalex": false,
+   "_why": "retrieval only (Priority 11, wider-field big papers): ecology papers in Nature/Science/Nat Ecol Evol etc.; the venue bonus + other groups do the ranking",
+   "pubmed": "(\"Nature\"[ta] OR \"Science\"[ta] OR \"Nat Ecol Evol\"[ta] OR \"Trends Ecol Evol\"[ta] OR \"Ecol Lett\"[ta] OR \"Curr Biol\"[ta] OR \"Proc Natl Acad Sci U S A\"[ta] OR \"Nat Clim Chang\"[ta]) AND (ecology OR ecological OR species OR biodiversity OR ecosystem* OR coral OR reef OR marine OR wildlife OR conservation)",
+   "europepmc": "(JOURNAL:\"Nature\" OR JOURNAL:\"Science\" OR JOURNAL:\"Nature ecology & evolution\" OR JOURNAL:\"Ecology letters\" OR JOURNAL:\"Trends in ecology & evolution\") AND (ecology OR species OR biodiversity OR ecosystem OR coral OR reef OR marine OR wildlife)",
+   "keywords": []
+  },
+  {
+   "name": "reviews_core",
+   "weight": 0,
+   "openalex": false,
+   "reviews_only": true,
+   "pubmed": "(Review[pt] OR \"Systematic Review\"[pt] OR \"Meta-Analysis\"[pt]) AND (((\"species interaction*\" OR \"interaction network*\" OR \"food web*\" OR \"coral reef*\" OR bioacoustic* OR \"passive acoustic\" OR \"camera trap*\" OR \"biodiversity monitoring\") AND (\"machine learning\" OR \"deep learning\" OR \"computer vision\" OR \"artificial intelligence\" OR automated OR monitoring)) OR (\"coral reef*\" AND (restoration OR bleaching OR \"climate change\")))",
+   "europepmc": "(PUB_TYPE:\"review\" OR PUB_TYPE:\"systematic-review\" OR PUB_TYPE:\"meta-analysis\") AND ((\"species interaction\" OR \"interaction network\" OR \"food web\" OR \"coral reef\" OR bioacoustic OR \"passive acoustic\" OR \"camera trap\" OR \"biodiversity monitoring\") AND (\"machine learning\" OR \"deep learning\" OR \"computer vision\" OR \"artificial intelligence\" OR automated))",
+   "keywords": []
+  },
+  {
+   "name": "reviews_top_journals",
+   "weight": 0,
+   "openalex": false,
+   "reviews_only": true,
+   "pubmed": "\"Trends Ecol Evol\"[ta] OR \"Annu Rev Ecol Evol Syst\"[ta] OR \"Annu Rev Mar Sci\"[ta] OR \"Biol Rev Camb Philos Soc\"[ta] OR (\"Nat Ecol Evol\"[ta] AND Review[pt]) OR (\"Methods Ecol Evol\"[ta] AND Review[pt])",
+   "keywords": []
+  }
+ ]
+}
