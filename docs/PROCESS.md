@@ -2,19 +2,21 @@
 
 Amy's (Aimee du Luart's) weekly science newsletter, written by **Nudibranchi**. It arrives on Monday mornings (UK time) and covers the previous Monday–Sunday. The searchable archive lives at https://aimee-duluart.github.io/literature-deep-dive/.
 
-This file was written on 4 Nov 2026. It ports the paper-search upgrade that Mochi built for Patrick's Neurodynamics Digest (his `docs/PROCESS.md`, 1 Nov 2026), retuned for Amy's interests. `brief.md` is still the authority; if it and this file disagree, follow the brief. **Never mix this digest with Patrick's** (data, site, mail, routines).
+This file was written on 4 Nov 2026. It ports the paper-search upgrade that Mochi built for Patrick's Neurodynamics Digest (his `docs/PROCESS.md`, 1 Nov 2026), retuned for Amy's interests. **Updated 9 Nov 2026** to Patrick's 9 Nov snapshot (upstream commit `7b3af31`, see `upstream-sync.json`): Catch-up section, extra meta rows, archive Catch-up tab, provenance schema, usage flag, monthly gap check, plain-text email card body. `brief.md` is still the authority; if it and this file disagree, follow the brief. **Never mix this digest with Patrick's** (data, site, mail, routines).
 
 ## Contents
 1. Moving parts
 2. File layout
 3. Interests and ranking (summary of the brief)
-4. Discovery: the combined method (B database sweep → A web pass → merge/verify → provenance)
+4. Discovery: the combined method (B database sweep → A web pass → 3b Catch-up picks → merge/verify → provenance)
 5. Writing and building the issue
 6. Publishing and the archive site (graph view, sync)
 7. Sending, sent-log and feedback
 8. Weekly checklist
 9. Not ported from Patrick's process / known gaps
 10. Routine prompt (current wording)
+11. Catch-up section
+12. Keeping in step with Patrick's process (upstream-sync.json)
 
 ## 1. Moving parts
 | Part | Where |
@@ -22,6 +24,8 @@ This file was written on 4 Nov 2026. It ports the paper-search upgrade that Moch
 | Brief (source of truth) | `/workspace/amy-digest/brief.md` |
 | Preferences (likes/dislikes) | `/workspace/amy-digest/preferences.md` |
 | Sent-log | `/workspace/amy-digest/sent-log.md` |
+| Catch-up never-repeat log | `/workspace/amy-digest/catchup-log.jsonl` (checker: `build/catchup_check.py`) |
+| Upstream sync marker | `/workspace/amy-digest/upstream-sync.json` (last Patrick commit ported) |
 | Database pipeline (method B) | `/workspace/amy-digest/pipeline/` (README.md there) |
 | Issue build | `/workspace/amy-digest/build/` (render.py, compact.py, section_icons.py, house_style.py, archive_items.py, check_issue.py) |
 | Per-issue folders | `/workspace/amy-digest/issue-<nnn>/` (content.py, research/, built HTML + txt) |
@@ -34,9 +38,9 @@ This file was written on 4 Nov 2026. It ports the paper-search upgrade that Moch
 ## 2. File layout
 ```
 amy-digest/
-  brief.md  preferences.md  sent-log.md  HANDOVER.md  docs/PROCESS.md
+  brief.md  preferences.md  sent-log.md  catchup-log.jsonl  upstream-sync.json  HANDOVER.md  docs/PROCESS.md
   pipeline/  common.py sources.py queries.json fetch_candidates.py chatter.py README.md  out/<Sunday>/
-  build/     render.py compact.py section_icons.py house_style.py archive_items.py check_issue.py
+  build/     render.py compact.py section_icons.py house_style.py archive_items.py check_issue.py catchup_check.py content_sample_template.py
              build_archive_site.py tag_map.json config.py favicon.py publish.sh
   archive/   items.jsonl shortlist.jsonl
   ab/<Sunday>/provenance.json
@@ -129,18 +133,26 @@ Search the same window by browsing, aiming at what B missed:
 - Rank by relevance (the priority order above) and study quality; the venue is only a tie-break.
 - **Verify every item against its real source.** Never invent papers, authors, numbers, deadlines or links.
 
+### 4.3b Step 3b: Catch-up picks (after the web pass)
+Choose the 5 Catch-up papers for the final section (rules in §11). This is a separate look-back search (about 10 years), not part of the weekly window, and Catch-up papers are **not** counted in A/B/AB.
+
 ### 4.4 Provenance
-Save `/workspace/amy-digest/ab/<Sunday>/provenance.json`:
+Save `/workspace/amy-digest/ab/<Sunday>/provenance.json`. Since 9 Nov 2026 use Patrick's de-facto schema (Issue 003 carries both the old and new keys):
 ```json
-{"date": "2026-11-08", "window": ["2026-11-02", "2026-11-08"],
- "counts": {"A": 0, "B": 0, "AB": 0, "total": 0},
- "items": [{"section": "Headline", "title": "...", "doi": "10.xxxx/...", "url": "https://doi.org/...", "found_by": "AB"}],
- "notes": "Notable single-method finds: ..."}
+{"issue": "004", "issue_date": "2026-11-16", "coverage": "2026-11-09 to 2026-11-15",
+ "counts": {"total_weekly": 0, "A_only": 0, "B_only": 0, "both": 0, "catchup": 5},
+ "note": "Free text: what each method supplied, notable single-method finds, items surfaced but excluded (and why), chatter summary.",
+ "items": [{"section": "The headline act", "title": "...", "doi": "10.xxxx/...", "url": "https://doi.org/...", "found_by": "B"}]}
 ```
-Write the same `found_by` value to each new archive row.
+- `items` lists only the weekly (in-window) items. The 5 Catch-up papers are counted in `counts.catchup` and have no `found_by`.
+- Write the same `found_by` to each weekly archive row; Catch-up rows get `catchup: true` instead (archive_items.py does this automatically for the "Catch-up" section).
 
 ## 5. Writing and building the issue
-- Copy the latest `issue-<nnn>/content.py` as a template and fill it in following the brief's sections and tone.
+- Copy the latest `issue-<nnn>/content.py` as a template (Issue 003 is the first with Catch-up; `build/content_sample_template.py` has an `EXAMPLE_CATCHUP` skeleton) and fill it in following the brief's sections and tone.
+- **Section order:** headline act first, thematic sections, explainer, datasets/tools, critiques/nulls, policy & ocean, events/training, funding, then **Catch-up always last** (from Issue 004; Issue 003's updated edition already has it).
+- **`extra` rows:** a `main` item may carry `extra=[(LABEL, text), ...]`, rendered after "Why it matters for you" and before the refs in the web copy, and as `Label: text` lines in the plain text. Catch-up uses SINCE THEN / READING LEVEL / CODE/DATA.
+- **Compact email copy (≤80 KB):** to stay under the cap, `compact.py` shows the explainer as a short teaser and Catch-up as one linked line per paper (title, authors, venue, year, reading level), both pointing to the web issue (Patrick's email does the same for the explainer). The full web copy (`--full`) has everything. Issue 003 updated is 79.5 KB compact, so keep weekly items lean (the brief asks for a ~20-minute read).
+- `render.py` writes to the absolute `OUT_*` paths in `content.py`. When testing a template, change those first or you'll overwrite that issue's real outputs.
 - Build with `python3 build/render.py --full` to get the full HTML, the compact HTML (<80 KB) and the plain text.
 - **Then run the pre-send checks:** `python3 build/check_issue.py issue-<nnn>/issue-<nnn>-compact.html issue-<nnn>/issue-<nnn>.html issue-<nnn>/issue-<nnn>.txt`. These check:
   - compact ≤80 KB and no CJK
@@ -148,12 +160,13 @@ Write the same `found_by` value to each new archive row.
   - only the +deepdive address (Amy's own address may appear only as text)
   - no Neurodynamics/Patrick/Mochi mix-ups
   - no dark body background and the Nudibranchi sign-off
+  - from Issue 004 on: a `Catch-up` section that is the **last** section with exactly 5 items (web copy: 5 SINCE THEN rows; compact: 5 linked lines; plain text: a CATCH-UP heading)
 - Fix anything flagged before you send.
 
 ## 6. Publishing and the archive site
 - In `site/`, add `issues/<nnn>.html`, update `index.html` (below the `<!-- ISSUES (newest first) -->` marker), append to `archive/items.jsonl`, run `python3 build/build_archive_site.py`, then `AMY_GITHUB_TOKEN=… build/publish.sh "Issue nnn"`.
 - Never force-push, and never touch the `user-state` branch.
-- **Archive** (`archive/index.html`): section tabs; chips for ecosystem, data modality, task, study type and **publication status (new)**; more filters; star / to-read / read / not interested; More like this; Send my preferences to Nudibranchi. A **publication-status badge** (Peer reviewed / Preprint / Reviewed preprint) appears on cards, also on the shortlist.
+- **Archive** (`archive/index.html`): section tabs (the tab list is the `SECTIONS` array in `archive/index.html` and `archive/graph.html`; a tab appears once a section has items; **Catch-up 🐢 tab added 9 Nov 2026** so Catch-up papers form their own shelf. Add any new section name to both arrays and to `build/section_icons.py`); chips for ecosystem, data modality, task, study type and **publication status (new)**; more filters; star / to-read / read / not interested; More like this; Send my preferences to Nudibranchi. A **publication-status badge** (Peer reviewed / Preprint / Reviewed preprint) appears on cards, also on the shortlist.
 - **Graph view (new, `archive/graph.html`):**
   - d3-force graph, vendored locally in `archive/vendor/` (ISC licence)
   - node colour = data modality
@@ -165,23 +178,28 @@ Write the same `found_by` value to each new archive row.
   - Merging is per mark with timestamps and tombstones.
   - It needs a fine-grained PAT that Amy creates herself: owner aimee-duluart, only literature-deep-dive, Contents read+write. She pastes it into the ⇅ dialog on each device, and it is stored only in that browser's localStorage. Without a token the pages work locally exactly as before.
   - The repo is public, so the marked item ids in `user-state.json` are publicly visible; nothing else is stored there. Automation (publish.sh, routines) must never touch the `user-state` branch.
+- Item pages show the Catch-up extras (area, Since then, reading level, code/data) when present.
 - `site/docs/PROCESS.md` and `site/tools/pipeline/` are published copies (no outputs, no secrets).
 
 ## 7. Sending, sent-log and feedback
 - Send one email from the +deepdive inbox to <RECIPIENT_EMAIL> (automatic, no draft card, per Amy 3 Nov 2026), with the subject "Literature Deep Dive #<n>: <highlights>".
+- **Email body (from Patrick's 9 Nov process):** if the send path only takes basic HTML or plain text (draft cards do), send a condensed plain-text body in this order: (1) title line `Literature Deep Dive #<n>. <date>, covering <window>.`; (2) `Full issue (with caveats and why-it-matters notes): <web link>`; (3) the "Hi Mermaid Queen!" intro and theme paragraph; (4) each section as a numbered heading (`01 THE HEADLINE ACT`, …) with one bullet per item: headline (authors · venue · date) <DOI link>; short items one line; the explainer says "(in the web issue)"; (5) the 5 Catch-up papers last (title, authors, venue, year, DOI); (6) feedback line, next-issue time, "— Nudibranchi 🐚" and the disclaimer. Issue 003 went out via a draft card that Amy pressed Send on.
+- **Chat note:** status, web link, 2–3 lines with A-only / B-only / both counts. **Usage flag:** check usage after the run and mention it only if the run used roughly double the baseline or more (baseline: set from the first measured combined+Catch-up run). **Gap check:** in the chat note for the first issue of each month, ask Amy for 2–3 papers she considers essential and log them in `catchup-log.jsonl` with `known: true`.
 - Append the items to `sent-log.md` (`## Issue nnn · date · STATUS` header, then `- [nnn] Title — URL — date`). The pipeline drops DOIs listed there.
 - The email-requests routine handles the archive/shortlist/preferences mailto subjects, always to the +deepdive address.
 
 ## 8. Weekly checklist
-- [ ] Read `brief.md`, `preferences.md` and `sent-log.md`.
+- [ ] Read `brief.md`, `preferences.md`, `sent-log.md` and `catchup-log.jsonl`.
 - [ ] B: run `fetch_candidates.py` and `chatter.py` for Mon–Sun, and check `stats.json` failures.
 - [ ] A: do the web pass for gaps (journals, CV workshops, named researchers/lab, policy & ocean, events, funding, ICYMI).
+- [ ] Pick 5 **Catch-up** papers (§11): rotate areas (themed week ~monthly), ≤1 pre-2016, `python3 build/catchup_check.py <doi|title> …` must print ok for each, verify each, find Since then / reading level / code-data.
 - [ ] Merge, dedupe, rank and verify everything. No neuro/psychedelic content.
 - [ ] Write content.py, run `render.py --full`, then `check_issue.py`.
 - [ ] Write `ab/<Sunday>/provenance.json`.
-- [ ] Append to `archive/items.jsonl` with found_by.
+- [ ] Append to `archive/items.jsonl` with `build/archive_items.py` (found_by on weekly items; Catch-up rows get `catchup: true` + extras automatically).
+- [ ] Append 5 lines to `catchup-log.jsonl`.
 - [ ] Publish (`build_archive_site.py`, `publish.sh`) and check the issue URL returns 200.
-- [ ] Send, append to `sent-log.md` and post the chat note (status, link, 2–3 line summary with A/B/AB counts).
+- [ ] Send, append to `sent-log.md` and post the chat note (status, link, 2–3 line summary with A/B/AB counts; usage flag only if ~2× baseline; gap-check question on the first issue of the month).
 
 ## 9. Not ported from Patrick's process / known gaps
 - **biorxiv-top tracker:** its data covers neuroscience only, so it doesn't apply. bioRxiv ecology plus chatter cover this instead.
@@ -191,6 +209,28 @@ Write the same `found_by` value to each new archive row.
 - **Optional keys:** `NCBI_API_KEY` and `OPENALEX_API_KEY` are optional and not set; the free tiers suffice.
 - **Sync:** needs Amy's own PAT per device; it cannot be set up on her behalf.
 - **Bot-voice check:** Patrick's "bro voice" check is dropped; Amy's check guards mix-ups and neuro content instead.
+- **9 Nov 2026 upstream changes not ported:** "Best reviews of the week" moving to second-to-last (Amy's brief has no Best reviews section); the EEG-section, biorxiv-top and psychedelic-specific rules; `PROCESS_shared.md` (Patrick's generic shareable doc; this file already serves that role for Amy); a "themed week" was not used for Issue 003 (first Catch-up), so the first themed week is still to come.
 
 ## 10. Routine prompt (current wording)
-See the final report of the 4 Nov 2026 upgrade; the scheduled routine text is managed by the main bot. The key change: the step order is B sweep → A web pass → merge/verify → check_issue → provenance → archive → publish → send → sent-log.
+See the final report of the 4 Nov 2026 upgrade; the scheduled routine text is managed by the main bot. The key change: the step order is B sweep → A web pass → 3b Catch-up picks → merge/verify → check_issue → provenance → archive (+ catchup-log) → publish → send → sent-log → chat note (counts; usage flag; monthly gap check).
+
+## 11. Catch-up section (ported 9 Nov 2026 from Patrick's 4–5 Nov rule; first used in Issue 003's updated edition)
+Purpose: make sure Mermaid Queen hasn't missed the field's must-read papers.
+- **Exactly 5 papers** per issue from roughly the **last 10 years** (2016 on); now and then (at most about one a week) a truly foundational pre-2016 paper. Aim for high-impact, well-cited or foundational methods and findings.
+- **Rotate across Amy's areas** week to week and record each pick's area: CV/ML for species interactions; multimodal AI and interaction networks; bioacoustics/PAM and soundscape ecology; coral reef ecology and restoration; behaviour classification, pose and tracking; transferable CV/ML (camera traps, detection/tracking, self-supervised and foundation models); emerging tools (eDNA, remote sensing, biologging, ML for conservation); climate and human impacts and ecosystem services; restoration and NbS; community ecology theory. Issue 003 covered: camera-trap CV, interaction networks, bioacoustics, coral reef soundscapes, ML for conservation.
+- **Never repeat a paper:** check `catchup-log.jsonl`, `archive/items.jsonl`, `archive/shortlist.jsonl` and `sent-log.md` by DOI and title (`build/catchup_check.py` does all four). Skip Amy's own papers and anything she says she already knows.
+- **No neuroscience or psychedelic content**, including neuroscience-journal papers (check_issue would flag the venue name).
+- **Verify every paper** (Crossref/DOI page, Europe PMC, OpenAlex, arXiv). Never invent.
+- **Each item** is a normal `main` item: tags (status, year, type, area), the paper title as headline, byline (authors · venue · year), what it found, "Why it mattered:", caveats, "Why it matters for you" tied to her work, then the extras as `extra` rows:
+  - **SINCE THEN:** one verified line on what came next (replication, critique, standard tool), with a link.
+  - **READING LEVEL:** exactly one of "Skim the abstract", "Read the methods", "Worth a full read".
+  - **CODE/DATA:** public code or data she could reuse; **omit the row if none is found**.
+- **Themed week**, about once a month: all 5 tell one connected story (e.g. "from Snapshot Serengeti to MegaDetector", "how reef soundscapes became a restoration tool"), ordered so each builds on the last, with a one-line theme intro.
+- **Gap check:** in the chat note for the first issue of each month, ask Amy for 2–3 essential papers; log them in `catchup-log.jsonl` with `"known": true` (no issue) so they're never recommended back.
+- **After the issue:** append one line per paper to `catchup-log.jsonl`: `{"date": "2026-11-09", "doi": "10.xxxx/...", "title": "...", "year": 2018, "interest_area": "...", "issue": "003"}`; archive them with section "Catch-up" (own archive tab).
+- Look: icon 🐢, accent turtle copper `#8a4a1c` on tint `#fbeadb` (6.8:1 on white).
+
+## 12. Keeping in step with Patrick's process
+- `upstream-sync.json` records the last commit of `Pattricksk/neurodynamics-digest` that has been reviewed and ported. To check for new upstream changes (read-only): clone or fetch the public repo into a temp dir and run `git log <synced_commit>..origin/main` and `git diff <synced_commit> origin/main -- docs/ tools/ archive/index.html archive/graph.html archive/sync.js`. Ignore issue content (`issues/`, `archive/item/`, `archive/items.json`).
+- Port only process changes, retuned to Amy (no neuroscience/psychedelic rules, +deepdive address only, light ocean style), then update this file, the brief change log and `upstream-sync.json`.
+- Never push to, comment on or modify Patrick's repo or `/workspace/newsletter`.

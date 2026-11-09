@@ -60,13 +60,15 @@
    "002-0041",
    "001-0010",
    "002-0035",
-   "001-0003"
+   "001-0003",
+   "003-0098"
   ],
   "similar_w": [
-   0.085,
-   0.064,
-   0.061,
-   0.061
+   0.086,
+   0.065,
+   0.058,
+   0.057,
+   0.053
   ],
   "zotero": true,
   "venue_clean": "Nature",
@@ -152,11 +154,11 @@
    "003-0069"
   ],
   "similar_w": [
-   0.11,
+   0.111,
    0.096,
-   0.07,
+   0.069,
    0.067,
-   0.058
+   0.057
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -237,14 +239,14 @@
    "003-0066",
    "001-0019",
    "002-0046",
-   "003-0092"
+   "003-0071"
   ],
   "similar_w": [
-   0.17,
-   0.111,
-   0.098,
-   0.087,
-   0.072,
+   0.171,
+   0.11,
+   0.099,
+   0.088,
+   0.069,
    0.053
   ],
   "zotero": true,
@@ -308,15 +310,17 @@
    "003-0070",
    "002-0035",
    "002-0036",
-   "002-0032",
-   "001-0000"
+   "003-0098",
+   "001-0000",
+   "002-0032"
   ],
   "similar_w": [
-   0.168,
-   0.144,
-   0.084,
-   0.062,
-   0.061
+   0.163,
+   0.14,
+   0.08,
+   0.078,
+   0.057,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -387,17 +391,17 @@
    "002-0052",
    "003-0092",
    "001-0018",
-   "003-0068",
    "002-0045",
+   "003-0068",
    "003-0077"
   ],
   "similar_w": [
-   0.102,
-   0.07,
-   0.065,
+   0.103,
+   0.069,
+   0.066,
    0.059,
-   0.057,
-   0.052
+   0.059,
+   0.053
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -466,8 +470,8 @@
    "002-0039"
   ],
   "similar_w": [
-   0.082,
-   0.056
+   0.081,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -534,18 +538,18 @@
   "similar": [
    "003-0072",
    "002-0039",
-   "002-0046",
    "001-0017",
+   "002-0046",
    "002-0037",
    "003-0086"
   ],
   "similar_w": [
    0.091,
-   0.068,
-   0.066,
+   0.07,
+   0.067,
    0.066,
    0.063,
-   0.058
+   0.059
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -609,11 +613,13 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0100",
    "003-0073",
    "003-0066"
   ],
   "similar_w": [
-   0.076,
+   0.121,
+   0.075,
    0.062
   ],
   "zotero": true,
@@ -677,19 +683,19 @@
   "pub_status": "Preprint",
   "similar": [
    "002-0041",
-   "001-0009",
    "002-0057",
+   "001-0009",
    "003-0075",
    "003-0074",
-   "003-0082"
+   "002-0043"
   ],
   "similar_w": [
-   0.106,
-   0.099,
+   0.103,
    0.096,
-   0.073,
-   0.07,
-   0.064
+   0.095,
+   0.069,
+   0.067,
+   0.06
   ],
   "zotero": true,
   "venue_clean": "California Digital Library (CDL)",
@@ -761,12 +767,12 @@
    "003-0083"
   ],
   "similar_w": [
-   0.142,
-   0.101,
+   0.134,
    0.099,
-   0.074,
-   0.067,
-   0.066
+   0.095,
+   0.07,
+   0.063,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Nature Communications",
@@ -833,18 +839,18 @@
   "similar": [
    "001-0015",
    "002-0041",
+   "001-0000",
    "003-0082",
    "003-0074",
-   "001-0000",
-   "001-0014"
+   "003-0083"
   ],
   "similar_w": [
-   0.122,
-   0.071,
+   0.12,
    0.067,
    0.065,
-   0.064,
-   0.064
+   0.062,
+   0.061,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "Frontiers in Marine Science",
@@ -914,18 +920,18 @@
   "similar": [
    "003-0069",
    "003-0066",
+   "003-0097",
    "002-0037",
-   "001-0013",
-   "001-0001",
-   "003-0087"
+   "003-0098",
+   "001-0013"
   ],
   "similar_w": [
-   0.133,
-   0.115,
+   0.13,
+   0.114,
+   0.088,
    0.087,
    0.076,
-   0.067,
-   0.066
+   0.07
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -1054,19 +1060,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "003-0082",
+   "003-0097",
    "003-0092",
    "003-0087",
-   "003-0088",
-   "001-0011",
-   "003-0069"
+   "003-0069",
+   "001-0011"
   ],
   "similar_w": [
-   0.159,
-   0.113,
-   0.095,
-   0.076,
-   0.076,
-   0.071
+   0.157,
+   0.131,
+   0.108,
+   0.088,
+   0.071,
+   0.07
   ],
   "zotero": true,
   "venue_clean": "Sensors",
@@ -1130,19 +1136,19 @@
   "method_groups": [],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0100",
    "003-0076",
    "003-0082",
    "003-0083",
-   "001-0010",
    "002-0033",
-   "001-0009"
+   "001-0010"
   ],
   "similar_w": [
-   0.076,
-   0.071,
-   0.065,
-   0.064,
-   0.061,
+   0.09,
+   0.073,
+   0.066,
+   0.06,
+   0.058,
    0.058
   ],
   "zotero": true,
@@ -1204,18 +1210,18 @@
   "similar": [
    "001-0010",
    "003-0083",
+   "003-0096",
    "002-0058",
    "003-0075",
-   "002-0044",
-   "003-0082"
+   "002-0044"
   ],
   "similar_w": [
-   0.122,
    0.12,
-   0.078,
-   0.075,
-   0.074,
-   0.063
+   0.118,
+   0.108,
+   0.076,
+   0.071,
+   0.068
   ],
   "zotero": true,
   "venue_clean": "Restoration Ecology",
@@ -1282,8 +1288,8 @@
    "002-0036"
   ],
   "similar_w": [
-   0.103,
-   0.061
+   0.104,
+   0.06
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -1351,8 +1357,8 @@
    "003-0073"
   ],
   "similar_w": [
-   0.066,
-   0.057
+   0.067,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the National Academy of Sciences",
@@ -1425,8 +1431,8 @@
    "003-0076"
   ],
   "similar_w": [
-   0.065,
-   0.053
+   0.066,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1494,10 +1500,10 @@
    "001-0021"
   ],
   "similar_w": [
-   0.276,
-   0.087,
+   0.273,
+   0.088,
    0.075,
-   0.071
+   0.073
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1571,8 +1577,8 @@
    "003-0087"
   ],
   "similar_w": [
-   0.233,
-   0.075,
+   0.232,
+   0.073,
    0.055,
    0.054
   ],
@@ -1649,11 +1655,11 @@
    "003-0077"
   ],
   "similar_w": [
-   0.148,
-   0.114,
-   0.086,
+   0.149,
+   0.115,
+   0.087,
    0.084,
-   0.071,
+   0.073,
    0.066
   ],
   "zotero": true,
@@ -1722,11 +1728,13 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0049",
-   "003-0082"
+   "003-0082",
+   "003-0100"
   ],
   "similar_w": [
    0.098,
-   0.059
+   0.057,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -1791,9 +1799,9 @@
    "003-0070"
   ],
   "similar_w": [
-   0.168,
-   0.119,
-   0.103,
+   0.169,
+   0.118,
+   0.104,
    0.067
   ],
   "zotero": true,
@@ -1858,10 +1866,12 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "001-0009"
+   "001-0009",
+   "003-0100"
   ],
   "similar_w": [
-   0.056
+   0.057,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "Nature Food",
@@ -1909,10 +1919,10 @@
    "002-0060"
   ],
   "similar_w": [
-   0.172,
-   0.139,
-   0.099,
-   0.075
+   0.174,
+   0.14,
+   0.1,
+   0.078
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1963,8 +1973,8 @@
    "001-0030"
   ],
   "similar_w": [
-   0.101,
-   0.091
+   0.103,
+   0.09
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2016,11 +2026,11 @@
   ],
   "similar_w": [
    0.544,
-   0.204,
-   0.185,
+   0.207,
+   0.189,
+   0.142,
    0.14,
-   0.139,
-   0.11
+   0.111
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2074,11 +2084,11 @@
   ],
   "similar_w": [
    0.544,
-   0.271,
-   0.124,
-   0.118,
-   0.102,
-   0.094
+   0.273,
+   0.125,
+   0.121,
+   0.103,
+   0.095
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2130,12 +2140,12 @@
    "002-0064"
   ],
   "similar_w": [
-   0.199,
-   0.123,
-   0.102,
-   0.086,
-   0.073,
-   0.053
+   0.2,
+   0.124,
+   0.103,
+   0.088,
+   0.075,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2179,17 +2189,17 @@
    "003-0093",
    "001-0027",
    "002-0063",
-   "003-0094",
    "002-0065",
+   "003-0094",
    "001-0025"
   ],
   "similar_w": [
-   0.214,
-   0.204,
-   0.141,
+   0.219,
+   0.207,
+   0.14,
    0.101,
-   0.1,
-   0.099
+   0.101,
+   0.1
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2265,20 +2275,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "002-0038",
    "001-0021",
+   "002-0038",
    "003-0069",
    "003-0089",
-   "002-0034",
-   "003-0086"
+   "003-0077",
+   "002-0034"
   ],
   "similar_w": [
-   0.085,
    0.084,
-   0.077,
+   0.084,
+   0.076,
    0.075,
-   0.071,
-   0.071
+   0.072,
+   0.07
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -2343,17 +2353,15 @@
    "003-0070",
    "002-0036",
    "001-0003",
-   "002-0035",
    "001-0014",
-   "002-0055"
+   "002-0035"
   ],
   "similar_w": [
    0.065,
-   0.063,
-   0.062,
-   0.053,
+   0.061,
+   0.057,
    0.051,
-   0.05
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Behavioral Ecology",
@@ -2418,8 +2426,8 @@
    "003-0067"
   ],
   "similar_w": [
-   0.061,
-   0.053
+   0.058,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -2496,13 +2504,15 @@
    "003-0092",
    "002-0031",
    "001-0001",
-   "002-0061"
+   "002-0061",
+   "003-0097"
   ],
   "similar_w": [
-   0.08,
-   0.071,
+   0.078,
    0.07,
-   0.067
+   0.069,
+   0.067,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2569,16 +2579,16 @@
    "001-0003",
    "003-0069",
    "003-0070",
+   "003-0098",
    "002-0055",
-   "001-0000",
    "003-0082"
   ],
   "similar_w": [
-   0.144,
-   0.126,
-   0.093,
-   0.067,
-   0.061,
+   0.14,
+   0.118,
+   0.086,
+   0.065,
+   0.064,
    0.061
   ],
   "zotero": true,
@@ -2642,17 +2652,17 @@
    "001-0023",
    "003-0070",
    "001-0003",
+   "003-0098",
    "002-0032",
-   "001-0016",
-   "003-0087"
+   "001-0016"
   ],
   "similar_w": [
-   0.119,
-   0.107,
-   0.084,
-   0.063,
+   0.118,
+   0.105,
+   0.08,
+   0.079,
    0.061,
-   0.056
+   0.06
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -2727,16 +2737,16 @@
   "similar": [
    "001-0020",
    "001-0011",
-   "003-0066",
    "001-0006",
+   "003-0066",
    "003-0089"
   ],
   "similar_w": [
-   0.233,
+   0.232,
    0.087,
-   0.064,
    0.063,
-   0.06
+   0.06,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2807,9 +2817,9 @@
    "003-0086"
   ],
   "similar_w": [
-   0.085,
-   0.069,
-   0.052
+   0.084,
+   0.07,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2882,16 +2892,14 @@
    "003-0073",
    "003-0066",
    "001-0005",
-   "003-0068",
    "003-0086"
   ],
   "similar_w": [
-   0.068,
-   0.059,
+   0.07,
+   0.06,
    0.058,
-   0.056,
-   0.05,
-   0.05
+   0.057,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Royal Society Open Science",
@@ -2960,14 +2968,18 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "003-0066",
+   "003-0097",
+   "003-0099",
+   "003-0096",
    "002-0054",
-   "002-0036",
-   "002-0048"
+   "002-0036"
   ],
   "similar_w": [
-   0.186,
-   0.069,
-   0.052,
+   0.174,
+   0.132,
+   0.116,
+   0.061,
+   0.059,
    0.051
   ],
   "zotero": true,
@@ -3032,20 +3044,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "001-0009",
    "003-0074",
+   "001-0009",
    "002-0043",
    "001-0008",
    "003-0082",
    "001-0000"
   ],
   "similar_w": [
-   0.142,
-   0.14,
-   0.117,
-   0.106,
-   0.102,
-   0.085
+   0.137,
+   0.134,
+   0.116,
+   0.103,
+   0.099,
+   0.086
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3100,20 +3112,20 @@
   "method_groups": [],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0095",
    "001-0009",
    "003-0083",
    "003-0076",
    "001-0015",
-   "003-0078",
-   "002-0044"
+   "003-0078"
   ],
   "similar_w": [
-   0.074,
-   0.064,
-   0.064,
+   0.115,
+   0.07,
+   0.06,
    0.059,
-   0.056,
-   0.055
+   0.055,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Marine Ecology Progress Series",
@@ -3175,17 +3187,17 @@
    "002-0041",
    "001-0009",
    "002-0044",
+   "003-0100",
    "003-0076",
-   "002-0054",
-   "001-0008"
+   "002-0054"
   ],
   "similar_w": [
-   0.117,
-   0.101,
-   0.092,
-   0.076,
-   0.068,
-   0.061
+   0.116,
+   0.099,
+   0.087,
+   0.074,
+   0.072,
+   0.065
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -3241,17 +3253,17 @@
    "002-0043",
    "003-0076",
    "003-0082",
-   "001-0015",
    "002-0041",
-   "003-0083"
+   "001-0015",
+   "003-0078"
   ],
   "similar_w": [
-   0.092,
-   0.08,
-   0.076,
-   0.074,
-   0.074,
-   0.066
+   0.087,
+   0.073,
+   0.069,
+   0.069,
+   0.068,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -3319,11 +3331,15 @@
   "pub_status": "Preprint",
   "similar": [
    "003-0088",
-   "001-0004"
+   "003-0097",
+   "001-0004",
+   "003-0101"
   ],
   "similar_w": [
    0.094,
-   0.057
+   0.06,
+   0.059,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3387,18 +3403,18 @@
   "similar": [
    "003-0078",
    "003-0085",
-   "003-0072",
    "001-0002",
+   "003-0072",
    "001-0006",
    "003-0075"
   ],
   "similar_w": [
    0.14,
-   0.081,
-   0.072,
-   0.072,
+   0.079,
+   0.069,
+   0.069,
    0.066,
-   0.064
+   0.063
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3533,12 +3549,14 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "003-0089",
-   "002-0040"
+   "003-0097",
+   "003-0101",
+   "003-0089"
   ],
   "similar_w": [
-   0.059,
-   0.051
+   0.078,
+   0.06,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "Conservation Biology",
@@ -3606,7 +3624,7 @@
   ],
   "similar_w": [
    0.098,
-   0.054
+   0.053
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3665,10 +3683,12 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "003-0080"
+   "003-0080",
+   "003-0099"
   ],
   "similar_w": [
-   0.105
+   0.103,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -3805,11 +3825,11 @@
    "002-0046"
   ],
   "similar_w": [
-   0.211,
-   0.102,
+   0.207,
+   0.103,
    0.075,
    0.068,
-   0.064,
+   0.061,
    0.06
   ],
   "zotero": false,
@@ -3883,9 +3903,9 @@
    "003-0066"
   ],
   "similar_w": [
-   0.17,
-   0.109,
-   0.094
+   0.171,
+   0.11,
+   0.095
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3954,20 +3974,20 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0099",
    "003-0078",
    "003-0089",
-   "002-0040",
-   "002-0043",
-   "003-0075",
-   "003-0068"
+   "003-0097",
+   "003-0096",
+   "002-0043"
   ],
   "similar_w": [
+   0.13,
    0.106,
-   0.079,
-   0.069,
-   0.068,
-   0.066,
-   0.061
+   0.08,
+   0.076,
+   0.071,
+   0.065
   ],
   "zotero": true,
   "venue_clean": "Journal of Fish Biology",
@@ -4022,14 +4042,12 @@
   "similar": [
    "002-0035",
    "003-0080",
-   "003-0069",
-   "002-0032"
+   "003-0069"
   ],
   "similar_w": [
-   0.067,
-   0.062,
-   0.054,
-   0.05
+   0.064,
+   0.059,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -4130,7 +4148,7 @@
   ],
   "similar_w": [
    0.096,
-   0.062
+   0.059
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4182,14 +4200,14 @@
    "003-0076",
    "001-0015",
    "003-0090",
-   "003-0074",
+   "003-0098",
    "002-0062"
   ],
   "similar_w": [
-   0.146,
-   0.127,
-   0.078,
-   0.06,
+   0.136,
+   0.126,
+   0.076,
+   0.061,
    0.058,
    0.056
   ],
@@ -4240,11 +4258,13 @@
   "pub_status": "",
   "similar": [
    "002-0058",
-   "002-0057"
+   "002-0057",
+   "003-0100"
   ],
   "similar_w": [
-   0.146,
-   0.062
+   0.136,
+   0.059,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4299,19 +4319,19 @@
   "pub_status": "",
   "similar": [
    "003-0092",
+   "003-0101",
+   "003-0099",
    "003-0088",
    "002-0061",
-   "001-0025",
-   "001-0027",
-   "003-0089"
+   "001-0025"
   ],
   "similar_w": [
-   0.156,
+   0.162,
+   0.107,
+   0.101,
    0.1,
    0.083,
-   0.075,
-   0.073,
-   0.051
+   0.078
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4365,10 +4385,10 @@
   ],
   "similar_w": [
    0.19,
-   0.172,
+   0.174,
    0.083,
-   0.072,
-   0.069,
+   0.07,
+   0.07,
    0.067
   ],
   "zotero": false,
@@ -4420,7 +4440,7 @@
   ],
   "similar_w": [
    0.835,
-   0.061,
+   0.058,
    0.056
   ],
   "zotero": false,
@@ -4466,18 +4486,18 @@
   "similar": [
    "003-0093",
    "002-0064",
-   "001-0030",
    "001-0027",
+   "001-0030",
    "003-0094",
    "002-0065"
   ],
   "similar_w": [
-   0.238,
-   0.213,
-   0.141,
+   0.24,
+   0.216,
+   0.142,
    0.14,
-   0.135,
-   0.104
+   0.137,
+   0.106
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4528,12 +4548,12 @@
    "002-0065"
   ],
   "similar_w": [
-   0.213,
-   0.113,
-   0.11,
-   0.107,
-   0.097,
-   0.072
+   0.216,
+   0.115,
+   0.111,
+   0.108,
+   0.099,
+   0.073
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4585,12 +4605,12 @@
    "002-0063"
   ],
   "similar_w": [
-   0.271,
-   0.199,
+   0.273,
+   0.2,
    0.19,
-   0.148,
-   0.113,
-   0.104
+   0.15,
+   0.115,
+   0.106
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4674,12 +4694,12 @@
    "003-0085"
   ],
   "similar_w": [
-   0.186,
-   0.115,
-   0.098,
-   0.097,
-   0.094,
-   0.09
+   0.174,
+   0.114,
+   0.099,
+   0.095,
+   0.095,
+   0.088
   ],
   "zotero": true,
   "venue_clean": "Nature Methods",
@@ -4751,7 +4771,7 @@
    "002-0033"
   ],
   "similar_w": [
-   0.053
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -4822,13 +4842,11 @@
   "pub_status": "Preprint",
   "similar": [
    "002-0054",
-   "001-0004",
-   "002-0039"
+   "001-0004"
   ],
   "similar_w": [
-   0.061,
-   0.059,
-   0.05
+   0.062,
+   0.059
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -4911,18 +4929,18 @@
   "similar": [
    "001-0011",
    "002-0035",
-   "003-0070",
    "001-0021",
-   "002-0031",
-   "001-0013"
+   "003-0070",
+   "003-0098",
+   "003-0099"
   ],
   "similar_w": [
-   0.133,
-   0.126,
-   0.119,
-   0.114,
-   0.077,
-   0.071
+   0.13,
+   0.118,
+   0.115,
+   0.108,
+   0.084,
+   0.079
   ],
   "zotero": true,
   "venue_clean": "Nature Machine Intelligence",
@@ -4983,18 +5001,18 @@
   "similar": [
    "001-0003",
    "003-0069",
+   "003-0098",
    "002-0036",
    "002-0035",
-   "001-0023",
-   "002-0032"
+   "001-0023"
   ],
   "similar_w": [
-   0.168,
-   0.119,
+   0.163,
+   0.108,
    0.107,
-   0.093,
-   0.067,
-   0.065
+   0.105,
+   0.086,
+   0.067
   ],
   "zotero": true,
   "venue_clean": "Biological Reviews",
@@ -5065,16 +5083,14 @@
    "001-0021",
    "003-0078",
    "001-0006",
-   "001-0002",
-   "003-0066"
+   "001-0002"
   ],
   "similar_w": [
-   0.276,
-   0.148,
+   0.273,
+   0.149,
    0.066,
-   0.057,
-   0.053,
-   0.051
+   0.055,
+   0.053
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -5142,14 +5158,12 @@
   "similar": [
    "001-0006",
    "003-0085",
-   "002-0046",
-   "003-0078"
+   "002-0046"
   ],
   "similar_w": [
    0.091,
-   0.084,
-   0.072,
-   0.05
+   0.082,
+   0.069
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -5226,10 +5240,10 @@
   ],
   "similar_w": [
    0.139,
-   0.076,
-   0.059,
-   0.057,
-   0.056
+   0.075,
+   0.06,
+   0.058,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "The Journal of the Acoustical Society of America",
@@ -5306,12 +5320,12 @@
    "001-0010"
   ],
   "similar_w": [
-   0.14,
-   0.072,
-   0.07,
+   0.137,
+   0.068,
    0.067,
-   0.067,
-   0.065
+   0.064,
+   0.063,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Ecology and Evolution",
@@ -5382,17 +5396,17 @@
    "001-0001",
    "001-0015",
    "001-0008",
-   "003-0076",
    "003-0083",
-   "002-0054"
+   "003-0076",
+   "001-0012"
   ],
   "similar_w": [
-   0.11,
-   0.075,
-   0.073,
+   0.111,
+   0.071,
    0.069,
-   0.069,
-   0.066
+   0.065,
+   0.065,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "Journal of Marine Science and Engineering",
@@ -5462,18 +5476,18 @@
   "similar": [
    "002-0058",
    "002-0044",
-   "002-0043",
    "001-0014",
-   "003-0075",
-   "002-0042"
+   "002-0043",
+   "003-0095",
+   "003-0075"
   ],
   "similar_w": [
-   0.127,
-   0.08,
-   0.076,
-   0.076,
-   0.069,
-   0.064
+   0.126,
+   0.073,
+   0.073,
+   0.072,
+   0.066,
+   0.065
   ],
   "zotero": true,
   "venue_clean": "Royal Society Open Science",
@@ -5552,12 +5566,12 @@
    "002-0031"
   ],
   "similar_w": [
-   0.211,
+   0.207,
    0.15,
-   0.111,
-   0.109,
-   0.077,
-   0.071
+   0.11,
+   0.11,
+   0.076,
+   0.072
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -5631,15 +5645,15 @@
    "001-0021",
    "003-0085",
    "003-0083",
-   "002-0044"
+   "003-0100"
   ],
   "similar_w": [
    0.14,
    0.106,
-   0.086,
-   0.08,
-   0.077,
-   0.066
+   0.087,
+   0.079,
+   0.073,
+   0.068
   ],
   "zotero": true,
   "venue_clean": "Ecological Solutions and Evidence",
@@ -5709,8 +5723,12 @@
    "Datasets / benchmarks / tools"
   ],
   "pub_status": "Preprint",
-  "similar": [],
-  "similar_w": [],
+  "similar": [
+   "003-0100"
+  ],
+  "similar_w": [
+   0.051
+  ],
   "zotero": true,
   "venue_clean": "arXiv",
   "detail_url": "item/003-0079.html"
@@ -5773,17 +5791,13 @@
    "002-0050",
    "002-0055",
    "003-0070",
-   "001-0021",
-   "003-0069",
-   "002-0035"
+   "001-0021"
   ],
   "similar_w": [
-   0.105,
-   0.062,
+   0.103,
    0.059,
-   0.055,
-   0.051,
-   0.051
+   0.056,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -5851,8 +5865,8 @@
    "002-0041"
   ],
   "similar_w": [
-   0.168,
-   0.081
+   0.169,
+   0.082
   ],
   "zotero": true,
   "venue_clean": "Elem Sci Anth",
@@ -5909,18 +5923,18 @@
   "similar": [
    "001-0013",
    "002-0041",
+   "003-0100",
    "002-0044",
    "003-0074",
-   "001-0014",
-   "001-0010"
+   "001-0014"
   ],
   "similar_w": [
-   0.159,
-   0.102,
-   0.076,
-   0.072,
-   0.071,
-   0.067
+   0.157,
+   0.099,
+   0.079,
+   0.069,
+   0.068,
+   0.066
   ],
   "zotero": true,
   "venue_clean": "Journal of Applied Ecology",
@@ -6000,12 +6014,12 @@
    "002-0044"
   ],
   "similar_w": [
-   0.12,
-   0.077,
-   0.07,
-   0.069,
+   0.118,
+   0.073,
    0.067,
-   0.066
+   0.065,
+   0.064,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Marine Pollution Bulletin",
@@ -6063,12 +6077,8 @@
    "Molecular / eDNA"
   ],
   "pub_status": "Peer reviewed",
-  "similar": [
-   "003-0078"
-  ],
-  "similar_w": [
-   0.051
-  ],
+  "similar": [],
+  "similar_w": [],
   "zotero": true,
   "venue_clean": "Science",
   "detail_url": "item/003-0084.html"
@@ -6145,17 +6155,17 @@
   "similar": [
    "003-0066",
    "003-0072",
-   "002-0046",
    "003-0078",
+   "002-0046",
    "001-0020",
    "003-0087"
   ],
   "similar_w": [
-   0.09,
-   0.084,
-   0.081,
-   0.08,
-   0.075,
+   0.088,
+   0.082,
+   0.079,
+   0.079,
+   0.073,
    0.066
   ],
   "zotero": true,
@@ -6244,10 +6254,10 @@
   ],
   "similar_w": [
    0.139,
-   0.071,
-   0.058,
-   0.052,
-   0.05
+   0.07,
+   0.059,
+   0.051,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -6469,20 +6479,20 @@
   ],
   "pub_status": "",
   "similar": [
+   "003-0097",
    "001-0013",
    "003-0092",
-   "003-0089",
    "003-0085",
-   "001-0011",
-   "003-0066"
+   "003-0089",
+   "001-0011"
   ],
   "similar_w": [
-   0.095,
-   0.084,
-   0.067,
+   0.129,
+   0.088,
+   0.08,
    0.066,
-   0.066,
-   0.06
+   0.064,
+   0.062
   ],
   "zotero": true,
   "venue_clean": "Ecology",
@@ -6549,16 +6559,16 @@
    "002-0045",
    "003-0092",
    "001-0013",
-   "001-0011",
-   "003-0087"
+   "003-0097",
+   "001-0011"
   ],
   "similar_w": [
    0.1,
    0.094,
-   0.09,
-   0.076,
-   0.059,
-   0.058
+   0.086,
+   0.07,
+   0.064,
+   0.055
   ],
   "zotero": false,
   "venue_clean": "Zenodo",
@@ -6632,16 +6642,16 @@
    "002-0054",
    "003-0077",
    "002-0031",
-   "002-0038",
-   "003-0087"
+   "003-0097",
+   "002-0038"
   ],
   "similar_w": [
-   0.097,
-   0.079,
-   0.077,
+   0.095,
+   0.08,
+   0.076,
    0.075,
-   0.069,
-   0.067
+   0.071,
+   0.07
   ],
   "zotero": true,
   "venue_clean": "Biodiversity Data Journal",
@@ -6693,8 +6703,8 @@
   ],
   "similar_w": [
    0.835,
-   0.06,
-   0.057
+   0.061,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "",
@@ -6745,8 +6755,8 @@
    "003-0090"
   ],
   "similar_w": [
-   0.061,
-   0.057
+   0.058,
+   0.054
   ],
   "zotero": false,
   "venue_clean": "",
@@ -6808,16 +6818,16 @@
    "002-0060",
    "001-0013",
    "001-0026",
+   "003-0097",
    "003-0088",
-   "003-0087",
-   "002-0034"
+   "003-0087"
   ],
   "similar_w": [
-   0.156,
-   0.113,
-   0.101,
-   0.09,
-   0.084,
+   0.162,
+   0.108,
+   0.103,
+   0.089,
+   0.086,
    0.08
   ],
   "zotero": false,
@@ -6870,12 +6880,12 @@
    "002-0065"
   ],
   "similar_w": [
-   0.238,
-   0.214,
-   0.185,
-   0.149,
-   0.118,
-   0.113
+   0.24,
+   0.219,
+   0.189,
+   0.151,
+   0.121,
+   0.115
   ],
   "zotero": false,
   "venue_clean": "",
@@ -6928,15 +6938,585 @@
    "002-0064"
   ],
   "similar_w": [
-   0.149,
-   0.148,
-   0.135,
+   0.151,
+   0.15,
+   0.137,
+   0.125,
    0.124,
-   0.123,
-   0.107
+   0.108
   ],
   "zotero": false,
   "venue_clean": "",
   "detail_url": "item/003-0094.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Coral reef ecology and conservation",
+  "title": "Stony coral symbioses show variable responses to future ocean conditions",
+  "digest_headline": "Coral symbioses under future oceans: adaptive in some species, random drift in others (Science Advances, 4 Nov)",
+  "authors": [
+   "Mariana Rocha de Souza",
+   "Janaya Bruce",
+   "Annick Cros",
+   "Christopher P. Jury",
+   "Crawford Drury",
+   "Robert J. Toonen"
+  ],
+  "venue": "Science Advances",
+  "pub_date": "2026-11-06",
+  "doi": "10.1126/sciadv.aed4599",
+  "url": "https://doi.org/10.1126/sciadv.aed4599",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "mesocosm experiment",
+   "symbiont community profiling"
+  ],
+  "topics": [
+   "coral–algal symbiosis",
+   "future ocean conditions",
+   "host–microbiome"
+  ],
+  "summary": "Rocha de Souza, Bruce, Cros, Jury, Drury & Toonen ran a 2.5-year factorial future-ocean mesocosm with eight coral species from the major lineages, tracking symbiont communities in replicate fragments of the same colony. Some species' symbionts shifted predictably (heat generally cut symbiont diversity and restructured it), others diverged stochastically, so they frame the responses as a continuum of host-driven symbiont sorting.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Corals",
+   "Symbionts"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s05",
+  "relevance": 3,
+  "id": "003-0095",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0042",
+   "003-0076",
+   "002-0041",
+   "001-0010",
+   "003-0100"
+  ],
+  "similar_w": [
+   0.115,
+   0.066,
+   0.059,
+   0.055,
+   0.052
+  ],
+  "zotero": true,
+  "venue_clean": "Science Advances",
+  "detail_url": "item/003-0095.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Coral reef ecology and conservation",
+  "title": "From Shape to Species: The Use of Persistent Homology in Restructuring the Taxonomy of Acropora corals",
+  "digest_headline": "Telling Acropora apart by the shape of the data (arXiv preprint, 5 Nov)",
+  "authors": [
+   "Lilith Eringfeld",
+   "Sophie Raynor",
+   "Yossi Bokor Bleile",
+   "Tom C. L. Bridge"
+  ],
+  "venue": "arXiv (q-bio.PE)",
+  "pub_date": "2026-11-05",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.08550",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "topological data analysis",
+   "persistent homology"
+  ],
+  "topics": [
+   "Acropora taxonomy",
+   "coral morphology",
+   "in-situ images"
+  ],
+  "summary": "Eringfeld, Raynor, Bokor Bleile & Bridge test topological data analysis (persistent homology) on in-situ coral photos as a way to separate species in the notoriously tricky genus Acropora, where molecular evidence keeps outrunning morphology. A first exploration: they show usable topological features can be pulled from field images, not a working classifier yet.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Corals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s05",
+  "relevance": 3,
+  "id": "003-0096",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [],
+  "pub_status": "Preprint",
+  "similar": [
+   "001-0015",
+   "002-0054",
+   "003-0075",
+   "002-0040",
+   "002-0044",
+   "001-0014"
+  ],
+  "similar_w": [
+   0.108,
+   0.071,
+   0.063,
+   0.061,
+   0.056,
+   0.055
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv (q-bio.PE)",
+  "detail_url": "item/003-0096.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Catch-up",
+  "title": "Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning",
+  "digest_headline": "Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning",
+  "authors": [
+   "Mohammad Sadegh Norouzzadeh",
+   "Anh Nguyen",
+   "Margaret Kosmala",
+   "Alexandra Swanson",
+   "Meredith S. Palmer",
+   "Craig Packer",
+   "Jeff Clune"
+  ],
+  "venue": "Proceedings of the National Academy of Sciences",
+  "pub_date": "2018-06-05",
+  "doi": "10.1073/pnas.1719367115",
+  "url": "https://doi.org/10.1073/pnas.1719367115",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "CNN",
+   "confidence thresholding"
+  ],
+  "topics": [
+   "camera traps",
+   "Snapshot Serengeti"
+  ],
+  "summary": "Deep CNNs trained on the 3.2-million-image Snapshot Serengeti set identified 48 species with >93.8% accuracy and also counted animals and described behaviours. The clever bit: by only auto-labelling images the network was confident about, it handled 99.3% of the data at the same 96.6% accuracy as the crowdsourced volunteers, saving an estimated 8+ years of human labelling.",
+  "caveats": "One savanna dataset with plenty of labels per common species; rare species and new sites are much harder, which the later literature hammered home.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Beery, Morris & Yang's MegaDetector pipeline (2019) split the job into a generic “animal / person / vehicle” detector plus local classifiers, and became the go-to camera-trap tool. arXiv:1907.06772 (https://arxiv.org/abs/1907.06772)",
+  "reading_level": "Read the methods",
+  "code_data": "Original code + models (https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images) · MegaDetector (https://github.com/agentmorris/MegaDetector)",
+  "interest_area": "Transferable CV/ML: camera traps",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection",
+   "Behaviour classification"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "issue_url": "../issues/003.html#s17",
+  "relevance": 1,
+  "id": "003-0097",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Acoustic analysis",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0040",
+   "001-0013",
+   "003-0087",
+   "003-0099",
+   "003-0092",
+   "001-0011"
+  ],
+  "similar_w": [
+   0.132,
+   0.131,
+   0.129,
+   0.114,
+   0.089,
+   0.088
+  ],
+  "zotero": true,
+  "venue_clean": "Proceedings of the National Academy of Sciences",
+  "detail_url": "item/003-0097.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Catch-up",
+  "title": "Machine learning algorithms to infer trait‐matching and predict species interactions in ecological networks",
+  "digest_headline": "Machine learning algorithms to infer trait-matching and predict species interactions in ecological networks",
+  "authors": [
+   "Maximilian Pichler",
+   "Virginie Boreux",
+   "Alexandra‐Maria Klein",
+   "Matthias Schleuning",
+   "Florian Hartig"
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "pub_date": "2019-11-19",
+  "doi": "10.1111/2041-210X.13329",
+  "url": "https://doi.org/10.1111/2041-210X.13329",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "random forest",
+   "boosted regression trees",
+   "deep neural networks"
+  ],
+  "topics": [
+   "trait-matching",
+   "plant-pollinator networks",
+   "link prediction"
+  ],
+  "summary": "Do species interact because their traits match (a bee's tongue and a flower's shape)? Studies disagreed, and the authors argue part of the reason was overly simple GLMs.",
+  "caveats": "Pollination networks with good trait data; how well this carries over to reef networks with patchy traits and detection bias is open.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Strydom et al. (2021) laid out a roadmap for predicting interaction networks across space and time, with a small neural-net proof of concept and a methods primer. doi:10.1098/rstb.2021.0063 (https://doi.org/10.1098/rstb.2021.0063)",
+  "reading_level": "Read the methods",
+  "code_data": "TraitMatching (R package) (https://github.com/MaximilianPi/TraitMatching)",
+  "interest_area": "Multimodal AI and interaction networks",
+  "realms": [
+   "Terrestrial"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Plants",
+   "Invertebrates",
+   "Birds"
+  ],
+  "issue_url": "../issues/003.html#s17",
+  "relevance": 2,
+  "id": "003-0098",
+  "modality_groups": [],
+  "method_groups": [
+   "Network analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0070",
+   "003-0069",
+   "002-0036",
+   "001-0003",
+   "001-0011",
+   "002-0035"
+  ],
+  "similar_w": [
+   0.107,
+   0.084,
+   0.079,
+   0.078,
+   0.076,
+   0.065
+  ],
+  "zotero": true,
+  "venue_clean": "Methods in Ecology and Evolution",
+  "detail_url": "item/003-0098.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Catch-up",
+  "title": "Computational bioacoustics with deep learning: a review and roadmap",
+  "digest_headline": "Computational bioacoustics with deep learning: a review and roadmap",
+  "authors": [
+   "Dan Stowell"
+  ],
+  "venue": "PeerJ",
+  "pub_date": "2022-03-21",
+  "doi": "10.7717/peerj.13152",
+  "url": "https://doi.org/10.7717/peerj.13152",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "deep learning",
+   "CNN"
+  ],
+  "topics": [
+   "computational bioacoustics",
+   "roadmap"
+  ],
+  "summary": "A single-author tour of deep learning for animal sound: which ideas were borrowed from speech and image processing, where bioacoustic data are genuinely different (rare calls, overlapping sources, shifting backgrounds), and a principled roadmap of open problems the community should tackle. Why it mattered: it's the review people hand to new PAM students, and it set the agenda (low-resource species, generalisation, richer tasks than presence/absence).",
+  "caveats": "A narrative review with a self-described “subjective but principled” roadmap, written before the foundation-model wave.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Ghani, Denton, Kahl & Klinck (2023) showed embeddings from large birdsong models transfer to bats, marine mammals and amphibians better than general-audio embeddings, answering one of the roadmap's questions. doi:10.1038/s41598-023-49989-z (https://doi.org/10.1038/s41598-023-49989-z)",
+  "reading_level": "Worth a full read",
+  "code_data": "Perch (Google Research bioacoustics models and tools) (https://github.com/google-research/perch)",
+  "interest_area": "Bioacoustics and PAM",
+  "realms": [
+   "Terrestrial",
+   "Marine",
+   "Freshwater"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Review",
+  "issue_url": "../issues/003.html#s17",
+  "relevance": 2,
+  "id": "003-0099",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0054",
+   "002-0040",
+   "003-0097",
+   "002-0060",
+   "003-0069",
+   "003-0066"
+  ],
+  "similar_w": [
+   0.13,
+   0.116,
+   0.114,
+   0.101,
+   0.079,
+   0.072
+  ],
+  "zotero": true,
+  "venue_clean": "PeerJ",
+  "detail_url": "item/003-0099.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Catch-up",
+  "title": "Acoustic enrichment can enhance fish community development on degraded coral reef habitat",
+  "digest_headline": "Acoustic enrichment can enhance fish community development on degraded coral reef habitat",
+  "authors": [
+   "Timothy A. C. Gordon",
+   "Andrew N. Radford",
+   "Isla K. Davidson",
+   "Kasey Barnes",
+   "Kieran McCloskey",
+   "Sophie L. Nedelec",
+   "Mark G. Meekan",
+   "Mark I. McCormick",
+   "Stephen D. Simpson"
+  ],
+  "venue": "Nature Communications",
+  "pub_date": "2019-11-29",
+  "doi": "10.1038/s41467-019-13186-2",
+  "url": "https://doi.org/10.1038/s41467-019-13186-2",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "playback experiment"
+  ],
+  "topics": [
+   "acoustic enrichment",
+   "reef restoration",
+   "fish settlement"
+  ],
+  "summary": "A six-week field experiment: coral-rubble patch reefs with loudspeakers playing healthy-reef sound versus unmanipulated controls. Acoustically enriched patches roughly doubled overall fish abundance and had 50% more species, across all major trophic guilds.",
+  "caveats": "Small patch reefs over six weeks; attracting fish isn't the same as long-term recovery, and the authors pitch it as a complement to habitat restoration, not a replacement.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Williams et al. (2022) moved from listening to classifying: ML across a suite of ecoacoustic indices separated healthy and degraded sites at a large reef restoration programme far better than any single index. doi:10.1016/j.ecolind.2022.108986 (https://doi.org/10.1016/j.ecolind.2022.108986)",
+  "reading_level": "Read the methods",
+  "code_data": "",
+  "interest_area": "Coral reefs and soundscapes",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Fish"
+  ],
+  "issue_url": "../issues/003.html#s17",
+  "relevance": 2,
+  "id": "003-0100",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0007",
+   "001-0014",
+   "003-0082",
+   "002-0043",
+   "003-0078",
+   "002-0054"
+  ],
+  "similar_w": [
+   0.121,
+   0.09,
+   0.079,
+   0.074,
+   0.068,
+   0.06
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Communications",
+  "detail_url": "item/003-0100.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Catch-up",
+  "title": "Perspectives in machine learning for wildlife conservation",
+  "digest_headline": "Perspectives in machine learning for wildlife conservation",
+  "authors": [
+   "Devis Tuia",
+   "Benjamin Kellenberger",
+   "Sara Beery",
+   "Blair R. Costelloe",
+   "Silvia Zuffi",
+   "Benjamin Risse",
+   "Alexander Mathis",
+   "Mackenzie W. Mathis",
+   "Frank van Langevelde",
+   "Tilo Burghardt",
+   "Roland Kays",
+   "Holger Klinck",
+   "Martin Wikelski",
+   "Iain D. Couzin",
+   "Grant van Horn",
+   "Margaret C. Crofoot",
+   "Charles V. Stewart",
+   "Tanya Berger-Wolf"
+  ],
+  "venue": "Nature Communications",
+  "pub_date": "2022-02-09",
+  "doi": "10.1038/s41467-022-27980-y",
+  "url": "https://doi.org/10.1038/s41467-022-27980-y",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "machine learning",
+   "hybrid modelling"
+  ],
+  "topics": [
+   "wildlife conservation",
+   "sensors",
+   "interdisciplinarity"
+  ],
+  "summary": "An 18-author perspective from ecologists and CV researchers: cheap sensors now produce more data than ecologists can process, and the way forward is ML combined with domain knowledge, feeding better inputs into ecological models and, eventually, hybrid ML–ecology models. It also argues for close interdisciplinary teams and training a new generation of ecology data scientists.",
+  "caveats": "A perspective, not new results; the examples skew terrestrial and the field has since moved fast towards foundation models.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "BioCLIP (Stevens et al., CVPR 2024) trained a vision foundation model on the TreeOfLife-10M dataset, an early step towards the general-purpose biology models the perspective anticipated. arXiv:2311.18803 (https://arxiv.org/abs/2311.18803)",
+  "reading_level": "Skim the abstract",
+  "code_data": "BioCLIP + TreeOfLife-10M (https://github.com/Imageomics/bioclip)",
+  "interest_area": "Emerging tools: ML for conservation",
+  "realms": [
+   "Terrestrial",
+   "Marine"
+  ],
+  "modalities": [
+   "Multimodal"
+  ],
+  "study_type": "Review",
+  "issue_url": "../issues/003.html#s17",
+  "relevance": 1,
+  "id": "003-0101",
+  "modality_groups": [
+   "Multimodal"
+  ],
+  "tasks": [],
+  "taxa": [],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0060",
+   "002-0048",
+   "003-0098",
+   "002-0045",
+   "003-0069"
+  ],
+  "similar_w": [
+   0.107,
+   0.06,
+   0.055,
+   0.054,
+   0.053
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Communications",
+  "detail_url": "item/003-0101.html"
  }
 ]
