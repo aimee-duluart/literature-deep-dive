@@ -58,17 +58,15 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0041",
-   "001-0003",
-   "002-0035",
    "001-0010",
-   "002-0036"
+   "002-0035",
+   "001-0003"
   ],
   "similar_w": [
-   0.087,
-   0.066,
-   0.065,
-   0.062,
-   0.056
+   0.085,
+   0.064,
+   0.061,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Nature",
@@ -147,14 +145,18 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0075",
    "001-0012",
+   "002-0034",
    "001-0011",
-   "002-0034"
+   "003-0069"
   ],
   "similar_w": [
-   0.103,
-   0.073,
-   0.07
+   0.11,
+   0.096,
+   0.07,
+   0.067,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -231,13 +233,19 @@
   "pub_status": "Preprint",
   "similar": [
    "002-0053",
+   "003-0077",
+   "003-0066",
    "001-0019",
-   "002-0046"
+   "002-0046",
+   "003-0092"
   ],
   "similar_w": [
-   0.19,
+   0.17,
+   0.111,
    0.098,
-   0.074
+   0.087,
+   0.072,
+   0.053
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -297,16 +305,18 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0070",
    "002-0035",
    "002-0036",
-   "001-0000",
-   "002-0032"
+   "002-0032",
+   "001-0000"
   ],
   "similar_w": [
-   0.145,
-   0.092,
-   0.066,
-   0.064
+   0.168,
+   0.144,
+   0.084,
+   0.062,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -375,13 +385,19 @@
   "pub_status": "Preprint",
   "similar": [
    "002-0052",
+   "003-0092",
+   "001-0018",
+   "003-0068",
    "002-0045",
-   "001-0018"
+   "003-0077"
   ],
   "similar_w": [
-   0.107,
-   0.069,
-   0.068
+   0.102,
+   0.07,
+   0.065,
+   0.059,
+   0.057,
+   0.052
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -446,10 +462,12 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0066",
    "002-0039"
   ],
   "similar_w": [
-   0.065
+   0.082,
+   0.056
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -514,20 +532,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0072",
    "002-0039",
-   "001-0017",
    "002-0046",
+   "001-0017",
    "002-0037",
-   "001-0011",
-   "002-0054"
+   "003-0086"
   ],
   "similar_w": [
-   0.08,
-   0.077,
+   0.091,
+   0.068,
    0.066,
-   0.06,
-   0.054,
-   0.054
+   0.066,
+   0.063,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -590,8 +608,14 @@
    "Field monitoring / survey"
   ],
   "pub_status": "Peer reviewed",
-  "similar": [],
-  "similar_w": [],
+  "similar": [
+   "003-0073",
+   "003-0066"
+  ],
+  "similar_w": [
+   0.076,
+   0.062
+  ],
   "zotero": true,
   "venue_clean": "PLOS One",
   "detail_url": "item/001-0007.html"
@@ -655,17 +679,17 @@
    "002-0041",
    "001-0009",
    "002-0057",
-   "001-0010",
-   "002-0044",
-   "001-0015"
+   "003-0075",
+   "003-0074",
+   "003-0082"
   ],
   "similar_w": [
-   0.111,
    0.106,
-   0.092,
-   0.081,
-   0.075,
-   0.072
+   0.099,
+   0.096,
+   0.073,
+   0.07,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "California Digital Library (CDL)",
@@ -730,19 +754,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0041",
-   "001-0008",
    "002-0043",
+   "001-0008",
    "002-0042",
-   "001-0015",
-   "002-0044"
+   "003-0074",
+   "003-0083"
   ],
   "similar_w": [
-   0.149,
-   0.106,
-   0.103,
-   0.084,
-   0.077,
-   0.072
+   0.142,
+   0.101,
+   0.099,
+   0.074,
+   0.067,
+   0.066
   ],
   "zotero": true,
   "venue_clean": "Nature Communications",
@@ -809,18 +833,18 @@
   "similar": [
    "001-0015",
    "002-0041",
-   "001-0008",
-   "001-0014",
-   "002-0044",
-   "001-0009"
+   "003-0082",
+   "003-0074",
+   "001-0000",
+   "001-0014"
   ],
   "similar_w": [
-   0.135,
-   0.087,
-   0.081,
-   0.078,
-   0.07,
-   0.068
+   0.122,
+   0.071,
+   0.067,
+   0.065,
+   0.064,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "Frontiers in Marine Science",
@@ -888,20 +912,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "001-0013",
+   "003-0069",
+   "003-0066",
    "002-0037",
+   "001-0013",
    "001-0001",
-   "002-0035",
-   "001-0021",
-   "001-0006"
+   "003-0087"
   ],
   "similar_w": [
-   0.095,
-   0.089,
-   0.073,
-   0.064,
-   0.063,
-   0.054
+   0.133,
+   0.115,
+   0.087,
+   0.076,
+   0.067,
+   0.066
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -964,10 +988,12 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "001-0001"
+   "001-0001",
+   "003-0075"
   ],
   "similar_w": [
-   0.103
+   0.096,
+   0.064
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -1027,14 +1053,20 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0082",
+   "003-0092",
+   "003-0087",
+   "003-0088",
    "001-0011",
-   "002-0031",
-   "001-0021"
+   "003-0069"
   ],
   "similar_w": [
+   0.159,
+   0.113,
    0.095,
-   0.065,
-   0.062
+   0.076,
+   0.076,
+   0.071
   ],
   "zotero": true,
   "venue_clean": "Sensors",
@@ -1098,20 +1130,20 @@
   "method_groups": [],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0076",
+   "003-0082",
+   "003-0083",
    "001-0010",
-   "001-0015",
-   "001-0009",
-   "002-0044",
-   "002-0042",
-   "002-0041"
+   "002-0033",
+   "001-0009"
   ],
   "similar_w": [
-   0.078,
-   0.072,
-   0.072,
-   0.067,
+   0.076,
+   0.071,
+   0.065,
    0.064,
-   0.064
+   0.061,
+   0.058
   ],
   "zotero": true,
   "venue_clean": "Scientific Reports",
@@ -1171,19 +1203,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0010",
-   "002-0044",
+   "003-0083",
    "002-0058",
-   "001-0009",
-   "002-0041",
-   "001-0014"
+   "003-0075",
+   "002-0044",
+   "003-0082"
   ],
   "similar_w": [
-   0.135,
-   0.092,
-   0.082,
-   0.077,
+   0.122,
+   0.12,
+   0.078,
+   0.075,
    0.074,
-   0.072
+   0.063
   ],
   "zotero": true,
   "venue_clean": "Restoration Ecology",
@@ -1247,13 +1279,11 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0023",
-   "002-0036",
-   "002-0031"
+   "002-0036"
   ],
   "similar_w": [
-   0.096,
-   0.068,
-   0.054
+   0.103,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -1318,11 +1348,11 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0006",
-   "002-0039"
+   "003-0073"
   ],
   "similar_w": [
-   0.077,
-   0.062
+   0.066,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the National Academy of Sciences",
@@ -1392,11 +1422,11 @@
   "pub_status": "Preprint",
   "similar": [
    "001-0004",
-   "002-0034"
+   "003-0076"
   ],
   "similar_w": [
-   0.068,
-   0.051
+   0.065,
+   0.053
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1458,16 +1488,16 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0071",
    "001-0002",
    "002-0052",
-   "001-0021",
-   "002-0039"
+   "001-0021"
   ],
   "similar_w": [
-   0.098,
-   0.077,
-   0.077,
-   0.055
+   0.276,
+   0.087,
+   0.075,
+   0.071
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -1536,11 +1566,15 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0037",
-   "001-0011"
+   "003-0085",
+   "003-0075",
+   "003-0087"
   ],
   "similar_w": [
-   0.236,
-   0.052
+   0.233,
+   0.075,
+   0.055,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "Remote Sensing in Ecology and Conservation",
@@ -1607,18 +1641,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0071",
+   "003-0069",
+   "003-0078",
    "002-0031",
    "001-0019",
-   "002-0046",
-   "001-0011",
-   "001-0013"
+   "003-0077"
   ],
   "similar_w": [
-   0.093,
-   0.077,
-   0.068,
-   0.063,
-   0.062
+   0.148,
+   0.114,
+   0.086,
+   0.084,
+   0.071,
+   0.066
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -1686,13 +1722,11 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0049",
-   "002-0050",
-   "002-0055"
+   "003-0082"
   ],
   "similar_w": [
-   0.096,
-   0.063,
-   0.057
+   0.098,
+   0.059
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -1751,12 +1785,16 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0081",
    "002-0036",
-   "001-0016"
+   "001-0016",
+   "003-0070"
   ],
   "similar_w": [
+   0.168,
    0.119,
-   0.096
+   0.103,
+   0.067
   ],
   "zotero": true,
   "venue_clean": "Nature Ecology &amp; Evolution",
@@ -1823,7 +1861,7 @@
    "001-0009"
   ],
   "similar_w": [
-   0.057
+   0.056
   ],
   "zotero": true,
   "venue_clean": "Nature Food",
@@ -1871,10 +1909,10 @@
    "002-0060"
   ],
   "similar_w": [
-   0.164,
-   0.135,
-   0.095,
-   0.08
+   0.172,
+   0.139,
+   0.099,
+   0.075
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1921,12 +1959,12 @@
   "method_groups": [],
   "pub_status": "",
   "similar": [
-   "001-0030",
-   "002-0060"
+   "003-0092",
+   "001-0030"
   ],
   "similar_w": [
-   0.093,
-   0.058
+   0.101,
+   0.091
   ],
   "zotero": false,
   "venue_clean": "",
@@ -1971,18 +2009,18 @@
   "similar": [
    "001-0028",
    "001-0030",
+   "003-0093",
    "002-0063",
    "001-0025",
-   "002-0064",
-   "002-0065"
+   "002-0064"
   ],
   "similar_w": [
-   0.534,
-   0.222,
-   0.145,
-   0.135,
-   0.117,
-   0.084
+   0.544,
+   0.204,
+   0.185,
+   0.14,
+   0.139,
+   0.11
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2029,18 +2067,18 @@
   "similar": [
    "001-0027",
    "002-0065",
+   "003-0094",
+   "003-0093",
    "001-0029",
-   "002-0063",
-   "001-0030",
-   "002-0064"
+   "002-0063"
   ],
   "similar_w": [
-   0.534,
-   0.263,
-   0.104,
-   0.101,
-   0.083,
-   0.065
+   0.544,
+   0.271,
+   0.124,
+   0.118,
+   0.102,
+   0.094
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2085,15 +2123,19 @@
   "pub_status": "",
   "similar": [
    "002-0065",
+   "003-0094",
    "001-0028",
    "002-0063",
+   "003-0093",
    "002-0064"
   ],
   "similar_w": [
-   0.201,
-   0.104,
-   0.089,
-   0.057
+   0.199,
+   0.123,
+   0.102,
+   0.086,
+   0.073,
+   0.053
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2134,20 +2176,20 @@
   "method_groups": [],
   "pub_status": "",
   "similar": [
+   "003-0093",
    "001-0027",
    "002-0063",
+   "003-0094",
    "002-0065",
-   "002-0064",
-   "001-0025",
-   "001-0026"
+   "001-0025"
   ],
   "similar_w": [
-   0.222,
-   0.143,
-   0.116,
-   0.104,
-   0.095,
-   0.093
+   0.214,
+   0.204,
+   0.141,
+   0.101,
+   0.1,
+   0.099
   ],
   "zotero": false,
   "venue_clean": "",
@@ -2223,20 +2265,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "001-0021",
    "002-0038",
+   "001-0021",
+   "003-0069",
+   "003-0089",
    "002-0034",
-   "001-0013",
-   "001-0011",
-   "001-0016"
+   "003-0086"
   ],
   "similar_w": [
-   0.093,
-   0.089,
-   0.073,
-   0.065,
-   0.054,
-   0.054
+   0.085,
+   0.084,
+   0.077,
+   0.075,
+   0.071,
+   0.071
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -2298,17 +2340,19 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0070",
    "002-0036",
    "001-0003",
    "002-0035",
-   "002-0055",
-   "001-0014"
+   "001-0014",
+   "002-0055"
   ],
   "similar_w": [
-   0.068,
-   0.064,
-   0.056,
-   0.054,
+   0.065,
+   0.063,
+   0.062,
+   0.053,
+   0.051,
    0.05
   ],
   "zotero": true,
@@ -2370,10 +2414,12 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "001-0014"
+   "001-0014",
+   "003-0067"
   ],
   "similar_w": [
-   0.057
+   0.061,
+   0.053
   ],
   "zotero": true,
   "venue_clean": "Journal of Animal Ecology",
@@ -2447,16 +2493,16 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0092",
    "002-0031",
    "001-0001",
-   "002-0061",
-   "001-0018"
+   "002-0061"
   ],
   "similar_w": [
-   0.073,
+   0.08,
+   0.071,
    0.07,
-   0.064,
-   0.051
+   0.067
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2521,19 +2567,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0003",
+   "003-0069",
+   "003-0070",
    "002-0055",
    "001-0000",
-   "001-0011",
-   "002-0032",
-   "002-0036"
+   "003-0082"
   ],
   "similar_w": [
-   0.145,
-   0.077,
-   0.065,
-   0.064,
-   0.056,
-   0.052
+   0.144,
+   0.126,
+   0.093,
+   0.067,
+   0.061,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Ecology and Evolution",
@@ -2594,18 +2640,18 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0023",
+   "003-0070",
    "001-0003",
    "002-0032",
    "001-0016",
-   "002-0040",
-   "001-0000"
+   "003-0087"
   ],
   "similar_w": [
    0.119,
-   0.092,
-   0.068,
-   0.068,
-   0.057,
+   0.107,
+   0.084,
+   0.063,
+   0.061,
    0.056
   ],
   "zotero": true,
@@ -2681,14 +2727,16 @@
   "similar": [
    "001-0020",
    "001-0011",
+   "003-0066",
    "001-0006",
-   "002-0031"
+   "003-0089"
   ],
   "similar_w": [
-   0.236,
-   0.089,
-   0.06,
-   0.05
+   0.233,
+   0.087,
+   0.064,
+   0.063,
+   0.06
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -2754,10 +2802,14 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "002-0031"
+   "002-0031",
+   "003-0089",
+   "003-0086"
   ],
   "similar_w": [
-   0.089
+   0.085,
+   0.069,
+   0.052
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -2827,15 +2879,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0006",
+   "003-0073",
+   "003-0066",
    "001-0005",
-   "001-0017",
-   "001-0019"
+   "003-0068",
+   "003-0086"
   ],
   "similar_w": [
-   0.08,
-   0.065,
-   0.062,
-   0.055
+   0.068,
+   0.059,
+   0.058,
+   0.056,
+   0.05,
+   0.05
   ],
   "zotero": true,
   "venue_clean": "Royal Society Open Science",
@@ -2903,14 +2959,16 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0066",
    "002-0054",
-   "002-0048",
-   "002-0036"
+   "002-0036",
+   "002-0048"
   ],
   "similar_w": [
-   0.08,
-   0.06,
-   0.057
+   0.186,
+   0.069,
+   0.052,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Zoological Research",
@@ -2975,19 +3033,19 @@
   "pub_status": "Preprint",
   "similar": [
    "001-0009",
+   "003-0074",
    "002-0043",
    "001-0008",
-   "001-0000",
-   "002-0044",
-   "001-0010"
+   "003-0082",
+   "001-0000"
   ],
   "similar_w": [
-   0.149,
-   0.123,
-   0.111,
-   0.087,
-   0.087,
-   0.087
+   0.142,
+   0.14,
+   0.117,
+   0.106,
+   0.102,
+   0.085
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3043,19 +3101,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "001-0009",
+   "003-0083",
+   "003-0076",
    "001-0015",
-   "002-0044",
-   "002-0041",
-   "001-0014",
-   "001-0008"
+   "003-0078",
+   "002-0044"
   ],
   "similar_w": [
-   0.084,
-   0.072,
-   0.072,
-   0.065,
+   0.074,
    0.064,
-   0.06
+   0.064,
+   0.059,
+   0.056,
+   0.055
   ],
   "zotero": true,
   "venue_clean": "Marine Ecology Progress Series",
@@ -3117,15 +3175,17 @@
    "002-0041",
    "001-0009",
    "002-0044",
+   "003-0076",
    "002-0054",
    "001-0008"
   ],
   "similar_w": [
-   0.123,
-   0.103,
-   0.098,
-   0.078,
-   0.063
+   0.117,
+   0.101,
+   0.092,
+   0.076,
+   0.068,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
@@ -3179,19 +3239,19 @@
   "pub_status": "Peer reviewed",
   "similar": [
    "002-0043",
+   "003-0076",
+   "003-0082",
    "001-0015",
    "002-0041",
-   "001-0008",
-   "001-0009",
-   "002-0042"
+   "003-0083"
   ],
   "similar_w": [
-   0.098,
    0.092,
-   0.087,
-   0.075,
-   0.072,
-   0.072
+   0.08,
+   0.076,
+   0.074,
+   0.074,
+   0.066
   ],
   "zotero": true,
   "venue_clean": "Global Change Biology",
@@ -3258,12 +3318,12 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "001-0004",
-   "002-0048"
+   "003-0088",
+   "001-0004"
   ],
   "similar_w": [
-   0.069,
-   0.058
+   0.094,
+   0.057
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3325,18 +3385,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0078",
+   "003-0085",
+   "003-0072",
    "001-0002",
-   "001-0021",
    "001-0006",
-   "002-0052",
-   "001-0011"
+   "003-0075"
   ],
   "similar_w": [
-   0.074,
-   0.068,
+   0.14,
+   0.081,
+   0.072,
+   0.072,
    0.066,
-   0.062,
-   0.05
+   0.064
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3402,12 +3464,12 @@
   ],
   "pub_status": "Preprint",
   "similar": [
-   "002-0052",
-   "002-0053"
+   "003-0077",
+   "002-0052"
   ],
   "similar_w": [
-   0.074,
-   0.05
+   0.15,
+   0.068
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3471,12 +3533,12 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "002-0040",
-   "002-0045"
+   "003-0089",
+   "002-0040"
   ],
   "similar_w": [
-   0.06,
-   0.058
+   0.059,
+   0.051
   ],
   "zotero": true,
   "venue_clean": "Conservation Biology",
@@ -3543,8 +3605,8 @@
    "001-0008"
   ],
   "similar_w": [
-   0.096,
-   0.068
+   0.098,
+   0.054
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -3603,16 +3665,10 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
-   "001-0022",
-   "002-0060",
-   "002-0055",
-   "002-0035"
+   "003-0080"
   ],
   "similar_w": [
-   0.063,
-   0.053,
-   0.052,
-   0.052
+   0.105
   ],
   "zotero": true,
   "venue_clean": "Science",
@@ -3741,20 +3797,20 @@
   ],
   "pub_status": "Preprint",
   "similar": [
+   "003-0077",
    "001-0004",
    "001-0019",
    "002-0047",
-   "002-0046",
-   "002-0053",
-   "002-0054"
+   "003-0083",
+   "002-0046"
   ],
   "similar_w": [
-   0.107,
-   0.077,
-   0.074,
-   0.062,
-   0.055,
-   0.052
+   0.211,
+   0.102,
+   0.075,
+   0.068,
+   0.064,
+   0.06
   ],
   "zotero": false,
   "venue_clean": "arXiv",
@@ -3823,13 +3879,13 @@
   "pub_status": "Preprint",
   "similar": [
    "001-0002",
-   "002-0052",
-   "002-0047"
+   "003-0077",
+   "003-0066"
   ],
   "similar_w": [
-   0.19,
-   0.055,
-   0.05
+   0.17,
+   0.109,
+   0.094
   ],
   "zotero": true,
   "venue_clean": "arXiv",
@@ -3898,16 +3954,20 @@
   ],
   "pub_status": "Peer reviewed",
   "similar": [
+   "003-0078",
+   "003-0089",
    "002-0040",
    "002-0043",
-   "001-0006",
-   "002-0052"
+   "003-0075",
+   "003-0068"
   ],
   "similar_w": [
-   0.08,
-   0.078,
-   0.054,
-   0.052
+   0.106,
+   0.079,
+   0.069,
+   0.068,
+   0.066,
+   0.061
   ],
   "zotero": true,
   "venue_clean": "Journal of Fish Biology",
@@ -3961,15 +4021,15 @@
   "pub_status": "Preprint",
   "similar": [
    "002-0035",
-   "001-0022",
-   "002-0032",
-   "002-0050"
+   "003-0080",
+   "003-0069",
+   "002-0032"
   ],
   "similar_w": [
-   0.077,
-   0.057,
+   0.067,
+   0.062,
    0.054,
-   0.052
+   0.05
   ],
   "zotero": true,
   "venue_clean": "openRxiv",
@@ -4066,13 +4126,11 @@
   "pub_status": "",
   "similar": [
    "001-0008",
-   "002-0059",
-   "002-0044"
+   "002-0059"
   ],
   "similar_w": [
-   0.092,
-   0.062,
-   0.055
+   0.096,
+   0.062
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4121,15 +4179,19 @@
   "pub_status": "",
   "similar": [
    "002-0059",
+   "003-0076",
    "001-0015",
-   "001-0009",
+   "003-0090",
+   "003-0074",
    "002-0062"
   ],
   "similar_w": [
    0.146,
-   0.082,
-   0.057,
-   0.055
+   0.127,
+   0.078,
+   0.06,
+   0.058,
+   0.056
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4178,13 +4240,11 @@
   "pub_status": "",
   "similar": [
    "002-0058",
-   "002-0057",
-   "002-0041"
+   "002-0057"
   ],
   "similar_w": [
    0.146,
-   0.062,
-   0.054
+   0.062
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4238,18 +4298,20 @@
   ],
   "pub_status": "",
   "similar": [
-   "001-0025",
+   "003-0092",
+   "003-0088",
    "002-0061",
+   "001-0025",
    "001-0027",
-   "001-0026",
-   "002-0050"
+   "003-0089"
   ],
   "similar_w": [
-   0.08,
-   0.077,
-   0.064,
-   0.058,
-   0.053
+   0.156,
+   0.1,
+   0.083,
+   0.075,
+   0.073,
+   0.051
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4297,17 +4359,17 @@
    "002-0065",
    "001-0025",
    "002-0060",
-   "002-0034",
+   "003-0092",
    "001-0027",
-   "002-0031"
+   "002-0034"
   ],
   "similar_w": [
-   0.182,
-   0.164,
-   0.077,
-   0.064,
-   0.063,
-   0.052
+   0.19,
+   0.172,
+   0.083,
+   0.072,
+   0.069,
+   0.067
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4352,10 +4414,14 @@
   "method_groups": [],
   "pub_status": "",
   "similar": [
+   "003-0090",
+   "003-0091",
    "002-0058"
   ],
   "similar_w": [
-   0.055
+   0.835,
+   0.061,
+   0.056
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4398,20 +4464,20 @@
   "method_groups": [],
   "pub_status": "",
   "similar": [
+   "003-0093",
    "002-0064",
-   "001-0027",
    "001-0030",
-   "002-0065",
-   "001-0028",
-   "001-0029"
+   "001-0027",
+   "003-0094",
+   "002-0065"
   ],
   "similar_w": [
-   0.222,
-   0.145,
-   0.143,
-   0.106,
-   0.101,
-   0.089
+   0.238,
+   0.213,
+   0.141,
+   0.14,
+   0.135,
+   0.104
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4455,19 +4521,19 @@
   "pub_status": "",
   "similar": [
    "002-0063",
+   "003-0093",
    "001-0027",
+   "003-0094",
    "001-0030",
-   "002-0065",
-   "001-0028",
-   "001-0029"
+   "002-0065"
   ],
   "similar_w": [
-   0.222,
-   0.117,
-   0.104,
-   0.079,
-   0.065,
-   0.057
+   0.213,
+   0.113,
+   0.11,
+   0.107,
+   0.097,
+   0.072
   ],
   "zotero": false,
   "venue_clean": "",
@@ -4514,20 +4580,2363 @@
    "001-0028",
    "001-0029",
    "002-0061",
-   "001-0030",
-   "002-0063",
-   "001-0027"
+   "003-0094",
+   "003-0093",
+   "002-0063"
   ],
   "similar_w": [
-   0.263,
-   0.201,
-   0.182,
-   0.116,
-   0.106,
-   0.084
+   0.271,
+   0.199,
+   0.19,
+   0.148,
+   0.113,
+   0.104
   ],
   "zotero": false,
   "venue_clean": "",
   "detail_url": "item/002-0065.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "The headline act",
+  "title": "Automated identification of individual birds by song enables multi-year recapture from passive acoustic monitoring data",
+  "digest_headline": "Recapture without the capture: 405 ovenbirds identified from their songs alone, across four years",
+  "authors": [
+   "Sam Lapp",
+   "R. Patrick Lyon",
+   "Scott J. Wilson",
+   "Tessa A. Rhinehart",
+   "Chapin Czarnecki",
+   "Lauren M. Chronister",
+   "Cameron J. Fiss",
+   "Jeffery L. Larkin",
+   "Erin Bayne",
+   "Justin Kitzes"
+  ],
+  "venue": "Nature Methods",
+  "pub_date": "2026-11-05",
+  "doi": "10.1038/s41592-026-03303-7",
+  "url": "https://doi.org/10.1038/s41592-026-03303-7",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "CNN",
+   "clustering",
+   "dimensionality reduction",
+   "individual identification"
+  ],
+  "topics": [
+   "capture-recapture",
+   "individual ID",
+   "passive acoustic monitoring",
+   "survival"
+  ],
+  "summary": "Camera traps and recorders usually stop at species. Tracking individuals still means capture-mark-recapture.",
+  "caveats": "One species with a stereotyped, individually distinctive song, and territorial males that stay put. Species with variable or shared repertoires, or that move a lot, will be harder. Clustering errors (one bird split in two, or two merged) feed straight into survival estimates, so check the paper's error analysis before you borrow the numbers.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Monitoring",
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Birds"
+  ],
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s01",
+  "id": "003-0066",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Acoustic analysis",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0040",
+   "001-0011",
+   "001-0002",
+   "003-0089",
+   "002-0053",
+   "003-0085"
+  ],
+  "similar_w": [
+   0.186,
+   0.115,
+   0.098,
+   0.097,
+   0.094,
+   0.09
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Methods",
+  "detail_url": "item/003-0066.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "The headline act",
+  "title": "The repeated evolution of anti-bat bioacoustics in hawkmoths",
+  "digest_headline": "Hawkmoths evolved ultrasonic anti-bat sounds again and again (Proc R Soc B, 4 Nov)",
+  "authors": [
+   "Paul K. Masonick",
+   "Maja Petricic",
+   "Alessandro Giusti",
+   "Christian D. Couch",
+   "Jesse R. Barber",
+   "Akito Y. Kawahara"
+  ],
+  "venue": "Proceedings of the Royal Society B: Biological Sciences",
+  "pub_date": "2026-11-04",
+  "doi": "10.1098/rspb.2026.2303",
+  "url": "https://doi.org/10.1098/rspb.2026.2303",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "acoustic recordings",
+   "micro-CT",
+   "SEM",
+   "phylogenetics"
+  ],
+  "topics": [
+   "predator-prey arms race",
+   "anti-bat defence",
+   "stridulation"
+  ],
+  "summary": "Masonick, Petricic, Giusti, Couch, Barber & Kawahara combined acoustic recordings, electron microscopy, micro-CT and a time-calibrated phylogeny. They describe three stridulatory systems (scale-on-scale, scale-on-spine, scale-on-nodule).",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / comparative",
+  "taxa": [
+   "Invertebrates",
+   "Mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s01",
+  "relevance": 3,
+  "id": "003-0067",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0033"
+  ],
+  "similar_w": [
+   0.053
+  ],
+  "zotero": true,
+  "venue_clean": "Proceedings of the Royal Society B: Biological Sciences",
+  "detail_url": "item/003-0067.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Behaviour classification",
+  "title": "HMMF-Net: A Lightweight Hierarchical Multi-Frame Multimodal Fusion Network for Accurate Fish Feeding Intensity Assessment",
+  "digest_headline": "HMMF-Net: audio plus video for fish feeding intensity, small enough for a Jetson (arXiv, 6 Nov)",
+  "authors": [
+   "Phi-Hung Hoang",
+   "Van-Manh Tran",
+   "Nam-Thuan Trinh",
+   "Thi-Thu-Hong Phan"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-06",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.09224",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "audio-visual fusion",
+   "EfficientNet",
+   "edge deployment"
+  ],
+  "topics": [
+   "feeding behaviour",
+   "cross-modal fusion",
+   "aquaculture"
+  ],
+  "summary": "Hoang, Tran, Trinh & Phan fuse stacked video frames with log-mel spectrograms through compact “messenger tokens” rather than heavy cross-attention. On the AV-FFIA dataset: 96.77% accuracy with 3.99M parameters, cutting classification error by 28% against the best video-only setup, and 11.5 ms per 2-s clip on a Jetson Orin Nano.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Aquaculture"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Acoustics",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Behaviour classification"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s02",
+  "relevance": 3,
+  "id": "003-0068",
+  "modality_groups": [
+   "Video / imagery",
+   "Acoustics",
+   "Multimodal"
+  ],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Network analysis"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "002-0054",
+   "001-0004",
+   "002-0039"
+  ],
+  "similar_w": [
+   0.061,
+   0.059,
+   0.05
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/003-0068.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Multimodal AI and interaction networks",
+  "title": "Towards ecologically meaningful foundation models",
+  "digest_headline": "A roadmap for ecological foundation models that actually encode ecology",
+  "authors": [
+   "Ross J. Gardiner",
+   "Henry Cerbone",
+   "Hammed A. Akande",
+   "Carly H. Batist",
+   "Amber Cowans",
+   "Stella M. Felsinger",
+   "Premdeep S. Gill",
+   "Taniya Kapoor",
+   "Eliot T. Miller",
+   "Rodrigo Oyanedel",
+   "Steven Reece",
+   "Yan Ying Tan",
+   "Jonas Antony",
+   "Carlos Rodriguez-Pardo",
+   "Amy Hinsley",
+   "Micah Bowles",
+   "Sebastian A. Heilpern",
+   "Rachel H. Parkinson"
+  ],
+  "venue": "Nature Machine Intelligence",
+  "pub_date": "2026-11-06",
+  "doi": "10.1038/s42256-026-01317-6",
+  "url": "https://doi.org/10.1038/s42256-026-01317-6",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "foundation models",
+   "multimodal learning",
+   "theory-guided ML"
+  ],
+  "topics": [
+   "ecoFMs",
+   "generalisation",
+   "ecological forecasting"
+  ],
+  "summary": "The authors argue that ecological foundation models (ecoFMs) should be trained on large multimodal ecological datasets and informed by ecological theory. The goal is shared representations of organisms, environments and interactions, which could improve generalisation and link pattern to process.",
+  "caveats": "A perspective, so no new results. “Theory-guided” foundation models are mostly an aspiration so far, and evaluation is the hard part.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Marine",
+   "Freshwater"
+  ],
+  "modalities": [
+   "Multimodal"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Monitoring"
+  ],
+  "study_type": "Perspective",
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s03",
+  "id": "003-0069",
+  "modality_groups": [
+   "Multimodal"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0011",
+   "002-0035",
+   "003-0070",
+   "001-0021",
+   "002-0031",
+   "001-0013"
+  ],
+  "similar_w": [
+   0.133,
+   0.126,
+   0.119,
+   0.114,
+   0.077,
+   0.071
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Machine Intelligence",
+  "detail_url": "item/003-0069.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Multimodal AI and interaction networks",
+  "title": "The environmental dependence of ecological interaction networks",
+  "digest_headline": "Goodbye, deterministic metaweb? Interactions depend on the environment (Biological Reviews, 2 Nov)",
+  "authors": [
+   "Bastien Parisy",
+   "Alyssa R. Cirtwill",
+   "Tomas Roslin"
+  ],
+  "venue": "Biological Reviews",
+  "pub_date": "2026-11-02",
+  "doi": "10.1002/brv.70219",
+  "url": "https://doi.org/10.1002/brv.70219",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "simulation",
+   "network analysis"
+  ],
+  "topics": [
+   "metaweb",
+   "link stochasticity",
+   "environmental dependence"
+  ],
+  "summary": "Parisy, Cirtwill & Roslin use simulations and empirical networks to show that both species occurrence and link occurrence are stochastic, with probabilities conditional on the environment. They argue for dropping the assumption that two co-occurring species always interact.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Marine",
+   "Freshwater"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Review",
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s03",
+  "relevance": 3,
+  "id": "003-0070",
+  "modality_groups": [],
+  "taxa": [],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0003",
+   "003-0069",
+   "002-0036",
+   "002-0035",
+   "001-0023",
+   "002-0032"
+  ],
+  "similar_w": [
+   0.168,
+   0.119,
+   0.107,
+   0.093,
+   0.067,
+   0.065
+  ],
+  "zotero": true,
+  "venue_clean": "Biological Reviews",
+  "detail_url": "item/003-0070.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Bioacoustics and PAM",
+  "title": "Drowning in Noise: On Signal Saliency in Self-Supervised Learning for Ocean Acoustics",
+  "digest_headline": "Drowning in noise: 30 hours of curated whale audio beat 1,240 hours of everything",
+  "authors": [
+   "Shikhar Bharadwaj",
+   "Samuele Cornell",
+   "Shinji Watanabe",
+   "Malcolm Slaney"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-04",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.06725",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "self-supervised learning",
+   "BEATs",
+   "linear probing",
+   "data curation"
+  ],
+  "topics": [
+   "pre-training data",
+   "signal saliency",
+   "ocean acoustics"
+  ],
+  "summary": "Self-supervised audio models usually improve with more pre-training data. But passive ocean recordings are mostly waves, wind and silence, with vocalisations a tiny fraction.",
+  "caveats": "Preprint, one SSL model family and one downstream benchmark. Manual curation is itself labour, and the automatic filter isn't there yet.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s04",
+  "id": "003-0071",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "001-0019",
+   "001-0021",
+   "003-0078",
+   "001-0006",
+   "001-0002",
+   "003-0066"
+  ],
+  "similar_w": [
+   0.276,
+   0.148,
+   0.066,
+   0.057,
+   0.053,
+   0.051
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/003-0071.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Bioacoustics and PAM",
+  "title": "NAVE: A Normalized, Adaptive Conformer for Antarctic Whale Vocalization Detection",
+  "digest_headline": "NAVE: a noise-aware Conformer for Antarctic whale calls (arXiv, 6 Nov)",
+  "authors": [
+   "Matthias Nagl",
+   "Paul Primus",
+   "Gerhard Widmer"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-06",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.09642",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "Conformer",
+   "PCEN",
+   "leave-one-site-out"
+  ],
+  "topics": [
+   "BioDCASE",
+   "whale calls",
+   "domain shift"
+  ],
+  "summary": "Nagl, Primus & Widmer suppress site-specific background with per-bin mean subtraction plus a PCEN channel, and match the convolution kernel to call duration. On BioDCASE 2026 Task 2, with leave-one-site-out validation (a proxy for new deployments), one model beat the stronger WhaleVAD-BPN baseline.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Polar"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s04",
+  "relevance": 3,
+  "id": "003-0072",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "001-0006",
+   "003-0085",
+   "002-0046",
+   "003-0078"
+  ],
+  "similar_w": [
+   0.091,
+   0.084,
+   0.072,
+   0.05
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/003-0072.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Bioacoustics and PAM",
+  "title": "Detecting whale vocalizations up to 2.5 kHz using a seafloor distributed acoustic sensing array with incorporated loops",
+  "digest_headline": "Looped fibre-optic cable hears killer whales up to 2.5 kHz (JASA, 2 Nov)",
+  "authors": [
+   "Samantha C. Juber",
+   "Isabelle M. C. Brandicourt",
+   "Scott Veirs",
+   "Val Veirs",
+   "Bradley P. Lipovsky",
+   "Shima Abadi"
+  ],
+  "venue": "The Journal of the Acoustical Society of America",
+  "pub_date": "2026-11-02",
+  "doi": "10.1121/10.0047190",
+  "url": "https://doi.org/10.1121/10.0047190",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "distributed acoustic sensing",
+   "fibre optics"
+  ],
+  "topics": [
+   "killer whales",
+   "DAS",
+   "hydrophone alternative"
+  ],
+  "summary": "Juber, Brandicourt, Veirs, Veirs, Lipovsky & Abadi added loops to a seafloor distributed acoustic sensing (DAS) cable in Haro Strait. Looped sections recorded up to 2.5 kHz versus about 500 Hz for straight ones, picking up Southern Resident and Bigg's killer whales and humpbacks.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics",
+   "Other sensors"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s04",
+  "relevance": 3,
+  "id": "003-0073",
+  "modality_groups": [
+   "Acoustics",
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0086",
+   "001-0007",
+   "002-0039",
+   "001-0017",
+   "001-0006"
+  ],
+  "similar_w": [
+   0.139,
+   0.076,
+   0.059,
+   0.057,
+   0.056
+  ],
+  "zotero": true,
+  "venue_clean": "The Journal of the Acoustical Society of America",
+  "detail_url": "item/003-0073.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Coral reef ecology and conservation",
+  "title": "Marine Heatwave and Extreme Hypoxia Coincide With Rapid Coral Bleaching and Mortality on a Central Red Sea Coral Reef",
+  "digest_headline": "Not just heat: a Red Sea reef bleached and died within days as night-time oxygen crashed",
+  "authors": [
+   "Shannon G. Klein",
+   "Eleonora Re",
+   "Naira Pluma",
+   "Cassandra Roch",
+   "Carlos M. Duarte"
+  ],
+  "venue": "Ecology and Evolution",
+  "pub_date": "2026-11-04",
+  "doi": "10.1002/ece3.74606",
+  "url": "https://doi.org/10.1002/ece3.74606",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "in situ loggers",
+   "satellite SST",
+   "repeated surveys"
+  ],
+  "topics": [
+   "marine heatwave",
+   "hypoxia",
+   "compound extremes",
+   "Red Sea"
+  ],
+  "summary": "In mid-2024 a severe marine heatwave hit a central Red Sea reef, and it coincided with repeated night-time low-oxygen events. As water passed 33°C, night oxygen minima fell to 15.2–57.8 µmol O₂ kg⁻¹, and the day-night temperature swing shrank to 0.31–0.67°C, so there was no cool reprieve at night.",
+  "caveats": "One reef and one event, with an observational design. The authors show the conditions coincided, but don't experimentally separate heat from hypoxia.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Other sensors"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Corals"
+  ],
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s05",
+  "id": "003-0074",
+  "modality_groups": [
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Field monitoring / survey",
+   "Remote sensing / drones"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0041",
+   "003-0082",
+   "001-0008",
+   "003-0083",
+   "001-0009",
+   "001-0010"
+  ],
+  "similar_w": [
+   0.14,
+   0.072,
+   0.07,
+   0.067,
+   0.067,
+   0.065
+  ],
+  "zotero": true,
+  "venue_clean": "Ecology and Evolution",
+  "detail_url": "item/003-0074.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Coral reef ecology and conservation",
+  "title": "Automated Coral Detection and Instance Segmentation in Underwater Imagery: Evaluating YOLO Model Performance and Transferability to Mesophotic Coral Ecosystems",
+  "digest_headline": "YOLO instance segmentation for 57 Caribbean coral species, with a mesophotic transfer test (JMSE, 5 Nov)",
+  "authors": [
+   "Elvin Cordero",
+   "Clark E. Sherman",
+   "Adiana D. Bayó Torres",
+   "Venkatesh Kumar Raju",
+   "Priyanka Yadav"
+  ],
+  "venue": "Journal of Marine Science and Engineering",
+  "pub_date": "2026-11-05",
+  "doi": "10.3390/jmse14212096",
+  "url": "https://doi.org/10.3390/jmse14212096",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "YOLO",
+   "instance segmentation",
+   "transfer"
+  ],
+  "topics": [
+   "mesophotic reefs",
+   "Caribbean corals",
+   "benthic surveys"
+  ],
+  "summary": "Cordero, Sherman, Bayo Torres, Raju & Yadav trained on 9,500+ hand-annotated images. YOLOv9e reached mask mAP₅₀ 0.789 for species and 0.870 for genus, at about 5 ms per image.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Corals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s05",
+  "relevance": 3,
+  "id": "003-0075",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0001",
+   "001-0015",
+   "001-0008",
+   "003-0076",
+   "003-0083",
+   "002-0054"
+  ],
+  "similar_w": [
+   0.11,
+   0.075,
+   0.073,
+   0.069,
+   0.069,
+   0.066
+  ],
+  "zotero": true,
+  "venue_clean": "Journal of Marine Science and Engineering",
+  "detail_url": "item/003-0075.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Coral reef ecology and conservation",
+  "title": "Influence of soft coral density and depth on benthic communities on Fiji's Rainbow Reef",
+  "digest_headline": "Soft corals and benthic associations on Fiji's Rainbow Reef (R Soc Open Sci, 4 Nov)",
+  "authors": [
+   "Nile P. Stephenson",
+   "Katie M. Delahooke",
+   "Charlotte G. Kenchington",
+   "Tasnuva Ming Khan",
+   "Lea Katz",
+   "Jone Waitaiti",
+   "Alice A. Ball",
+   "Victor Bonito",
+   "Emily G. Mitchell",
+   "Andrea Manica"
+  ],
+  "venue": "Royal Society Open Science",
+  "pub_date": "2026-11-04",
+  "doi": "10.1098/rsos.260513",
+  "url": "https://doi.org/10.1098/rsos.260513",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "Bayesian network inference",
+   "spatial point process analysis"
+  ],
+  "topics": [
+   "soft corals",
+   "benthic associations",
+   "Fiji"
+  ],
+  "summary": "Stephenson … Mitchell & Manica combined Bayesian network inference with spatial point-process analysis. Depth dominated, and white Nephtheidae soft corals were negatively associated with stony corals and positively with algae.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Corals",
+   "Algae"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s05",
+  "relevance": 3,
+  "id": "003-0076",
+  "modality_groups": [],
+  "method_groups": [
+   "Network analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0058",
+   "002-0044",
+   "002-0043",
+   "001-0014",
+   "003-0075",
+   "002-0042"
+  ],
+  "similar_w": [
+   0.127,
+   0.08,
+   0.076,
+   0.076,
+   0.069,
+   0.064
+  ],
+  "zotero": true,
+  "venue_clean": "Royal Society Open Science",
+  "detail_url": "item/003-0076.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Transferable CV/ML advances",
+  "title": "How Finely Can Vision-Language Models See Biology? Bio-VQA: A Benchmark for Taxonomic, Morphological, Spatial and Individual Reasoning",
+  "digest_headline": "Bio-VQA: 18 vision-language models can't reliably count, measure or re-identify animals",
+  "authors": [
+   "S M Rayeed",
+   "Qian Ma",
+   "Charles V. Stewart",
+   "Yao Ma"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-03",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.05559",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "vision-language models",
+   "visual question answering",
+   "benchmarking"
+  ],
+  "topics": [
+   "counting",
+   "re-identification",
+   "fine-grained taxonomy",
+   "BioCLIP"
+  ],
+  "summary": "A benchmark of 1.86M questions over 217K images from 11 public datasets, covering taxonomy, traits, counting and individual re-identification. It uses graded scoring, so a near-miss scores better than a wild guess.",
+  "caveats": "Preprint. Open-weight models only, so no GPT-class or Gemini-class systems. Adversarial re-ID is a deliberately hard setting.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Dataset",
+  "relevance": 3,
+  "found_by": "AB",
+  "issue_url": "../issues/003.html#s06",
+  "id": "003-0077",
+  "modality_groups": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Tracking / pose",
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "002-0052",
+   "002-0047",
+   "001-0002",
+   "002-0053",
+   "003-0089",
+   "002-0031"
+  ],
+  "similar_w": [
+   0.211,
+   0.15,
+   0.111,
+   0.109,
+   0.077,
+   0.071
+  ],
+  "zotero": false,
+  "venue_clean": "arXiv",
+  "detail_url": "item/003-0077.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Transferable CV/ML advances",
+  "title": "How many labels do you need? A decision framework for cross‐habitat marine biodiversity monitoring",
+  "digest_headline": "How many labels do you need? 10–20 per class, if you stay in the same habitat (Ecol Solutions & Evidence, 6 Nov)",
+  "authors": [
+   "Alzayat Saleh",
+   "Mostafa Rahimi Azghadi"
+  ],
+  "venue": "Ecological Solutions and Evidence",
+  "pub_date": "2026-11-06",
+  "doi": "10.1002/2688-8319.70348",
+  "url": "https://doi.org/10.1002/2688-8319.70348",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "DINOv2",
+   "CLIP",
+   "linear probing",
+   "LoRA",
+   "few-shot"
+  ],
+  "topics": [
+   "labelling budget",
+   "cross-site transfer",
+   "domain shift"
+  ],
+  "summary": "Saleh & Rahimi Azghadi ran 900+ transfer experiments across reefs (GBR, French Polynesia) and a Danish fjord. Frozen DINOv2 + a linear classifier (1,538 trainable parameters) generalised to unseen reef sites at least as well as fully fine-tuned CNNs four orders of magnitude larger.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish",
+   "Corals",
+   "Invertebrates"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s06",
+  "relevance": 2,
+  "id": "003-0078",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0046",
+   "002-0054",
+   "001-0021",
+   "003-0085",
+   "003-0083",
+   "002-0044"
+  ],
+  "similar_w": [
+   0.14,
+   0.106,
+   0.086,
+   0.08,
+   0.077,
+   0.066
+  ],
+  "zotero": true,
+  "venue_clean": "Ecological Solutions and Evidence",
+  "detail_url": "item/003-0078.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Emerging ecology and conservation tools",
+  "title": "FishSense Lite: A Camera-Based, Single Laser Hardware Framework with Software System for In Situ Fish Length Measurement",
+  "digest_headline": "FishSense Lite: fish lengths from one photo, a dive laser and a 3D-printed mount (arXiv, 5 Nov)",
+  "authors": [
+   "Christopher L. Crutchfield",
+   "Kyle Hu",
+   "Nathan Hui",
+   "Omair Qazi",
+   "Jennifer Loch",
+   "Alli Candelmo",
+   "Brice X. Semmens",
+   "Curt Schurgers"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-05",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.08732",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "laser ranging",
+   "citizen science",
+   "photogrammetry"
+  ],
+  "topics": [
+   "fish length",
+   "stock assessment",
+   "recreational divers"
+  ],
+  "summary": "Crutchfield … Semmens & Schurgers turn the laser dot's position into range, and range into length. Against stereo video on 7 wild fish, there was no detectable bias (+0.8%).",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Coral reef"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s07",
+  "relevance": 2,
+  "id": "003-0079",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Remote sensing / drones",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
+  "similar": [],
+  "similar_w": [],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/003-0079.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Climate, human impacts and ecosystem services",
+  "title": "Echoes of the Anthropocene: Noise pollution as a global threat",
+  "digest_headline": "Noise pollution altered traits in 80% of species studied, and disrupted predator–prey interactions",
+  "authors": [
+   "Hansjoerg P. Kunc",
+   "Rouven Schmidt"
+  ],
+  "venue": "Science",
+  "pub_date": "2026-11-05",
+  "doi": "10.1126/science.adu9593",
+  "url": "https://doi.org/10.1126/science.adu9593",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "phylogenetic meta-analysis"
+  ],
+  "topics": [
+   "anthropogenic noise",
+   "predator-prey",
+   "soundscape protection"
+  ],
+  "summary": "Phylogenetically controlled meta-analyses of 214 experimental studies on 177 aquatic and terrestrial species, with ranges spanning six continents. Anthropogenic noise altered at least one physiological, developmental or behavioural trait in 80% of species.",
+  "caveats": "Experimental studies, often short-term exposures, so scaling to chronic real-world noise needs care. A meta-analysis is only as good as its literature (publication bias, uneven taxa).",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Freshwater",
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Meta-analysis",
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s08",
+  "id": "003-0080",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0050",
+   "002-0055",
+   "003-0070",
+   "001-0021",
+   "003-0069",
+   "002-0035"
+  ],
+  "similar_w": [
+   0.105,
+   0.062,
+   0.059,
+   0.055,
+   0.051,
+   0.051
+  ],
+  "zotero": true,
+  "venue_clean": "Science",
+  "detail_url": "item/003-0080.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Climate, human impacts and ecosystem services",
+  "title": "Long-term impacts of deep-sea mining on sediment organic matter quantity and quality",
+  "digest_headline": "A 1979 deep-sea mining test still shows 44 years later (Elementa, 2 Nov)",
+  "authors": [
+   "Rachel M. Jeffreys",
+   "Louisa Norman",
+   "Sabena J. Blackbird",
+   "Bethany F. M. Fleming",
+   "Bryan O’Malley",
+   "Adrian G. Glover",
+   "Daniel O. B. Jones"
+  ],
+  "venue": "Elem Sci Anth",
+  "pub_date": "2026-11-02",
+  "doi": "10.1525/elementa.2025.00106",
+  "url": "https://doi.org/10.1525/elementa.2025.00106",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "sediment sampling",
+   "lipid biomarkers",
+   "stable isotopes"
+  ],
+  "topics": [
+   "deep-sea mining",
+   "Clarion-Clipperton Zone",
+   "recovery"
+  ],
+  "summary": "Jeffreys and colleagues (SMARTEX) sampled a 1979 nodule-mining test site in the Clarion-Clipperton Zone at about 4,800 m. They found lower quantity and quality of sediment organic matter than at an undisturbed control site, linked to the lower animal abundances seen in SMARTEX imagery. doi:10.1525/elementa.2025.00106 · ON&T news",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Deep sea",
+   "Marine"
+  ],
+  "study_type": "Empirical / field",
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s08",
+  "relevance": 2,
+  "id": "003-0081",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0023",
+   "002-0041"
+  ],
+  "similar_w": [
+   0.168,
+   0.081
+  ],
+  "zotero": true,
+  "venue_clean": "Elem Sci Anth",
+  "detail_url": "item/003-0081.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Restoration and nature-based solutions",
+  "title": "The potential of naturally stress‐tolerant corals to enhance reef recovery and restoration—A systematic review of transplantation studies from marginal and extreme reefs",
+  "digest_headline": "“Tough” corals from extreme reefs don't automatically make better transplants (J Appl Ecol, 6 Nov)",
+  "authors": [
+   "Adi Zweifler (Zvifler)",
+   "Brigitte Sommer",
+   "Shawna A. Foo"
+  ],
+  "venue": "Journal of Applied Ecology",
+  "pub_date": "2026-11-06",
+  "doi": "10.1111/1365-2664.70629",
+  "url": "https://doi.org/10.1111/1365-2664.70629",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "systematic review",
+   "data synthesis"
+  ],
+  "topics": [
+   "coral transplantation",
+   "marginal reefs",
+   "stress tolerance"
+  ],
+  "summary": "Zweifler, Sommer & Foo synthesised 306 transplantation measurements. Mesophotic-sourced corals grew better, but survival was mostly neutral (52.3%).",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "study_type": "Systematic review",
+  "taxa": [
+   "Corals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s09",
+  "relevance": 3,
+  "id": "003-0082",
+  "modality_groups": [],
+  "tasks": [],
+  "method_groups": [],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0013",
+   "002-0041",
+   "002-0044",
+   "003-0074",
+   "001-0014",
+   "001-0010"
+  ],
+  "similar_w": [
+   0.159,
+   0.102,
+   0.076,
+   0.072,
+   0.071,
+   0.067
+  ],
+  "zotero": true,
+  "venue_clean": "Journal of Applied Ecology",
+  "detail_url": "item/003-0082.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Restoration and nature-based solutions",
+  "title": "Five-year monitoring of coral nursery performance and reef-associated biodiversity at Pointe aux Feuilles, Mauritius, through the 2025 global bleaching event",
+  "digest_headline": "Five years of coral nurseries in Mauritius, through the 2025 bleaching (Mar Pollut Bull, 7 Nov)",
+  "authors": [
+   "Nadeem Nazurally",
+   "Tashika Kalloo",
+   "Bipasha Sookun",
+   "Bibi Humairaa Khadaroo",
+   "Vanisha Oogarah-Hanuman",
+   "Pamela Bapoo-Dundoo",
+   "Joan Kawaka",
+   "George Maina",
+   "Baruch Rinkevich"
+  ],
+  "venue": "Marine Pollution Bulletin",
+  "pub_date": "2026-11-07",
+  "doi": "10.1016/j.marpolbul.2026.120514",
+  "url": "https://doi.org/10.1016/j.marpolbul.2026.120514",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "coral nurseries",
+   "underwater cameras"
+  ],
+  "topics": [
+   "restoration monitoring",
+   "2025 bleaching",
+   "crown-of-thorns"
+  ],
+  "summary": "Nazurally … Rinkevich report steady fragment survival in spider-frame and table nurseries. Crown-of-thorns numbers (39–62 a year) were strongly correlated with fish-trap presence.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Corals",
+   "Invertebrates",
+   "Fish"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s09",
+  "relevance": 3,
+  "id": "003-0083",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0015",
+   "003-0078",
+   "002-0041",
+   "003-0075",
+   "003-0074",
+   "002-0044"
+  ],
+  "similar_w": [
+   0.12,
+   0.077,
+   0.07,
+   0.069,
+   0.067,
+   0.066
+  ],
+  "zotero": true,
+  "venue_clean": "Marine Pollution Bulletin",
+  "detail_url": "item/003-0083.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Wider field: big papers",
+  "title": "Genomic erosion across avifauna in a biodiversity hotspot sounds a conservation alarm",
+  "digest_headline": "Common songbirds lost 43–49% of genomic diversity in a biodiversity hotspot (Science, 29 Oct)",
+  "authors": [
+   "Ri Liu",
+   "Yadan Liu",
+   "Fei Wu",
+   "Dao Yan",
+   "Feng Dong"
+  ],
+  "venue": "Science",
+  "pub_date": "2026-10-29",
+  "doi": "10.1126/science.aef3063",
+  "url": "https://doi.org/10.1126/science.aef3063",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "museum genomics",
+   "historical vs modern genomes"
+  ],
+  "topics": [
+   "genetic erosion",
+   "Red List",
+   "habitat fragmentation"
+  ],
+  "summary": "Liu, Liu, Wu, Yan & Dong compared historical and modern genomes of 62 songbird species from the Gaoligong Mountains, China. Common species were hit hardest, and many are still listed as Least Concern.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "study_type": "Empirical / genomic",
+  "taxa": [
+   "Birds"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s10",
+  "relevance": 1,
+  "id": "003-0084",
+  "modality_groups": [],
+  "tasks": [],
+  "method_groups": [
+   "Acoustic analysis",
+   "Molecular / eDNA"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0078"
+  ],
+  "similar_w": [
+   0.051
+  ],
+  "zotero": true,
+  "venue_clean": "Science",
+  "detail_url": "item/003-0084.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Datasets, tools and code",
+  "title": "A strongly annotated passive acoustic dataset for tropical bird monitoring",
+  "digest_headline": "PteroSet: strongly annotated Neotropical bird soundscapes (Scientific Data, 7 Nov)",
+  "authors": [
+   "Daniela Ruiz",
+   "Juan Sebastián Ulloa",
+   "Zhongqi Miao",
+   "Nicolás Betancourt",
+   "Maria Paula Toro-Gómez",
+   "Andrés Hernández",
+   "Bruno Demuro",
+   "Eliana Barona-Cortés",
+   "Angela M Mendoza-Henao",
+   "Andrés Sierra-Ricaurte",
+   "Sebastian Pérez-Peña",
+   "Rahul Dodhia",
+   "Pablo Arbeláez",
+   "Juan Lavista"
+  ],
+  "venue": "Scientific Data",
+  "pub_date": "2026-11-07",
+  "doi": "10.1038/s41597-026-08574-5",
+  "url": "https://doi.org/10.1038/s41597-026-08574-5",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "strong annotation",
+   "COCO-style JSON"
+  ],
+  "topics": [
+   "tropical soundscapes",
+   "domain shift",
+   "Colombia"
+  ],
+  "summary": "Ruiz, Ulloa, Miao … Lavista Ferres: 563 recordings (73.6 h) from two Colombian sites, with 15,372 time–frequency boxes, 6,702 of them to species (168 species). It uses COCO-style JSON, a binary detection baseline, and deliberately shows co-occurring calls and cross-site domain shift. doi:10.1038/s41597-026-08574-5",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Birds"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s12",
+  "relevance": 3,
+  "id": "003-0085",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Acoustic analysis",
+   "Field monitoring / survey",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "",
+  "similar": [
+   "003-0066",
+   "003-0072",
+   "002-0046",
+   "003-0078",
+   "001-0020",
+   "003-0087"
+  ],
+  "similar_w": [
+   0.09,
+   0.084,
+   0.081,
+   0.08,
+   0.075,
+   0.066
+  ],
+  "zotero": true,
+  "venue_clean": "Scientific Data",
+  "detail_url": "item/003-0085.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Datasets, tools and code",
+  "title": "WhaleSonic: Recordings of cetacean vocal behaviour with hydrophone arrays in Northern Norway",
+  "digest_headline": "WhaleSonic: synchronised hydrophone arrays on four whale species in a Norwegian fjord (bioRxiv, 3 Nov)",
+  "authors": [
+   "Jörg Rychen",
+   "Arvid Berg",
+   "Jerome Cohen",
+   "Isabel Driscoll",
+   "Alexander Eckerle",
+   "Valeria Falletta",
+   "Olga Filatova",
+   "Lena Gies",
+   "Pascale Hatt",
+   "Adrian Hiss",
+   "Franziska Krimmer",
+   "Corinna Lorenz",
+   "Joseph G. Mine",
+   "Charlotte Mommsen",
+   "Florian S. Schmidt",
+   "Rik L.E.M. Ubaghs",
+   "Kaja Wierucka",
+   "Richard Hahnloser"
+  ],
+  "venue": "openRxiv",
+  "pub_date": "2026-11-03",
+  "doi": "10.64898/2026.11.02.763576",
+  "url": "https://doi.org/10.64898/2026.11.02.763576",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "hydrophone arrays",
+   "localisation"
+  ],
+  "topics": [
+   "killer whales",
+   "humpback whales",
+   "group communication",
+   "Norway"
+  ],
+  "summary": "Rychen … Hahnloser: four drifting tetrahedral-array buoys (78 h) plus seven bottom hydrophones (52 days), recorded while killer, humpback, fin and sperm whales shared a fjord in winter 2023–24. Recordings are time-synced and positioned to 2 m.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Monitoring",
+   "Interaction classification"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s12",
+  "relevance": 2,
+  "id": "003-0086",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "003-0073",
+   "002-0031",
+   "001-0006",
+   "002-0038",
+   "002-0039"
+  ],
+  "similar_w": [
+   0.139,
+   0.071,
+   0.058,
+   0.052,
+   0.05
+  ],
+  "zotero": true,
+  "venue_clean": "openRxiv",
+  "detail_url": "item/003-0086.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Datasets, tools and code",
+  "title": "Snapshot Europe 2021–2022: The first public dataset from a Europe‐wide camera‐trap survey of terrestrial vertebrates",
+  "digest_headline": "Snapshot Europe 2021–22: the first public Europe-wide camera-trap dataset (Ecology, 5 Nov)",
+  "authors": [
+   "Fabiola Iannarilli",
+   "Brigitta Keeves‐von Wolff",
+   "Martin Wikelski",
+   "Marco Heurich",
+   "Roland Kays",
+   "William J. McShea",
+   "Michael V. Cove",
+   "Alexandros Α. Karamanlidis",
+   "Lambros Krambokoukis",
+   "Andrea Gazzola",
+   "Teodora Sin",
+   "Barbara Pregler",
+   "Owain Barton",
+   "Graeme Shannon",
+   "Sina Greiner",
+   "Rudolf Reiner",
+   "Ferran Sayol",
+   "Marc Vilella",
+   "José Vicente López‐Bao",
+   "Patricia Mateo‐Tomás",
+   "Raffael Kratzer",
+   "Paul Griesberger",
+   "Klaus Hackländer",
+   "Elisabeth Wesely",
+   "Sebastian Brackhane",
+   "Andreas Daim",
+   "Felicitas Oehler",
+   "Sophie Nöbauer",
+   "Frederik Sachser",
+   "Janosch Arnold",
+   "Miroslav Kutal",
+   "Ana Luísa Barros",
+   "Margarida Santos‐Reis",
+   "Viorel D. Popescu",
+   "Valentin Moser",
+   "Lorenz Achtnich",
+   "Mareike Kortmann",
+   "Magne Neby",
+   "Lorenzo Frangini",
+   "Camilo Carneiro",
+   "Ilaria Greco",
+   "Francesco Rovero",
+   "Marco Salvatori",
+   "Alessandro Massolo",
+   "Orlando Tomassini",
+   "Ninon F. V. Meyer",
+   "Anne Peters",
+   "Lukas G. Scholz",
+   "Thomas Kudernatsch",
+   "Mihael Janječić",
+   "Nikica Šprem",
+   "Zbigniew Borowski",
+   "Benedikt A. Gehr",
+   "Claude A. Andrist",
+   "Javier Calzada",
+   "Santiago Gutiérrez‐Zapata",
+   "Simone Santoro",
+   "Lucrezia Lorenzetti",
+   "Valerio Donini",
+   "Elisa Iacona",
+   "Sandro Bertolino",
+   "Elizabeth F. R. Preston",
+   "Kristy A. Adaway",
+   "Matthew C. Morgan",
+   "F. Blake Morton",
+   "Koko M. Sutter",
+   "Dylan Thompson‐Jones",
+   "Laura Juvany",
+   "Tim R. Hofmeester",
+   "Sönke Twietmeyer",
+   "Giacomo Cremonesi",
+   "Francesco Bisi",
+   "Elena Bužan",
+   "Luka Duniš",
+   "Emiliano Manzo",
+   "Nadia Cappai",
+   "Ruben Iosif",
+   "Barbara Promberger‐Fuerpass",
+   "Adam F. Smith",
+   "Colin Brock",
+   "Simone Ciuti",
+   "Lee Oliver",
+   "Scott M. Appleby",
+   "Gunnar Jansson",
+   "Alisa Klamm",
+   "Axel Ballmann",
+   "József Lanszki",
+   "Maximilian L. Allen",
+   "Andrea De Giovanni",
+   "Nadège C. Bonnot",
+   "Anders Mårell",
+   "Andrius Pašukonis",
+   "Izabela A. Wierzbowska",
+   "Lara Indra",
+   "Barbara Franzetti",
+   "Pietro Pontiggia",
+   "Alper Ertürk",
+   "Anil Soyumert",
+   "Guna Bagrade",
+   "Aivars Ornicāns",
+   "Jānis Ozoliņš",
+   "Alda Stepanova",
+   "Marc Fusellas",
+   "Andrej Gonev",
+   "Dime Melovski",
+   "Aleksandar Pavlov",
+   "Marcin Churski",
+   "Monika M. Gehrke",
+   "Katharina Kasper",
+   "Anna J. Kirsch",
+   "Dries P. J. Kuijper",
+   "Elise Say‐Sallaz",
+   "Paulina Anna Szafrańska",
+   "Jose Vila‐López",
+   "Šárka Frýbová",
+   "Joana Colomer Rosell",
+   "Stanisław Pagacz",
+   "Julia Witczuk",
+   "Anamarija Žagar",
+   "Valentin Specht",
+   "Sam Vereecken",
+   "Laura Braunholtz",
+   "Aileen C. Mill",
+   "Bethany E. Patterson",
+   "Marion Pfeifer",
+   "Amir Arnon",
+   "Niko Boone",
+   "Jim Casaer",
+   "Lynn Pallemaerts",
+   "Matthias‐Claudio Loretto",
+   "J. David Blount",
+   "Çağan H. Şekercioğlu",
+   "Josip Kusak",
+   "Emrah Coban",
+   "Thomas Cansse",
+   "Annika M. Felton",
+   "Ursula Sterrer",
+   "Michał Wagner",
+   "Emilia Zaborowska",
+   "Salvador Salvador",
+   "Hannah D. Broeckx",
+   "Miha Krofel",
+   "Eszter Nagy",
+   "Mark Bowler",
+   "Triin Kaasiku",
+   "David G. Tosh",
+   "Alekss Vecvanags",
+   "Manuel E. Gegundez Arias",
+   "Katarzyna Szyc",
+   "Hendrik Edelhoff",
+   "Wibke Peters",
+   "Niko Balkenhol",
+   "Kathrin Mayer",
+   "Johannes Signer",
+   "André Fetzer",
+   "Johannes Lang",
+   "Johann D. Lanz",
+   "Teresa F. Nava",
+   "Federico Ossi",
+   "Francesca Cagnacci"
+  ],
+  "venue": "Ecology",
+  "pub_date": "2026-11-05",
+  "doi": "10.1002/ecy.70516",
+  "url": "https://doi.org/10.1002/ecy.70516",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "camera traps",
+   "Wildlife Insights"
+  ],
+  "topics": [
+   "Europe",
+   "standardised survey",
+   "Snapshot"
+  ],
+  "summary": "Iannarilli … Cagnacci and 160+ researchers: 90,230 camera-trap days across 22–23 countries, with 94,441 observations of 63 mammal species and 5,024 detections of 78 bird species. Every record was human-checked after AI classification, and the data are CC BY-SA 4.0. doi:10.1002/ecy.70516",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Mammals",
+   "Birds"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s12",
+  "relevance": 2,
+  "id": "003-0087",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Field monitoring / survey",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "",
+  "similar": [
+   "001-0013",
+   "003-0092",
+   "003-0089",
+   "003-0085",
+   "001-0011",
+   "003-0066"
+  ],
+  "similar_w": [
+   0.095,
+   0.084,
+   0.067,
+   0.066,
+   0.066,
+   0.06
+  ],
+  "zotero": true,
+  "venue_clean": "Ecology",
+  "detail_url": "item/003-0087.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Datasets, tools and code",
+  "title": "Sparrow Model Zoo v0.33.0: conservation models packaged for edge inference (Zenodo, 6 Nov)",
+  "digest_headline": "Sparrow Model Zoo v0.33.0: conservation models packaged for edge inference (Zenodo, 6 Nov)",
+  "authors": null,
+  "venue": "Zenodo",
+  "pub_date": "2026-11-06",
+  "doi": null,
+  "url": "https://zenodo.org/records/23992557",
+  "item_type": "software",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "ONNX",
+   "TFLite",
+   "model zoo"
+  ],
+  "topics": [
+   "camera traps",
+   "bioacoustics",
+   "drones",
+   "edge inference"
+  ],
+  "summary": "From Microsoft's AI for Good Lab and the Pytorch-Wildlife project: 80 active catalogue entries in ONNX and TFLite for the Sparrow Engine. They include camera-trap classifiers, HawkEars v2 and BatDetect2, and this release adds two overhead (drone) detectors.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery",
+   "Acoustics"
+  ],
+  "study_type": "Methods / tool",
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s12",
+  "relevance": 3,
+  "id": "003-0088",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modality_groups": [
+   "Video / imagery",
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "taxa": [],
+  "method_groups": [
+   "Acoustic analysis",
+   "Field monitoring / survey",
+   "Remote sensing / drones"
+  ],
+  "pub_status": "",
+  "similar": [
+   "002-0060",
+   "002-0045",
+   "003-0092",
+   "001-0013",
+   "001-0011",
+   "003-0087"
+  ],
+  "similar_w": [
+   0.1,
+   0.094,
+   0.09,
+   0.076,
+   0.059,
+   0.058
+  ],
+  "zotero": false,
+  "venue_clean": "Zenodo",
+  "detail_url": "item/003-0088.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Critiques and nulls",
+  "title": "Is conservation AI ready? Quantifying the challenges of automated species identification in Colombia",
+  "digest_headline": "Is conservation AI ready? GPT-5.2 collapses on poorly photographed Colombian species",
+  "authors": [
+   "Gustavo Nicolas Paez Salamanca"
+  ],
+  "venue": "Biodiversity Data Journal",
+  "pub_date": "2026-11-05",
+  "doi": "10.3897/bdj.14.e208137",
+  "url": "https://doi.org/10.3897/bdj.14.e208137",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "multimodal LLM",
+   "benchmarking"
+  ],
+  "topics": [
+   "long-tail",
+   "hallucination",
+   "data availability bias"
+  ],
+  "summary": "The author tested GPT-5.2 on 10,000 research-grade iNaturalist images of Colombian vertebrates (amphibians, birds, fishes, mammals, reptiles), using localised prompts and no taxonomic metadata. Species-level accuracy scaled non-linearly with how well-photographed a species is globally, and decayed sharply for recently described taxa.",
+  "caveats": "Single author, one proprietary model and one country. iNaturalist research-grade labels aren't perfect ground truth either.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Freshwater"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Evaluation",
+  "taxa": [
+   "Amphibians",
+   "Birds",
+   "Fish",
+   "Mammals",
+   "Reptiles"
+  ],
+  "relevance": 2,
+  "found_by": "B",
+  "issue_url": "../issues/003.html#s13",
+  "id": "003-0089",
+  "modality_groups": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0066",
+   "002-0054",
+   "003-0077",
+   "002-0031",
+   "002-0038",
+   "003-0087"
+  ],
+  "similar_w": [
+   0.097,
+   0.079,
+   0.077,
+   0.075,
+   0.069,
+   0.067
+  ],
+  "zotero": true,
+  "venue_clean": "Biodiversity Data Journal",
+  "detail_url": "item/003-0089.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Policy and ocean news",
+  "title": "COP31 opens today in Antalya (9–20 Nov)",
+  "digest_headline": "COP31 opens today in Antalya (9–20 Nov)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://unfccc.int/cop31",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "UNFCCC",
+   "COP31",
+   "climate policy",
+   "ocean"
+  ],
+  "summary": "The UN climate summit follows straight on from the biodiversity COP, and it opens with an early fight over climate finance. Worth watching for ocean and coastal-resilience outcomes.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s14",
+  "relevance": 1,
+  "id": "003-0090",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0062",
+   "002-0058",
+   "003-0091"
+  ],
+  "similar_w": [
+   0.835,
+   0.06,
+   0.057
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/003-0090.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Policy and ocean news",
+  "title": "GOOS Status Report 2026: 67 countries, 17 networks, big gaps (5 Nov)",
+  "digest_headline": "GOOS Status Report 2026: 67 countries, 17 networks, big gaps (5 Nov)",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://goosocean.org/news/goos-status-report-2026-released/",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "GOOS",
+   "ocean observing",
+   "funding gaps"
+  ],
+  "summary": "The UNESCO-IOC report flags uneven, under-funded observing capacity concentrated among a few contributors. It names gaps in the Southern Ocean, polar regions, the deep ocean and many coasts, especially in developing countries and Small Island Developing States.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s14",
+  "relevance": 1,
+  "id": "003-0091",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "Empirical / field",
+  "method_groups": [
+   "Network analysis"
+  ],
+  "pub_status": "",
+  "similar": [
+   "002-0062",
+   "003-0090"
+  ],
+  "similar_w": [
+   0.061,
+   0.057
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/003-0091.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Conferences, workshops, events and training",
+  "title": "6th Camera Traps, AI & Ecology workshop, Fribourg + online, 21–22 Jan 2027: papers due 27 Nov",
+  "digest_headline": "6th Camera Traps, AI & Ecology workshop, Fribourg + online, 21–22 Jan 2027: papers due 27 Nov",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://camtrapai.github.io/",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "camera traps",
+   "workshop",
+   "call for papers",
+   "behaviour recognition"
+  ],
+  "summary": "Topics explicitly include video recognition of animal behaviour, tracking, re-ID and pose. Underwater and “other animal monitoring cameras” count too.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s15",
+  "relevance": 1,
+  "id": "003-0092",
+  "realms": [
+   "Marine",
+   "Terrestrial"
+  ],
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Behaviour classification",
+   "Monitoring"
+  ],
+  "taxa": [],
+  "study_type": "",
+  "method_groups": [
+   "Classification / recognition",
+   "Acoustic analysis",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "",
+  "similar": [
+   "002-0060",
+   "001-0013",
+   "001-0026",
+   "003-0088",
+   "003-0087",
+   "002-0034"
+  ],
+  "similar_w": [
+   0.156,
+   0.113,
+   0.101,
+   0.09,
+   0.084,
+   0.08
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/003-0092.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Funding radar",
+  "title": "Royal Society of Biology Travel Grants: up to £1,000, close 22 Jan 2027",
+  "digest_headline": "Royal Society of Biology Travel Grants: up to £1,000, close 22 Jan 2027",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.rsb.org.uk/travel-grants",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "travel grant",
+   "Royal Society of Biology"
+  ],
+  "summary": "Open to associate (AMRSB) and early-career MRSB members for future travel: fieldwork, lab visits, or overseas conferences (for MRSB, you must be presenting). Non-members can apply once they've submitted a paid membership application.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s16",
+  "relevance": 1,
+  "id": "003-0093",
+  "realms": [
+   "Marine"
+  ],
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "Empirical / field",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0063",
+   "001-0030",
+   "001-0027",
+   "003-0094",
+   "001-0028",
+   "002-0065"
+  ],
+  "similar_w": [
+   0.238,
+   0.214,
+   0.185,
+   0.149,
+   0.118,
+   0.113
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/003-0093.html"
+ },
+ {
+  "issue": "003",
+  "issue_date": "2026-11-09",
+  "section": "Funding radar",
+  "title": "ECSA Charles Boyden Small Grants: £150–£500, next deadline 1 Feb 2027",
+  "digest_headline": "ECSA Charles Boyden Small Grants: £150–£500, next deadline 1 Feb 2027",
+  "authors": null,
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://ecsa.international/grants-and-awards/charles-boyden-fund-small-grants",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "ECSA",
+   "small grant",
+   "coastal science"
+  ],
+  "summary": "For Estuarine & Coastal Sciences Association members who are postgrads or early-career researchers. It covers fieldwork, lab visits, conferences or training, needs a supervisor's recommendation and is paid in arrears.",
+  "caveats": null,
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/003.html#s16",
+  "relevance": 1,
+  "id": "003-0094",
+  "modality_groups": [],
+  "tasks": [],
+  "taxa": [],
+  "study_type": "Empirical / field",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "003-0093",
+   "002-0065",
+   "002-0063",
+   "001-0028",
+   "001-0029",
+   "002-0064"
+  ],
+  "similar_w": [
+   0.149,
+   0.148,
+   0.135,
+   0.124,
+   0.123,
+   0.107
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/003-0094.html"
  }
 ]
