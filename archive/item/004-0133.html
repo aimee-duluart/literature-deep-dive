@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>WILDS: A Benchmark of in-the-Wild Distribution Shifts · Literature Deep Dive Archive</title>
+<meta name="citation_title" content="WILDS: A Benchmark of in-the-Wild Distribution Shifts">
+<meta name="citation_author" content="Pang Wei Koh">
+<meta name="citation_author" content="Shiori Sagawa">
+<meta name="citation_author" content="Henrik Marklund">
+<meta name="citation_author" content="Sang Michael Xie">
+<meta name="citation_author" content="Marvin Zhang">
+<meta name="citation_author" content="Akshay Balsubramani">
+<meta name="citation_author" content="Weihua Hu">
+<meta name="citation_author" content="Michihiro Yasunaga">
+<meta name="citation_author" content="Richard Lanas Phillips">
+<meta name="citation_author" content="Irena Gao">
+<meta name="citation_author" content="Tony Lee">
+<meta name="citation_author" content="Etienne David">
+<meta name="citation_author" content="Ian Stavness">
+<meta name="citation_author" content="Wei Guo">
+<meta name="citation_author" content="Berton A. Earnshaw">
+<meta name="citation_author" content="Imran S. Haque">
+<meta name="citation_author" content="Sara Beery">
+<meta name="citation_author" content="Jure Leskovec">
+<meta name="citation_author" content="Anshul Kundaje">
+<meta name="citation_author" content="Emma Pierson">
+<meta name="citation_author" content="Sergey Levine">
+<meta name="citation_author" content="Chelsea Finn">
+<meta name="citation_author" content="Percy Liang">
+<meta name="citation_journal_title" content="ICML 2021 (PMLR 139)">
+<meta name="citation_publication_date" content="2021/07/01">
+<meta name="citation_abstract_html_url" content="https://proceedings.mlr.press/v139/koh21a.html">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml"><link rel="icon" href="../../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../../apple-touch-icon.png"><style>body{margin:0;background:#e3f4f6 linear-gradient(180deg,#dcf2f7 0%,#e8f7f3 50%,#fdf3ee 100%) fixed;color:#15314a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;line-height:1.55}main{max-width:760px;margin:24px auto;padding:26px 26px 30px;background:#fff;border:1px solid #d3ebef;border-radius:26px;box-shadow:0 4px 18px rgba(21,49,74,.07)}a{color:#0b6e7f}.m{color:#4f6676;font-size:13px}h1{font-size:25px;line-height:1.25;margin:10px 0 6px;color:#0b6e7f}.au{color:#4f6676;font-size:14px}.cav{color:#33506a;font-size:14px;background:#f6f9fb;border-radius:14px;padding:10px 14px}.cav b{color:#a8325a;font-size:13px}.tags span{display:inline-block;border:1px solid #d6ecef;background:#f1f8f9;color:#33506a;font-size:12px;padding:3px 10px;margin:0 4px 6px 0;border-radius:999px}.note{background:#e9f8f1;border-radius:14px;padding:8px 12px;font-size:14px}.z{background:#f1ecff;border:1px solid #ddd2fb;border-radius:16px;padding:10px 14px;font-size:13px;margin:18px 0}@media (max-width:600px){main{margin:0;border-radius:0;border:0;padding:20px 16px}}</style></head><body><main>
+<p class="m"><a href="../">← Back to the archive</a> · Catch-up · paper</p>
+<h1>WILDS: A Benchmark of in-the-Wild Distribution Shifts</h1>
+<div class="au">Pang Wei Koh, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard Lanas Phillips, Irena Gao, Tony Lee, Etienne David, Ian Stavness, Wei Guo, Berton A. Earnshaw, Imran S. Haque, Sara Beery, Jure Leskovec, Anshul Kundaje, Emma Pierson, Sergey Levine, Chelsea Finn, Percy Liang</div><div class="m">ICML 2021 (PMLR 139) · 2021-07-01</div>
+<div class="tags" style="margin:12px 0"><span>Terrestrial</span><span>Video / imagery</span><span>Remote sensing</span><span>Multimodal</span><span>Dataset</span><span>Peer reviewed</span><span>benchmarking</span><span>domain generalisation</span><span>#distribution shift</span><span>#iWildCam</span><span>#robustness</span></div>
+<p>The ML community took the hint. WILDS curated 10 datasets with real distribution shifts, including shifts across camera traps for wildlife monitoring (iWildCam), across hospitals and across time and place in satellite imagery. On every dataset, standard training gave substantially lower out-of-distribution than in-distribution performance, and existing robustness methods didn&#x27;t close the gap.</p><div class="cav"><b>🧂 Caveats:</b> Benchmarks fix the shift in advance; your deployment shift (new reef, new season, new turbidity) may look nothing like theirs.</div>
+<p class="note"><b>Catch-up area:</b> Transferable CV/ML: evaluation and generalisation</p><p class="note"><b>Since then:</b> WILDS 2.0 (Sagawa et al., ICLR 2022) added curated unlabelled data to 8 of the 10 datasets to test whether unlabelled deployment data can mitigate shift. arXiv:2112.05090 (https://arxiv.org/abs/2112.05090)</p><p class="note"><b>Reading level:</b> Skim the abstract</p><p class="note"><b>Code / data:</b> WILDS package (https://github.com/p-lambda/wilds)</p>
+<div class="z">Zotero: click the Zotero button in your browser toolbar to save this item. For the PDF too, open the paper and save from there.</div>
+<p><a href="https://proceedings.mlr.press/v139/koh21a.html" target="_blank" rel="noopener">Open the paper →</a> · <a href="../../issues/004.html#s16">In issue #004 →</a></p>
+</main></body></html>

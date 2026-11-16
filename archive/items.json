@@ -7518,5 +7518,2604 @@
   "zotero": true,
   "venue_clean": "Nature Communications",
   "detail_url": "item/003-0101.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "The headline act",
+  "title": "MICE: Multi-animal Interaction Context Encoder - A Hierarchical Foundation Model for Mouse Behavior",
+  "digest_headline": "MICE: a behaviour foundation model that encodes every animal in the group, and the group itself",
+  "authors": [
+   "Yen-Shuo Su",
+   "Weihan Li",
+   "Anqi Wu"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-08",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.11644",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "self-supervised learning",
+   "foundation models",
+   "Perceiver",
+   "pose estimation"
+  ],
+  "topics": [
+   "social behaviour",
+   "multi-animal interactions",
+   "variable group size"
+  ],
+  "summary": "Most self-supervised pose models encode each animal separately, so the interaction signal (who approached, chased or groomed whom) gets thrown away. They also hard-code how many animals are in view.",
+  "caveats": "Lab mice in arenas, with pose already extracted. The authors say the architecture makes no mouse-specific assumptions, but that's untested on other species. Interactions here are within one species (aggression, courtship, allogrooming), not predator–prey or cleaning. A preprint.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Behaviour classification"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "relevance": 3,
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s01",
+  "id": "004-0102",
+  "realms": [],
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Tracking / pose",
+   "Foundation / multimodal models"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "002-0034",
+   "003-0071",
+   "004-0106",
+   "003-0069",
+   "002-0031",
+   "001-0019"
+  ],
+  "similar_w": [
+   0.235,
+   0.134,
+   0.097,
+   0.089,
+   0.083,
+   0.082
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0102.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "The headline act",
+  "title": "Anemonefish prioritize mutualistic partner over social group during a marine heatwave",
+  "digest_headline": "Clownfish stick with their anemone in a heatwave, but squabble more with each other (R Soc Open Sci, 11 Nov)",
+  "authors": [
+   "Fletcher John Noble",
+   "Melissa Versteeg",
+   "Kirstin Gaffney",
+   "Alexandra Grace Adams",
+   "Anoushka Pinto",
+   "Eve Stephenson-Archibald",
+   "Laura Sullivan",
+   "Theresa Rueger"
+  ],
+  "venue": "Royal Society Open Science",
+  "pub_date": "2026-11-11",
+  "doi": "10.1098/rsos.261623",
+  "url": "https://doi.org/10.1098/rsos.261623",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "video behavioural scoring",
+   "natural experiment"
+  ],
+  "topics": [
+   "mutualism",
+   "marine heatwave",
+   "anemone bleaching",
+   "aggression"
+  ],
+  "summary": "Noble … Rueger scored video of Amphiprion percula during a marine heatwave in Kimbe Bay, Papua New Guinea. Some host anemones bleached and some didn't, so heat stress could be separated from the indirect effect of a stressed partner.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Behaviour classification"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Fish",
+   "Invertebrates"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s01",
+  "relevance": 1,
+  "id": "004-0103",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0041",
+   "002-0033",
+   "003-0074",
+   "004-0113",
+   "001-0009",
+   "001-0004"
+  ],
+  "similar_w": [
+   0.134,
+   0.095,
+   0.09,
+   0.075,
+   0.07,
+   0.068
+  ],
+  "zotero": true,
+  "venue_clean": "Royal Society Open Science",
+  "detail_url": "item/004-0103.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "The headline act",
+  "title": "ct: An R package for camera trap data management and multi‐method ecological analysis",
+  "digest_headline": "ct: a camera-trap R package with an interspecific “encounter response” model (Methods Ecol Evol, 12 Nov)",
+  "authors": [
+   "Stanislas Mahussi Gandaho",
+   "Pablo Palencia"
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "pub_date": "2026-11-12",
+  "doi": "10.1111/2041-210x.70444",
+  "url": "https://doi.org/10.1111/2041-210x.70444",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "R package",
+   "density estimation",
+   "encounter response model"
+  ],
+  "topics": [
+   "camera traps",
+   "interspecific interactions",
+   "diel activity"
+  ],
+  "summary": "Gandaho & Palencia take a camera-trap study from raw metadata to inference in one tidy structure, with six density estimators for unmarked populations behind one interface. Of most interest to you: an encounter response model that detects directed short-term changes in one species' detection rate after another species passes.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Interaction classification",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s01",
+  "relevance": 1,
+  "id": "004-0104",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Statistical / ecological modelling",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0087",
+   "003-0088",
+   "003-0076",
+   "004-0132",
+   "004-0123",
+   "004-0113"
+  ],
+  "similar_w": [
+   0.092,
+   0.078,
+   0.077,
+   0.076,
+   0.076,
+   0.055
+  ],
+  "zotero": true,
+  "venue_clean": "Methods in Ecology and Evolution",
+  "detail_url": "item/004-0104.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Behaviour classification",
+  "title": "Photogrammetric 3D Model-Based Animal Behavior Classification",
+  "digest_headline": "Reconstruct the 3D animal first, classify behaviour second (arXiv, 13 Nov)",
+  "authors": [
+   "Olaf Hellwich",
+   "Moritz Heine",
+   "Patrik Reiske",
+   "Sole Traverso",
+   "Katharina Hohlbaum",
+   "Henning Sprekeler",
+   "Christa Thöne-Reineke",
+   "Lars Lewejohann",
+   "Roman Bhuiyan"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-13",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.17881",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "3D reconstruction",
+   "photogrammetry",
+   "simulation"
+  ],
+  "topics": [
+   "2D-to-3D ambiguity",
+   "interacting animals"
+  ],
+  "summary": "Hellwich and colleagues argue against end-to-end video-to-behaviour models: video is a 2D projection, so inferring behaviour from it is an ill-posed inverse problem. Their two-stage alternative reconstructs body and object geometry with deformable body priors, then classifies.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Behaviour classification"
+  ],
+  "study_type": "Perspective",
+  "taxa": [
+   "Mammals"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s02",
+  "relevance": 1,
+  "id": "004-0105",
+  "realms": [],
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Tracking / pose",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "004-0132",
+   "004-0102",
+   "003-0092",
+   "001-0001",
+   "001-0004",
+   "003-0079"
+  ],
+  "similar_w": [
+   0.073,
+   0.068,
+   0.062,
+   0.054,
+   0.05,
+   0.049
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0105.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Behaviour classification",
+  "title": "Cat Royale Comprehensive Dataset: A Dataset for Pose Detection, Segmentation, Animal Action Recognition and Scene Understanding",
+  "digest_headline": "Cat Royale: segmentation, pose, actions and text captions on the same videos (arXiv, 11 Nov)",
+  "authors": [
+   "Zane K. J. Hartley",
+   "Joseph Ho",
+   "Alan Chamberlain",
+   "Michael P. Pound",
+   "Steve Benford"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-11",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.15601",
+  "item_type": "dataset",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "instance segmentation",
+   "pose estimation",
+   "temporal action localisation",
+   "video-text retrieval"
+  ],
+  "topics": [
+   "multi-task benchmark",
+   "animal welfare"
+  ],
+  "summary": "Hartley, Ho, Chamberlain, Pound & Benford built it from 500+ hours of video from the Cat Royale art-and-research project: 20,000 images with instance masks, 5,000 with multi-subject pose, 800+ action clips and 800+ clips with text descriptions, with benchmarks for each task. Cats, not corals, but linked annotation types like this are rare and exactly what multimodal behaviour models need. arXiv:2611.15601",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "tasks": [
+   "Behaviour classification"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Mammals"
+  ],
+  "found_by": "AB",
+  "issue_url": "../issues/004.html#s02",
+  "relevance": 1,
+  "id": "004-0106",
+  "modality_groups": [
+   "Video / imagery",
+   "Multimodal"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Tracking / pose",
+   "Foundation / multimodal models",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "003-0092",
+   "001-0001",
+   "003-0075",
+   "001-0004",
+   "004-0102",
+   "004-0114"
+  ],
+  "similar_w": [
+   0.124,
+   0.119,
+   0.108,
+   0.099,
+   0.097,
+   0.084
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0106.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Multimodal AI and interaction networks",
+  "title": "eDNA metabarcoding and random forest identify super-connector fish species across mangrove–seagrass–coral reef continuums in the South China Sea",
+  "digest_headline": "eDNA plus random forests find three “super-connector” fish across mangrove, seagrass and reef (Front Ecol Evol, 9 Nov)",
+  "authors": [
+   "Chunchun Liu",
+   "Gongguo Wu",
+   "Chujun Zou",
+   "Donghai Wu",
+   "Pengfei Xie",
+   "Sai Wang",
+   "Ping Wang"
+  ],
+  "venue": "Frontiers in Ecology and Evolution",
+  "pub_date": "2026-11-09",
+  "doi": "10.3389/fevo.2026.1960019",
+  "url": "https://doi.org/10.3389/fevo.2026.1960019",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "eDNA metabarcoding",
+   "random forest",
+   "bipartite networks"
+  ],
+  "topics": [
+   "seascape connectivity",
+   "connector species",
+   "South China Sea"
+  ],
+  "summary": "Liu … Wang sampled a continuum on Hainan Island and detected 234 fish species, about four times the 58 found by gillnets. Of 23 connector species, three (Lutjanus russellii, Siganus fuscescens, Gerres oyena) carried 47% of cross-habitat network flow, and simulated removal cut connectivity by 68%.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "eDNA"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Fish"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s03",
+  "relevance": 1,
+  "id": "004-0107",
+  "modality_groups": [
+   "eDNA"
+  ],
+  "method_groups": [
+   "Network analysis",
+   "Molecular / eDNA",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0049",
+   "002-0054",
+   "003-0098",
+   "004-0121",
+   "001-0023",
+   "003-0084"
+  ],
+  "similar_w": [
+   0.103,
+   0.085,
+   0.085,
+   0.082,
+   0.08,
+   0.076
+  ],
+  "zotero": true,
+  "venue_clean": "Frontiers in Ecology and Evolution",
+  "detail_url": "item/004-0107.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Bioacoustics and PAM",
+  "title": "Distributed acoustic sensing for marine mammal monitoring",
+  "digest_headline": "Your seabed cable is a hydrophone array: distributed acoustic sensing for whales (Methods Ecol Evol, 9 Nov)",
+  "authors": [
+   "Léa Bouffaut"
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "pub_date": "2026-11-09",
+  "doi": "10.1111/2041-210x.70437",
+  "url": "https://doi.org/10.1111/2041-210x.70437",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "distributed acoustic sensing",
+   "localisation"
+  ],
+  "topics": [
+   "fibre-optic cables",
+   "dual-use infrastructure",
+   "baleen whales"
+  ],
+  "summary": "Bouffaut reviews DAS, which turns existing telecom and energy fibre-optic cables into dense listening arrays read from shore. It can already detect and localise blue and fin whale calls in near-real time.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics",
+   "Other sensors"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Review",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s04",
+  "relevance": 1,
+  "id": "004-0108",
+  "modality_groups": [
+   "Acoustics",
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Acoustic analysis"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0073",
+   "001-0006",
+   "003-0086",
+   "002-0039",
+   "004-0121",
+   "002-0038"
+  ],
+  "similar_w": [
+   0.229,
+   0.105,
+   0.097,
+   0.085,
+   0.067,
+   0.063
+  ],
+  "zotero": true,
+  "venue_clean": "Methods in Ecology and Evolution",
+  "detail_url": "item/004-0108.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Bioacoustics and PAM",
+  "title": "The evolutionary structure of acoustic learnability: a deep learning approach to neotropical birdsong",
+  "digest_headline": "Which birds are hard for a CNN? Mostly not the ones traits predict (R Soc Open Sci, 11 Nov)",
+  "authors": [
+   "Camilo Andrés Cortés-Parra",
+   "Héctor J. Hortúa",
+   "Juan Camilo Ríos-Orjuela"
+  ],
+  "venue": "Royal Society Open Science",
+  "pub_date": "2026-11-11",
+  "doi": "10.1098/rsos.260394",
+  "url": "https://doi.org/10.1098/rsos.260394",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "EfficientNetV2",
+   "PGLS",
+   "Grad-CAM",
+   "Monte Carlo dropout"
+  ],
+  "topics": [
+   "Neotropical birds",
+   "classifier performance",
+   "phylogenetic signal"
+  ],
+  "summary": "Cortés-Parra, Hortúa & Ríos-Orjuela trained CNNs on 667 Neotropical species (EfficientNetV2L: 94.48% accuracy, macro-F1 94.30%), then asked what explains per-species F1 under phylogenetic control. Broad traits explained about 2.2% of the variance, geographic range size had the most consistent (negative) link, and confusions clustered among close relatives.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Birds"
+  ],
+  "found_by": "AB",
+  "issue_url": "../issues/004.html#s04",
+  "relevance": 1,
+  "id": "004-0109",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Classification / recognition"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0097",
+   "003-0098",
+   "002-0035",
+   "002-0054",
+   "004-0131",
+   "004-0135"
+  ],
+  "similar_w": [
+   0.077,
+   0.055,
+   0.05,
+   0.05,
+   0.049,
+   0.047
+  ],
+  "zotero": true,
+  "venue_clean": "Royal Society Open Science",
+  "detail_url": "item/004-0109.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Coral reef ecology and conservation",
+  "title": "Global opportunities for climate-resilient coral reef conservation to 2050",
+  "digest_headline": "Which 30% of reefs to protect? ML maps of reefs most likely to persist to 2050",
+  "authors": [
+   "Kyle Zawada",
+   "Emily Darling",
+   "Stacy Jupiter",
+   "Tim R McClanahan",
+   "Joseph Maina"
+  ],
+  "venue": "Environmental Research Letters",
+  "pub_date": "2026-11-12",
+  "doi": "10.1088/1748-9326/aec17d",
+  "url": "https://doi.org/10.1088/1748-9326/aec17d",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "machine-learning ensembles",
+   "multi-objective optimisation",
+   "spatial prioritisation"
+  ],
+  "topics": [
+   "climate refugia",
+   "30x30",
+   "conservation planning"
+  ],
+  "summary": "The authors trained machine-learning ensembles on 45,064 coral field observations (1960–2025) and 42 climate, biophysical and human-pressure predictors to estimate coral cover and community composition in 2020 and 2050. In each ecoregion they then picked the 30% of reef area (the GBF 30x30 target) that jointly maximised current and future cover, composition, spatial cohesion and model certainty.",
+  "caveats": "The authors are refreshingly upfront: predictive skill was modest and varied among provinces, so these are candidate locations, not definitive priorities, to combine with local knowledge and better monitoring. The fourfold spread between habitat layers shows how much the answer depends on the base map.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Remote sensing",
+   "Other sensors"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Modelling",
+  "taxa": [
+   "Corals"
+  ],
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s05",
+  "id": "004-0110",
+  "modality_groups": [
+   "Remote sensing",
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0058",
+   "002-0059",
+   "002-0044",
+   "001-0016",
+   "002-0041",
+   "002-0049"
+  ],
+  "similar_w": [
+   0.089,
+   0.083,
+   0.074,
+   0.07,
+   0.069,
+   0.069
+  ],
+  "zotero": true,
+  "venue_clean": "Environmental Research Letters",
+  "detail_url": "item/004-0110.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Coral reef ecology and conservation",
+  "title": "An autonomous imaging system for reef fish monitoring in the southern Gulf of Mexico",
+  "digest_headline": "Trail cameras in housings plus RF-DETR give daily reef fish data (Front Mar Sci, 12 Nov)",
+  "authors": [
+   "Edlin José Guerra-Castro",
+   "Miguel Ángel Plata-Díaz",
+   "Víctor Eduardo Gómez-Bretón",
+   "Damián Alejandro Cedillo-Reyna",
+   "Rodrigo Contreras-Chávez",
+   "Arturo Sanchez-Porras",
+   "Ilse Ruiz-Mercado",
+   "Vanesa Papiol",
+   "Ximena Isabel Pérez-Meza",
+   "Yoalli Quetzalli Hernández-Díaz",
+   "Alan Javier Ramírez-Menéndez",
+   "Ángela Randazzo-Eisemann",
+   "Nuno Simoes"
+  ],
+  "venue": "Frontiers in Marine Science",
+  "pub_date": "2026-11-12",
+  "doi": "10.3389/fmars.2026.1969343",
+  "url": "https://doi.org/10.3389/fmars.2026.1969343",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "RF-DETR",
+   "object detection",
+   "trail cameras"
+  ],
+  "topics": [
+   "autonomous imaging",
+   "Gulf of Mexico",
+   "reef fish assemblages"
+  ],
+  "summary": "Guerra-Castro … Simões deployed five adapted trail cameras on Bajo de Diez reef (southern Gulf of Mexico) in 2024 and 2025: 191,758 usable images at 3-min intervals, with 27,471 expert-annotated. RF-DETR reached mAP@50 = 0.741, and its temporal community structure correlated with the experts' (ρ = 0.63), stretching coverage from 68 to 110 dates.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Fish"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s05",
+  "relevance": 1,
+  "id": "004-0111",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "004-0118",
+   "003-0083",
+   "001-0018",
+   "003-0100",
+   "004-0132",
+   "003-0075"
+  ],
+  "similar_w": [
+   0.062,
+   0.061,
+   0.057,
+   0.057,
+   0.056,
+   0.052
+  ],
+  "zotero": true,
+  "venue_clean": "Frontiers in Marine Science",
+  "detail_url": "item/004-0111.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Coral reef ecology and conservation",
+  "title": "Vertical Characteristics of Marine Heatwaves in Global Coral Reef Regions",
+  "digest_headline": "Deep reefs are no heat refuge: subsurface heatwaves are rarer but stronger (Geophys Res Lett, 10 Nov)",
+  "authors": [
+   "Yulong Yao",
+   "Chunzai Wang"
+  ],
+  "venue": "Geophysical Research Letters",
+  "pub_date": "2026-11-10",
+  "doi": "10.1029/2026gl123865",
+  "url": "https://doi.org/10.1029/2026gl123865",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "ocean reanalysis"
+  ],
+  "topics": [
+   "subsurface marine heatwaves",
+   "mesophotic refugia"
+  ],
+  "summary": "Yao & Wang used two ocean reanalyses (1993–2023): heatwave days decline with depth, but cumulative intensity increases. In El Niño years and the 2020–2023 triple-dip La Niña, intensities reached up to 160 °C-days at 90–150 m.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Other sensors"
+  ],
+  "study_type": "Modelling",
+  "taxa": [
+   "Corals"
+  ],
+  "found_by": "AB",
+  "issue_url": "../issues/004.html#s05",
+  "relevance": 1,
+  "id": "004-0112",
+  "tasks": [],
+  "modality_groups": [
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Statistical / ecological modelling",
+   "Remote sensing / drones"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0009",
+   "002-0041",
+   "002-0043",
+   "003-0075",
+   "003-0074",
+   "001-0008"
+  ],
+  "similar_w": [
+   0.213,
+   0.116,
+   0.107,
+   0.086,
+   0.079,
+   0.074
+  ],
+  "zotero": true,
+  "venue_clean": "Geophysical Research Letters",
+  "detail_url": "item/004-0112.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Coral reef ecology and conservation",
+  "title": "Steroid hormones produced by coral-associated Endozoicomonas influence coral immune response during thermal stress",
+  "digest_headline": "ICYMI: coral bacteria make steroid hormones that tune the coral immune response in heat (Nature Microbiology, 22 Oct)",
+  "authors": [
+   "Amin R. Mohamed",
+   "Michael A. Ochsenkühn",
+   "Trent D. Haydon",
+   "Salah Abdelrazig",
+   "Lisa S. Y. Coe",
+   "Gabriel Mochales-Riaño",
+   "Woonkee S. Jo",
+   "Alan R. Healy",
+   "David Abrego",
+   "Jean-Baptiste Raina",
+   "John A. Burt",
+   "Shady A. Amin"
+  ],
+  "venue": "Nature Microbiology",
+  "pub_date": "2026-10-22",
+  "doi": "10.1038/s41564-026-02494-1",
+  "url": "https://doi.org/10.1038/s41564-026-02494-1",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "multi-omics",
+   "culture experiments",
+   "transcriptomics"
+  ],
+  "topics": [
+   "host-microbe symbiosis",
+   "steroid hormones",
+   "coral immunity",
+   "Arabian Gulf"
+  ],
+  "summary": "Mohamed … Amin found that Endozoicomonas can convert cholesterol into testosterone and progesterone, and that giving corals these hormones during lab heat stress reprogrammed their innate immune response. It's a symbiosis written in chemistry, not behaviour, but still a species interaction. doi:10.1038/s41564-026-02494-1",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Coral reef",
+   "Marine"
+  ],
+  "modalities": [
+   "Other sensors"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Empirical / lab",
+  "taxa": [
+   "Corals",
+   "Symbionts"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s05",
+  "relevance": 1,
+  "id": "004-0113",
+  "modality_groups": [
+   "Other sensors"
+  ],
+  "method_groups": [
+   "Molecular / eDNA"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "004-0103",
+   "002-0041",
+   "003-0082",
+   "002-0043",
+   "004-0104",
+   "003-0095"
+  ],
+  "similar_w": [
+   0.075,
+   0.071,
+   0.066,
+   0.064,
+   0.055,
+   0.052
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Microbiology",
+  "detail_url": "item/004-0113.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Transferable CV/ML advances",
+  "title": "The Target Is a Predicate: Predicate-State Grounding for Semantic-Level Video Reasoning Segmentation",
+  "digest_headline": "“The target is a predicate”: segment whoever is doing the thing, only while they're doing it (arXiv, 10 Nov)",
+  "authors": [
+   "Yuhuan Hong",
+   "Yiming Ren",
+   "Zhiqiang Lin",
+   "Feize Wu",
+   "Xingyun Liu",
+   "Yitong Xie",
+   "Lei Zhou",
+   "Lisheng Wu",
+   "Junjie Wang",
+   "Yujiu Yang"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-10",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.13785",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "video segmentation",
+   "SAM2",
+   "vision-language models"
+  ],
+  "topics": [
+   "temporal grounding",
+   "target switching",
+   "benchmark"
+  ],
+  "summary": "Hong … Yang define queries as predicates over objects and time (think “the fish currently being cleaned”), so the target can be absent or switch identity. Their PS-Bench has 2,077 videos and 16,250 queries with active/vacant intervals and masks, and their State-Bind-Emit pipeline prompts SAM2 only during active states: +9.32 J&F over baselines and far fewer false masks.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery",
+   "Text"
+  ],
+  "tasks": [
+   "Interaction classification"
+  ],
+  "study_type": "Methods / tool",
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s06",
+  "relevance": 1,
+  "id": "004-0114",
+  "realms": [],
+  "taxa": [],
+  "modality_groups": [
+   "Video / imagery",
+   "Text"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Foundation / multimodal models"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "001-0012",
+   "001-0001",
+   "003-0077",
+   "004-0106",
+   "001-0004",
+   "004-0103"
+  ],
+  "similar_w": [
+   0.105,
+   0.104,
+   0.085,
+   0.084,
+   0.078,
+   0.062
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0114.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Transferable CV/ML advances",
+  "title": "What Factors Matter for Collection-Level Counting with Human-AI Collaboration?",
+  "digest_headline": "Counting with a human in the loop: what actually matters (arXiv, 10 Nov)",
+  "authors": [
+   "Seoyun Jeong",
+   "Logan Lawrence",
+   "Owen L. Martin",
+   "Benjamin Koger",
+   "Daniel Sheldon",
+   "Subhransu Maji"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-10",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.14380",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "human-in-the-loop estimation",
+   "multimodal models",
+   "detectors"
+  ],
+  "topics": [
+   "counting",
+   "aerial surveys",
+   "label budgets"
+  ],
+  "summary": "Jeong … Sheldon & Maji compare models, estimators and adaptation strategies over 12 counting tasks, from microscopy to aerial wildlife surveys. Off-the-shelf multimodal models are a strong training-free start; fine-tuned detectors win at bigger label budgets; using predictions to choose which images humans check beats uniform sampling.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Remote sensing"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s06",
+  "relevance": 1,
+  "id": "004-0115",
+  "modality_groups": [
+   "Video / imagery",
+   "Remote sensing"
+  ],
+  "method_groups": [
+   "Object detection / segmentation",
+   "Foundation / multimodal models"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "002-0052",
+   "003-0077",
+   "001-0017",
+   "004-0123",
+   "001-0002",
+   "002-0046"
+  ],
+  "similar_w": [
+   0.148,
+   0.088,
+   0.083,
+   0.076,
+   0.061,
+   0.06
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0115.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Emerging ecology and conservation tools",
+  "title": "A tabular foundation model rivals established species distribution models from presence-only records",
+  "digest_headline": "A tabular foundation model matches the best SDM ensemble with zero tuning (bioRxiv, 9 Nov)",
+  "authors": [
+   "Hideyuki Doi",
+   "Takeshi Osawa",
+   "Narumasa Tsutsumida"
+  ],
+  "venue": "bioRxiv",
+  "pub_date": "2026-11-09",
+  "doi": "10.64898/2026.11.06.765003",
+  "url": "https://doi.org/10.64898/2026.11.06.765003",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "TabPFN",
+   "tabular foundation models",
+   "MaxEnt",
+   "boosted regression trees"
+  ],
+  "topics": [
+   "species distribution models",
+   "presence-only data",
+   "calibration"
+  ],
+  "summary": "Doi, Osawa & Tsutsumida ran TabPFN 3.5 on the standard 225-species benchmark. Untuned, it equalled the best published five-model ensemble (mean AUC 0.732); fine-tuned on other regions it became the best single model (0.736 vs MaxEnt's 0.728) and better calibrated.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial",
+   "Freshwater",
+   "Marine"
+  ],
+  "study_type": "Methods / tool",
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s07",
+  "relevance": 1,
+  "id": "004-0116",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Foundation / multimodal models",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "004-0119",
+   "002-0043",
+   "003-0098",
+   "001-0001",
+   "004-0133",
+   "003-0069"
+  ],
+  "similar_w": [
+   0.092,
+   0.078,
+   0.076,
+   0.07,
+   0.069,
+   0.068
+  ],
+  "zotero": true,
+  "venue_clean": "bioRxiv",
+  "detail_url": "item/004-0116.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Emerging ecology and conservation tools",
+  "title": "Pl@ntNet machine-to-machine identification service with Pl@ntNet API: enabling automated biodiversity monitoring through large-scale plant identification",
+  "digest_headline": "Pl@ntNet's API: 85,000 plant species, no human in the loop (arXiv, 12 Nov)",
+  "authors": [
+   "Benjamin Bourel",
+   "Jean-Christophe Lombardo",
+   "Alexis Joly",
+   "Mathias Chouet",
+   "Thomas Paillot",
+   "Antoine Affouard",
+   "Vanessa Hequet",
+   "Hervé Goëau",
+   "Pierre Bonnet"
+  ],
+  "venue": "arXiv",
+  "pub_date": "2026-11-12",
+  "doi": null,
+  "url": "https://arxiv.org/abs/2611.16538",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "API",
+   "image classification"
+  ],
+  "topics": [
+   "automated identification",
+   "plant monitoring"
+  ],
+  "summary": "Bourel … Bonnet describe the machine-to-machine service: species-level accuracy of 0.89, images processed up to 666× faster than human-submitted workflows, and over 84 million requests served. Handy if your camera ever points at a seagrass meadow's terrestrial cousins, or for pollination-network field kits. arXiv:2611.16538",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Plants"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s07",
+  "relevance": 1,
+  "id": "004-0117",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "003-0066",
+   "003-0089",
+   "002-0054",
+   "003-0075",
+   "002-0048",
+   "002-0037"
+  ],
+  "similar_w": [
+   0.123,
+   0.088,
+   0.075,
+   0.049,
+   0.049,
+   0.041
+  ],
+  "zotero": true,
+  "venue_clean": "arXiv",
+  "detail_url": "item/004-0117.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Restoration and nature-based solutions",
+  "title": "Shuck it and see: Adaptive Restoration Engineering in community‐led shellfish reef restoration",
+  "digest_headline": "“Shuck it and see”: eight years of iterating shellfish-reef restoration structures (Restoration Ecology, 11 Nov)",
+  "authors": [
+   "Robert J. Porter",
+   "Marina A. Richardson",
+   "Craig Copeland",
+   "Rebecca C. Porter",
+   "Sophie DiBetta",
+   "Gary Gilchrist",
+   "Graham Toms",
+   "David Hastings",
+   "Ben L. Gilby"
+  ],
+  "venue": "Restoration Ecology",
+  "pub_date": "2026-11-11",
+  "doi": "10.1111/rec.70597",
+  "url": "https://doi.org/10.1111/rec.70597",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "field observation",
+   "design iteration"
+  ],
+  "topics": [
+   "shellfish reef restoration",
+   "adaptive management",
+   "community-led restoration"
+  ],
+  "summary": "Porter … Gilchrist assessed 1,081 remnant reef bommies at five Queensland sites and traced how five structure designs (2018–2026) changed as things failed: corroding mesh, burial, subsidence, and mussels recruiting where oysters were expected. The result is “Adaptive Restoration Engineering”: no standard unit, just designs refined for each setting.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "study_type": "Review",
+  "taxa": [
+   "Invertebrates"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s08",
+  "relevance": 1,
+  "id": "004-0118",
+  "tasks": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0049",
+   "002-0058",
+   "001-0022",
+   "001-0003",
+   "004-0111",
+   "003-0100"
+  ],
+  "similar_w": [
+   0.105,
+   0.094,
+   0.072,
+   0.062,
+   0.062,
+   0.06
+  ],
+  "zotero": true,
+  "venue_clean": "Restoration Ecology",
+  "detail_url": "item/004-0118.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Wider field: big papers",
+  "title": "Severe drought and warming increase the extinction risk of cacti",
+  "digest_headline": "Cacti aren't drought-proof: adding severe drought to SDMs sharply raises extinction risk (Nature, 11 Nov)",
+  "authors": [
+   "Michiel D. Pillet",
+   "Brian S. Maitner",
+   "Mónica Arakaki",
+   "Diogo S. A. Araujo",
+   "Marc A. Baker",
+   "Duniel Barrios",
+   "Bradley L. Boyle",
+   "David D. Breshears",
+   "Xiao Feng",
+   "Bárbara Goettsch",
+   "Pablo C. Guerrero",
+   "Tania Hernández-Hernández",
+   "Lucas C. Majure",
+   "Beatriz M. Meriño",
+   "Efthymios I. Nikolopoulos",
+   "Raúl Puente-Martínez",
+   "Patrick R. Roehrdanz",
+   "Josep M. Serra-Diaz",
+   "Mark C. Urban",
+   "Cory Merow",
+   "Brian J. Enquist"
+  ],
+  "venue": "Nature",
+  "pub_date": "2026-11-11",
+  "doi": "10.1038/s41586-026-11265-1",
+  "url": "https://doi.org/10.1038/s41586-026-11265-1",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "species distribution models",
+   "climate extremes"
+  ],
+  "topics": [
+   "drought",
+   "extinction risk",
+   "Cactaceae"
+  ],
+  "summary": "Pillet … Enquist combined new severe-drought layers with 648,316 occurrence records for 993 cactus species. Drought-aware models were better supported in 91% of cases.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "study_type": "Modelling",
+  "taxa": [
+   "Plants"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s09",
+  "relevance": 1,
+  "id": "004-0119",
+  "tasks": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0050",
+   "004-0116",
+   "001-0000",
+   "001-0008",
+   "003-0070",
+   "002-0042"
+  ],
+  "similar_w": [
+   0.096,
+   0.092,
+   0.086,
+   0.076,
+   0.063,
+   0.062
+  ],
+  "zotero": true,
+  "venue_clean": "Nature",
+  "detail_url": "item/004-0119.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Datasets, tools and code",
+  "title": "pamflow : An open‐source workflow for simplified passive acoustic monitoring data analysis",
+  "digest_headline": "pamflow: raw recordings to standard outputs with one config file (Methods Ecol Evol, 10 Nov)",
+  "authors": [
+   "Nicolás Betancourt",
+   "María Paula Toro‐Gómez",
+   "Juan Sebastián Cañas",
+   "Eliana Barona‐Cortés",
+   "Daniela Martínez‐Medina",
+   "Juan Sebastián Ulloa"
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "pub_date": "2026-11-10",
+  "doi": "10.1111/2041-210x.70432",
+  "url": "https://doi.org/10.1111/2041-210x.70432",
+  "item_type": "tool",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "Python",
+   "Kedro",
+   "workflow"
+  ],
+  "topics": [
+   "passive acoustic monitoring",
+   "reproducible pipelines",
+   "community monitoring"
+  ],
+  "summary": "Betancourt … Ulloa built an open-source Python/Kedro pipeline with a command-line interface, designed for low budgets and modest hardware. The demo is a participatory project in Colombian Amazonia, where 14 families and a school installed 38 recorders. doi:10.1111/2041-210x.70432",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Methods / tool",
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s11",
+  "relevance": 1,
+  "id": "004-0120",
+  "taxa": [],
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0066",
+   "003-0085",
+   "004-0124",
+   "002-0035",
+   "001-0007",
+   "002-0038"
+  ],
+  "similar_w": [
+   0.135,
+   0.104,
+   0.075,
+   0.073,
+   0.067,
+   0.058
+  ],
+  "zotero": true,
+  "venue_clean": "Methods in Ecology and Evolution",
+  "detail_url": "item/004-0120.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Critiques and nulls",
+  "title": "Recording session leakage inflates accuracy in marine mammal call classification",
+  "digest_headline": "Random splits made a whale-call classifier look up to 23 points better than it was",
+  "authors": [
+   "Erzsebet Frey"
+  ],
+  "venue": "EcoEvoRxiv",
+  "pub_date": "2026-11-13",
+  "doi": "10.32942/x2p68x",
+  "url": "https://doi.org/10.32942/x2p68x",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "grouped cross-validation",
+   "random forest",
+   "transformer",
+   "BirdNET",
+   "Perch"
+  ],
+  "topics": [
+   "data leakage",
+   "evaluation",
+   "Watkins database"
+  ],
+  "summary": "Frey classified 4,761 recordings of nine Arctic and subarctic marine mammal species from the Watkins Marine Mammal Sound Database (recorded on 148 tapes, 1949–1997). Models: a random forest on 90 acoustic features, a small transformer and linear probes on pretrained BirdNET and Perch 2.0 embeddings.",
+  "caveats": "A single-author preprint on one archival database, where tape and species are tightly confounded (some species sit on only a few tapes), so the size of the gap is probably at the high end. The direction of the effect, though, is well established.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Polar"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Evaluation",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "relevance": 3,
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s12",
+  "id": "004-0121",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Foundation / multimodal models",
+   "Acoustic analysis",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "002-0037",
+   "004-0135",
+   "001-0006",
+   "004-0107",
+   "004-0131",
+   "001-0020"
+  ],
+  "similar_w": [
+   0.141,
+   0.122,
+   0.096,
+   0.082,
+   0.078,
+   0.07
+  ],
+  "zotero": true,
+  "venue_clean": "EcoEvoRxiv",
+  "detail_url": "item/004-0121.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Critiques and nulls",
+  "title": "Global biodiversity models exhibit low predictive accuracy on local scales",
+  "digest_headline": "Global biodiversity models infer effects well but predict local sites poorly (Nat Ecol Evol, 10 Nov)",
+  "authors": [
+   "Jakob Nyström",
+   "Jeffrey R. Smith",
+   "Lisa Mandle",
+   "Andrew Gonzalez",
+   "Thomas B. Schön",
+   "Tobias Andermann"
+  ],
+  "venue": "Nature Ecology & Evolution",
+  "pub_date": "2026-11-10",
+  "doi": "10.1038/s41559-026-03205-z",
+  "url": "https://doi.org/10.1038/s41559-026-03205-z",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "mixed models",
+   "predictive validation"
+  ],
+  "topics": [
+   "biodiversity indicators",
+   "local prediction",
+   "distribution shift"
+  ],
+  "summary": "Nyström, Smith, Mandle, Gonzalez, Schön & Andermann find that the mixed models common in biodiversity indicators have low predictive accuracy for local sites, because they lean on highly averaged fixed effects. Swapping study random effects for biome, realm and taxon terms helps, but only modestly, and extrapolating to new contexts stays poor.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "study_type": "Evaluation",
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s12",
+  "relevance": 1,
+  "id": "004-0122",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0057",
+   "002-0037",
+   "004-0131",
+   "002-0051",
+   "002-0055",
+   "004-0132"
+  ],
+  "similar_w": [
+   0.073,
+   0.069,
+   0.062,
+   0.062,
+   0.061,
+   0.059
+  ],
+  "zotero": true,
+  "venue_clean": "Nature Ecology & Evolution",
+  "detail_url": "item/004-0122.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Critiques and nulls",
+  "title": "Which camera-trap images to review? Estimating occupancy from a small part of a survey",
+  "digest_headline": "Null result for active learning: reviewing the “least certain” camera-trap images first barely beat random (EcoEvoRxiv, 11 Nov)",
+  "authors": [
+   "Michael Tabak"
+  ],
+  "venue": "EcoEvoRxiv",
+  "pub_date": "2026-11-11",
+  "doi": "10.32942/x20m63",
+  "url": "https://doi.org/10.32942/x20m63",
+  "item_type": "preprint",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "SpeciesNet",
+   "occupancy models",
+   "active learning"
+  ],
+  "topics": [
+   "human-in-the-loop review",
+   "camera traps"
+  ],
+  "summary": "Tabak simulated partial reviews of four fully labelled surveys (USA, South Africa, Malawi). What worked was confirming one model suggestion per species–site–week.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection",
+   "Monitoring"
+  ],
+  "study_type": "Evaluation",
+  "taxa": [
+   "Mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s12",
+  "relevance": 1,
+  "id": "004-0123",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Preprint",
+  "similar": [
+   "001-0013",
+   "003-0087",
+   "004-0115",
+   "004-0104",
+   "004-0107",
+   "003-0088"
+  ],
+  "similar_w": [
+   0.117,
+   0.091,
+   0.076,
+   0.076,
+   0.074,
+   0.073
+  ],
+  "zotero": true,
+  "venue_clean": "EcoEvoRxiv",
+  "detail_url": "item/004-0123.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Critiques and nulls",
+  "title": "A decade of multi-site acoustic monitoring reveals acoustic co-occurrence of finless porpoises and high-frequency vessel noise",
+  "digest_headline": "Ten years of porpoise clicks and boat noise: no monotonic decline with noise (Ecol Indicators, 14 Nov)",
+  "authors": [
+   "Mayu I. Ogawa",
+   "Satoko S. Kimura",
+   "Nozomu Ishiai",
+   "Hirotaka Tajima",
+   "Haruka Nakajin",
+   "Ken Yoda",
+   "Nobuaki Arai",
+   "Tomonari Akamatsu"
+  ],
+  "venue": "Ecological Indicators",
+  "pub_date": "2026-11-14",
+  "doi": "10.1016/j.ecolind.2026.115847",
+  "url": "https://doi.org/10.1016/j.ecolind.2026.115847",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "passive acoustic monitoring",
+   "hurdle models"
+  ],
+  "topics": [
+   "vessel noise",
+   "finless porpoise",
+   "Mikawa Bay"
+  ],
+  "summary": "Ogawa … Akamatsu analysed 2013–2023 PAM data from ten stations in Mikawa Bay, Japan. Porpoises were heard on 99.3% of days and high-frequency vessel noise on 94.8%.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Monitoring"
+  ],
+  "study_type": "Empirical / field",
+  "taxa": [
+   "Marine mammals"
+  ],
+  "found_by": "B",
+  "issue_url": "../issues/004.html#s12",
+  "relevance": 1,
+  "id": "004-0124",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Acoustic analysis",
+   "Statistical / ecological modelling",
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0066",
+   "003-0080",
+   "004-0120",
+   "003-0071",
+   "001-0021",
+   "002-0039"
+  ],
+  "similar_w": [
+   0.089,
+   0.083,
+   0.075,
+   0.068,
+   0.067,
+   0.057
+  ],
+  "zotero": true,
+  "venue_clean": "Ecological Indicators",
+  "detail_url": "item/004-0124.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Policy and ocean news",
+  "title": "COP31 week one: the ocean gets its own ministerial consultations (14 Nov)",
+  "digest_headline": "COP31 week one: the ocean gets its own ministerial consultations (14 Nov)",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-14nov2026",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "UNFCCC",
+   "COP31",
+   "ocean"
+  ],
+  "summary": "As the subsidiary bodies closed in Antalya, the COP31 Presidency set up ministerial consultations on five themes, including the ocean, co-facilitated by Canada (Julie Dabrusin) and Palau (Steven Victor). Whether ocean action makes the final cover decision is still contested.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s13",
+  "relevance": 1,
+  "id": "004-0125",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0062",
+   "003-0090",
+   "003-0091",
+   "003-0071",
+   "004-0112",
+   "002-0042"
+  ],
+  "similar_w": [
+   0.251,
+   0.208,
+   0.061,
+   0.059,
+   0.054,
+   0.047
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0125.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Policy and ocean news",
+  "title": "US firms seek seabed-mining exploration licences next to Pacific island states (11 Nov)",
+  "digest_headline": "US firms seek seabed-mining exploration licences next to Pacific island states (11 Nov)",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://news.mongabay.com/2026/11/us-companies-apply-to-explore-deep-sea-mining-in-area-bordering-pacific-island-states/",
+  "item_type": "news",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "deep-sea mining",
+   "high seas",
+   "Pacific"
+  ],
+  "summary": "Two companies applied through the US permitting route, which bypasses the International Seabed Authority, for about 101,000 km² bounded by the Cook Islands, Kiribati and French Polynesia (a fisheries special management area) and about 90,000 km² south of the Cook Islands. French Polynesia has objected.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Deep sea",
+   "Marine"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s13",
+  "relevance": 1,
+  "id": "004-0126",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0041",
+   "001-0023",
+   "003-0081",
+   "002-0063",
+   "003-0078",
+   "004-0107"
+  ],
+  "similar_w": [
+   0.071,
+   0.067,
+   0.063,
+   0.06,
+   0.059,
+   0.055
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0126.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Conferences, workshops, events and training",
+  "title": "AXOLOTL / AI4OCEAN Winter School, Cyprus, 10–12 Feb 2027: apply by 20 Dec",
+  "digest_headline": "AXOLOTL / AI4OCEAN Winter School, Cyprus, 10–12 Feb 2027: apply by 20 Dec",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.ai4ocean2027.net/ai4ocean-winter-school",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "winter school",
+   "AI for ocean",
+   "early-career support"
+  ],
+  "summary": "Three days on AI-enhanced biodiversity assessment, underwater acoustics, Earth observation and maritime surveillance, with lectures, practicals and field activities, aimed mainly at MSc/PhD students and ECRs. Limited competitive support for registration, travel or accommodation is planned (decisions within 15 days of applying). ai4ocean2027.net",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics",
+   "Remote sensing",
+   "Video / imagery"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s14",
+  "relevance": 1,
+  "id": "004-0127",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [
+   "Acoustics",
+   "Remote sensing",
+   "Video / imagery"
+  ],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0061",
+   "001-0003",
+   "003-0093",
+   "001-0030",
+   "002-0063",
+   "001-0019"
+  ],
+  "similar_w": [
+   0.104,
+   0.075,
+   0.072,
+   0.069,
+   0.069,
+   0.069
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0127.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Conferences, workshops, events and training",
+  "title": "Camera Traps, AI & Ecology (Fribourg + online, 21–22 Jan): new abstract-only track due 18 Dec",
+  "digest_headline": "Camera Traps, AI & Ecology (Fribourg + online, 21–22 Jan): new abstract-only track due 18 Dec",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://camtrapai.github.io/",
+  "item_type": "event",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "camera traps",
+   "workshop",
+   "abstract-only track"
+  ],
+  "summary": "If a 4-page paper by Fri 27 Nov is too much, a 1-page abstract by Fri 18 Dec (AoE) can win a shorter talk. Slots are very limited, and the organisers encourage full papers.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "modalities": [
+   "Video / imagery"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s14",
+  "relevance": 1,
+  "id": "004-0128",
+  "realms": [],
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "003-0092",
+   "002-0060",
+   "001-0026",
+   "001-0025",
+   "002-0061",
+   "004-0132"
+  ],
+  "similar_w": [
+   0.319,
+   0.128,
+   0.1,
+   0.098,
+   0.095,
+   0.091
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0128.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Funding radar",
+  "title": "RGS-IBG Postgraduate Research Awards: up to £2,500 for PhD fieldwork, deadline Mon 23 Nov",
+  "digest_headline": "RGS-IBG Postgraduate Research Awards: up to £2,500 for PhD fieldwork, deadline Mon 23 Nov",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://www.rgs.org/exploration/grants/student-grants/phd-grants/rgs-ibg-postgraduate-research-awards",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "fieldwork grant",
+   "RGS-IBG",
+   "PhD"
+  ],
+  "summary": "For PhD students registered at a UK university, for fieldwork or data collection that advances geographical knowledge. Preference goes to students without full fieldwork funding.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s15",
+  "relevance": 1,
+  "id": "004-0129",
+  "realms": [],
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "002-0063",
+   "002-0065",
+   "001-0030",
+   "003-0094",
+   "001-0028",
+   "004-0130"
+  ],
+  "similar_w": [
+   0.256,
+   0.123,
+   0.117,
+   0.095,
+   0.081,
+   0.073
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0129.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Funding radar",
+  "title": "One for later: FSBI small research grants (up to £7,500) and travel grants (up to £1,500)",
+  "digest_headline": "One for later: FSBI small research grants (up to £7,500) and travel grants (up to £1,500)",
+  "venue": null,
+  "pub_date": null,
+  "doi": null,
+  "url": "https://fsbi.org.uk/funding-opportunities/",
+  "item_type": "funding",
+  "modality": "none",
+  "populations": [],
+  "methods": [],
+  "topics": [
+   "FSBI",
+   "small research grant",
+   "travel grant"
+  ],
+  "summary": "The Fisheries Society of the British Isles funds members' fish-biology research, conference travel and training. A reef-fish interaction project fits.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "realms": [
+   "Marine",
+   "Freshwater"
+  ],
+  "found_by": "A",
+  "issue_url": "../issues/004.html#s15",
+  "relevance": 1,
+  "id": "004-0130",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "study_type": "",
+  "method_groups": [],
+  "pub_status": "",
+  "similar": [
+   "001-0027",
+   "001-0028",
+   "001-0030",
+   "003-0093",
+   "002-0065",
+   "002-0063"
+  ],
+  "similar_w": [
+   0.377,
+   0.343,
+   0.214,
+   0.209,
+   0.203,
+   0.165
+  ],
+  "zotero": false,
+  "venue_clean": "",
+  "detail_url": "item/004-0130.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Catch-up",
+  "title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+  "digest_headline": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+  "authors": [
+   "David R. Roberts",
+   "Volker Bahn",
+   "Simone Ciuti",
+   "Mark S. Boyce",
+   "Jane Elith",
+   "Gurutzeta Guillera‐Arroita",
+   "Severin Hauenstein",
+   "José J. Lahoz‐Monfort",
+   "Boris Schröder",
+   "Wilfried Thuiller",
+   "David I. Warton",
+   "Brendan A. Wintle",
+   "Florian Hartig",
+   "Carsten F. Dormann"
+  ],
+  "venue": "Ecography",
+  "pub_date": "2017-03-03",
+  "doi": "10.1111/ecog.02881",
+  "url": "https://doi.org/10.1111/ecog.02881",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "block cross-validation",
+   "simulation"
+  ],
+  "topics": [
+   "cross-validation",
+   "dependence structure",
+   "model evaluation"
+  ],
+  "summary": "Reviewing the ecological literature, with simulations and case studies, the authors show that ignoring dependence (in space, time, groups or phylogeny) when cross-validating seriously underestimates predictive error and lets non-causal predictors look useful. Block cross-validation was nearly always more appropriate than random CV when the goal is predicting to new data.",
+  "caveats": "Mostly SDM-style regression examples; choosing block size and blocking variable is still a judgement call.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Ploton et al. (2020) showed the stakes: a forest-biomass model that looked like it explained over half the variation under random validation had quasi-null predictive power under spatial validation. doi:10.1038/s41467-020-18321-y (https://doi.org/10.1038/s41467-020-18321-y)",
+  "reading_level": "Read the methods",
+  "code_data": "blockCV R package (Valavi et al. 2019) (https://github.com/rvalavi/blockCV)",
+  "interest_area": "Transferable CV/ML: evaluation and generalisation",
+  "realms": [
+   "Terrestrial",
+   "Marine",
+   "Freshwater"
+  ],
+  "study_type": "Review",
+  "issue_url": "../issues/004.html#s16",
+  "relevance": 1,
+  "id": "004-0131",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Statistical / ecological modelling"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0070",
+   "001-0003",
+   "004-0121",
+   "004-0134",
+   "003-0069",
+   "004-0122"
+  ],
+  "similar_w": [
+   0.153,
+   0.08,
+   0.078,
+   0.067,
+   0.063,
+   0.062
+  ],
+  "zotero": true,
+  "venue_clean": "Ecography",
+  "detail_url": "item/004-0131.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Catch-up",
+  "title": "Recognition in Terra Incognita",
+  "digest_headline": "Recognition in Terra Incognita",
+  "authors": [
+   "Sara Beery",
+   "Grant Van Horn",
+   "Pietro Perona"
+  ],
+  "venue": "ECCV 2018 (Lecture Notes in Computer Science)",
+  "pub_date": "2018-10-06",
+  "doi": "10.1007/978-3-030-01270-0_28",
+  "url": "https://doi.org/10.1007/978-3-030-01270-0_28",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "object detection",
+   "classification",
+   "domain generalisation"
+  ],
+  "topics": [
+   "camera traps",
+   "new locations",
+   "distribution shift"
+  ],
+  "summary": "Images from 20 camera traps, with a simple challenge: train at a handful of locations, then detect and classify animals at new locations with no training data. State-of-the-art models did very well at the cameras they were trained on, but generalised poorly to new ones, especially for classification. Camera traps are fixed, so the background barely changes, and models learn it.",
+  "caveats": "Small by today's standards (20 cameras, American Southwest), and CNNs from 2018. Modern foundation models narrow the gap but don't close it.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Beery et al.'s Context R-CNN (2020) turned the fixed background into an asset, using a per-camera memory of unlabelled frames to boost detection at new cameras. arXiv:1912.03538 (https://arxiv.org/abs/1912.03538)",
+  "reading_level": "Read the methods",
+  "code_data": "Caltech Camera Traps (LILA BC) (https://lila.science/datasets/caltech-camera-traps)",
+  "interest_area": "Transferable CV/ML: camera traps and domain shift",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Dataset",
+  "taxa": [
+   "Mammals"
+  ],
+  "issue_url": "../issues/004.html#s16",
+  "relevance": 1,
+  "id": "004-0132",
+  "modality_groups": [
+   "Video / imagery"
+  ],
+  "method_groups": [
+   "Classification / recognition",
+   "Object detection / segmentation",
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "003-0092",
+   "004-0133",
+   "001-0011",
+   "003-0097",
+   "004-0128",
+   "004-0104"
+  ],
+  "similar_w": [
+   0.137,
+   0.111,
+   0.108,
+   0.092,
+   0.091,
+   0.076
+  ],
+  "zotero": true,
+  "venue_clean": "ECCV 2018 (Lecture Notes in Computer Science)",
+  "detail_url": "item/004-0132.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Catch-up",
+  "title": "WILDS: A Benchmark of in-the-Wild Distribution Shifts",
+  "digest_headline": "WILDS: A Benchmark of in-the-Wild Distribution Shifts",
+  "authors": [
+   "Pang Wei Koh",
+   "Shiori Sagawa",
+   "Henrik Marklund",
+   "Sang Michael Xie",
+   "Marvin Zhang",
+   "Akshay Balsubramani",
+   "Weihua Hu",
+   "Michihiro Yasunaga",
+   "Richard Lanas Phillips",
+   "Irena Gao",
+   "Tony Lee",
+   "Etienne David",
+   "Ian Stavness",
+   "Wei Guo",
+   "Berton A. Earnshaw",
+   "Imran S. Haque",
+   "Sara Beery",
+   "Jure Leskovec",
+   "Anshul Kundaje",
+   "Emma Pierson",
+   "Sergey Levine",
+   "Chelsea Finn",
+   "Percy Liang"
+  ],
+  "venue": "ICML 2021 (PMLR 139)",
+  "pub_date": "2021-07-01",
+  "doi": null,
+  "url": "https://proceedings.mlr.press/v139/koh21a.html",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "benchmarking",
+   "domain generalisation"
+  ],
+  "topics": [
+   "distribution shift",
+   "iWildCam",
+   "robustness"
+  ],
+  "summary": "The ML community took the hint. WILDS curated 10 datasets with real distribution shifts, including shifts across camera traps for wildlife monitoring (iWildCam), across hospitals and across time and place in satellite imagery. On every dataset, standard training gave substantially lower out-of-distribution than in-distribution performance, and existing robustness methods didn't close the gap.",
+  "caveats": "Benchmarks fix the shift in advance; your deployment shift (new reef, new season, new turbidity) may look nothing like theirs.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "WILDS 2.0 (Sagawa et al., ICLR 2022) added curated unlabelled data to 8 of the 10 datasets to test whether unlabelled deployment data can mitigate shift. arXiv:2112.05090 (https://arxiv.org/abs/2112.05090)",
+  "reading_level": "Skim the abstract",
+  "code_data": "WILDS package (https://github.com/p-lambda/wilds)",
+  "interest_area": "Transferable CV/ML: evaluation and generalisation",
+  "realms": [
+   "Terrestrial"
+  ],
+  "modalities": [
+   "Video / imagery",
+   "Remote sensing",
+   "Multimodal"
+  ],
+  "study_type": "Dataset",
+  "issue_url": "../issues/004.html#s16",
+  "relevance": 1,
+  "id": "004-0133",
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [
+   "Video / imagery",
+   "Remote sensing",
+   "Multimodal"
+  ],
+  "method_groups": [
+   "Datasets / benchmarks / tools"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "004-0132",
+   "002-0046",
+   "001-0013",
+   "003-0087",
+   "002-0052",
+   "002-0045"
+  ],
+  "similar_w": [
+   0.111,
+   0.094,
+   0.085,
+   0.083,
+   0.081,
+   0.08
+  ],
+  "zotero": true,
+  "venue_clean": "ICML 2021 (PMLR 139)",
+  "detail_url": "item/004-0133.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Catch-up",
+  "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "digest_headline": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "authors": [
+   "Sayash Kapoor",
+   "Arvind Narayanan"
+  ],
+  "venue": "Patterns",
+  "pub_date": "2023-09",
+  "doi": "10.1016/j.patter.2023.100804",
+  "url": "https://doi.org/10.1016/j.patter.2023.100804",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "literature survey",
+   "reproducibility study"
+  ],
+  "topics": [
+   "data leakage",
+   "reproducibility",
+   "model info sheets"
+  ],
+  "summary": "Zooming out from ecology: a literature survey found leakage in 17 fields, affecting 294 papers, sometimes leading to wildly overoptimistic conclusions. The authors give a taxonomy of eight types of leakage, from textbook errors to open problems, and propose “model info sheets” to check for each. In a civil-war prediction case study, once errors were fixed, complex ML models did no better than decades-old logistic regression.",
+  "caveats": "It mostly covers social and biomedical fields; ecology appears only lightly, so the ecological examples are up to you.",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "Kapoor et al. (2024) turned it into REFORMS, a consensus 32-question checklist for ML-based science from 19 researchers across disciplines. doi:10.1126/sciadv.adk3452 (https://doi.org/10.1126/sciadv.adk3452)",
+  "reading_level": "Worth a full read",
+  "code_data": "Model info sheets (https://reproducible.cs.princeton.edu/)",
+  "interest_area": "Transferable CV/ML: evaluation and generalisation",
+  "study_type": "Review",
+  "issue_url": "../issues/004.html#s16",
+  "relevance": 1,
+  "id": "004-0134",
+  "realms": [],
+  "tasks": [],
+  "taxa": [],
+  "modality_groups": [],
+  "method_groups": [
+   "Field monitoring / survey"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "002-0037",
+   "002-0035",
+   "004-0121",
+   "004-0131",
+   "003-0087",
+   "003-0092"
+  ],
+  "similar_w": [
+   0.071,
+   0.069,
+   0.067,
+   0.067,
+   0.053,
+   0.053
+  ],
+  "zotero": true,
+  "venue_clean": "Patterns",
+  "detail_url": "item/004-0134.html"
+ },
+ {
+  "issue": "004",
+  "issue_date": "2026-11-16",
+  "section": "Catch-up",
+  "title": "Global birdsong embeddings enable superior transfer learning for bioacoustic classification",
+  "digest_headline": "Global birdsong embeddings enable superior transfer learning for bioacoustic classification",
+  "authors": [
+   "Burooj Ghani",
+   "Tom Denton",
+   "Stefan Kahl",
+   "Holger Klinck"
+  ],
+  "venue": "Scientific Reports",
+  "pub_date": "2023-12-18",
+  "doi": "10.1038/s41598-023-49989-z",
+  "url": "https://doi.org/10.1038/s41598-023-49989-z",
+  "item_type": "paper",
+  "modality": "none",
+  "populations": [],
+  "methods": [
+   "embeddings",
+   "transfer learning",
+   "few-shot learning"
+  ],
+  "topics": [
+   "bioacoustics",
+   "Perch",
+   "BirdNET"
+  ],
+  "summary": "The constructive ending. Instead of training from scratch on scarce labels, the authors used feature embeddings from large audio classifiers to learn new classes from a few examples: bird call types and dialects, bats, marine mammals and amphibians. Embeddings from models trained on bird vocalisations consistently beat those trained on general audio, even for non-bird taxa.",
+  "caveats": "Transfer quality still varies by taxon and dataset, and few-shot results are only as honest as the split they're scored on (see above).",
+  "verified": true,
+  "source": "newsletter",
+  "notes": "",
+  "catchup": true,
+  "since_then": "van Merriënboer et al. (2024) reviewed how to evaluate such bioacoustic foundation models fairly, given the noise, class imbalance and distribution shifts typical of PAM. doi:10.3389/fbirs.2024.1369756 (https://doi.org/10.3389/fbirs.2024.1369756)",
+  "reading_level": "Read the methods",
+  "code_data": "Perch (Google Research) (https://github.com/google-research/perch)",
+  "interest_area": "Bioacoustics and PAM: transfer learning",
+  "realms": [
+   "Terrestrial",
+   "Marine"
+  ],
+  "modalities": [
+   "Acoustics"
+  ],
+  "tasks": [
+   "Species detection"
+  ],
+  "study_type": "Methods / tool",
+  "taxa": [
+   "Birds",
+   "Marine mammals",
+   "Amphibians",
+   "Mammals"
+  ],
+  "issue_url": "../issues/004.html#s16",
+  "relevance": 1,
+  "id": "004-0135",
+  "modality_groups": [
+   "Acoustics"
+  ],
+  "method_groups": [
+   "Foundation / multimodal models"
+  ],
+  "pub_status": "Peer reviewed",
+  "similar": [
+   "001-0006",
+   "004-0121",
+   "001-0020",
+   "002-0054",
+   "003-0078",
+   "001-0011"
+  ],
+  "similar_w": [
+   0.17,
+   0.122,
+   0.103,
+   0.096,
+   0.091,
+   0.091
+  ],
+  "zotero": true,
+  "venue_clean": "Scientific Reports",
+  "detail_url": "item/004-0135.html"
  }
 ]

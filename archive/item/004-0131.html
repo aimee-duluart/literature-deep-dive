@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure · Literature Deep Dive Archive</title>
+<meta name="citation_title" content="Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure">
+<meta name="citation_author" content="David R. Roberts">
+<meta name="citation_author" content="Volker Bahn">
+<meta name="citation_author" content="Simone Ciuti">
+<meta name="citation_author" content="Mark S. Boyce">
+<meta name="citation_author" content="Jane Elith">
+<meta name="citation_author" content="Gurutzeta Guillera‐Arroita">
+<meta name="citation_author" content="Severin Hauenstein">
+<meta name="citation_author" content="José J. Lahoz‐Monfort">
+<meta name="citation_author" content="Boris Schröder">
+<meta name="citation_author" content="Wilfried Thuiller">
+<meta name="citation_author" content="David I. Warton">
+<meta name="citation_author" content="Brendan A. Wintle">
+<meta name="citation_author" content="Florian Hartig">
+<meta name="citation_author" content="Carsten F. Dormann">
+<meta name="citation_journal_title" content="Ecography">
+<meta name="citation_publication_date" content="2017/03/03">
+<meta name="citation_doi" content="10.1111/ecog.02881">
+<meta name="citation_abstract_html_url" content="https://doi.org/10.1111/ecog.02881">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml"><link rel="icon" href="../../favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="../../favicon-16.png" sizes="16x16" type="image/png"><link rel="apple-touch-icon" href="../../apple-touch-icon.png"><style>body{margin:0;background:#e3f4f6 linear-gradient(180deg,#dcf2f7 0%,#e8f7f3 50%,#fdf3ee 100%) fixed;color:#15314a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;line-height:1.55}main{max-width:760px;margin:24px auto;padding:26px 26px 30px;background:#fff;border:1px solid #d3ebef;border-radius:26px;box-shadow:0 4px 18px rgba(21,49,74,.07)}a{color:#0b6e7f}.m{color:#4f6676;font-size:13px}h1{font-size:25px;line-height:1.25;margin:10px 0 6px;color:#0b6e7f}.au{color:#4f6676;font-size:14px}.cav{color:#33506a;font-size:14px;background:#f6f9fb;border-radius:14px;padding:10px 14px}.cav b{color:#a8325a;font-size:13px}.tags span{display:inline-block;border:1px solid #d6ecef;background:#f1f8f9;color:#33506a;font-size:12px;padding:3px 10px;margin:0 4px 6px 0;border-radius:999px}.note{background:#e9f8f1;border-radius:14px;padding:8px 12px;font-size:14px}.z{background:#f1ecff;border:1px solid #ddd2fb;border-radius:16px;padding:10px 14px;font-size:13px;margin:18px 0}@media (max-width:600px){main{margin:0;border-radius:0;border:0;padding:20px 16px}}</style></head><body><main>
+<p class="m"><a href="../">← Back to the archive</a> · Catch-up · paper</p>
+<h1>Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure</h1>
+<div class="au">David R. Roberts, Volker Bahn, Simone Ciuti, Mark S. Boyce, Jane Elith, Gurutzeta Guillera‐Arroita, Severin Hauenstein, José J. Lahoz‐Monfort, Boris Schröder, Wilfried Thuiller, David I. Warton, Brendan A. Wintle, Florian Hartig, Carsten F. Dormann</div><div class="m">Ecography · 2017-03-03 · doi:10.1111/ecog.02881</div>
+<div class="tags" style="margin:12px 0"><span>Terrestrial</span><span>Marine</span><span>Freshwater</span><span>Review</span><span>Peer reviewed</span><span>block cross-validation</span><span>simulation</span><span>#cross-validation</span><span>#dependence structure</span><span>#model evaluation</span></div>
+<p>Reviewing the ecological literature, with simulations and case studies, the authors show that ignoring dependence (in space, time, groups or phylogeny) when cross-validating seriously underestimates predictive error and lets non-causal predictors look useful. Block cross-validation was nearly always more appropriate than random CV when the goal is predicting to new data.</p><div class="cav"><b>🧂 Caveats:</b> Mostly SDM-style regression examples; choosing block size and blocking variable is still a judgement call.</div>
+<p class="note"><b>Catch-up area:</b> Transferable CV/ML: evaluation and generalisation</p><p class="note"><b>Since then:</b> Ploton et al. (2020) showed the stakes: a forest-biomass model that looked like it explained over half the variation under random validation had quasi-null predictive power under spatial validation. doi:10.1038/s41467-020-18321-y (https://doi.org/10.1038/s41467-020-18321-y)</p><p class="note"><b>Reading level:</b> Read the methods</p><p class="note"><b>Code / data:</b> blockCV R package (Valavi et al. 2019) (https://github.com/rvalavi/blockCV)</p>
+<div class="z">Zotero: click the Zotero button in your browser toolbar to save this item. For the PDF too, open the paper and save from there.</div>
+<p><a href="https://doi.org/10.1111/ecog.02881" target="_blank" rel="noopener">Open the paper →</a> · <a href="../../issues/004.html#s16">In issue #004 →</a></p>
+</main></body></html>
